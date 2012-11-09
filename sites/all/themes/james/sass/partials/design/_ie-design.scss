@@ -158,7 +158,42 @@ footer {
   }
 }
 
+#slider {
+  li {
+    .caption {
+      bottom: 0px;
+    }
+  }
+}
 
+.slideshow {
+  position: relative;
+
+  .prev,
+  .next {
+    position: absolute;
+    width: 50px;
+    height: 100%;
+    top: 0;
+    background-image: url('../img/slider-arrows.png');
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    text-indent: -99999px;
+    overflow: hidden;
+  }
+
+
+  .prev {
+    left: 10px;
+    background-position: 10px 50%;
+    
+  }
+
+  .next {
+    right: 10px;
+    background-position: -37px 50%;
+  }
+}
 
 
 

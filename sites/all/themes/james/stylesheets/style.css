@@ -1,13 +1,13 @@
 /* normalize.css v2.0.1 | MIT License | git.io/normalize */
 /* normalize.scss v2.0.1 | MIT/GPLv2 License | bit.ly/normalize-with-compass */
-/* line 8, ../../../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/toolkit-0.1.15/stylesheets/toolkit/_border-box.scss */
+/* line 8, ../../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/toolkit-0.1.15/stylesheets/toolkit/_border-box.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 4, ../../../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/toolkit-0.1.15/stylesheets/toolkit/_fluid-media.scss */
+/* line 4, ../../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/toolkit-0.1.15/stylesheets/toolkit/_fluid-media.scss */
 img {
   max-width: 100%;
   height: auto;
@@ -1279,19 +1279,20 @@ div.tabs {
   font-size: 0.85em;
   position: absolute;
   bottom: 7px;
+  left: 0;
   padding: 5px 10px;
   background-color: #222;
   opacity: 0.7;
 }
-/* line 720, ../sass/partials/styleguide/_style-guide.scss */
+/* line 721, ../sass/partials/styleguide/_style-guide.scss */
 #slider li .caption .juwels {
   margin-bottom: 0.3em;
 }
-/* line 724, ../sass/partials/styleguide/_style-guide.scss */
+/* line 725, ../sass/partials/styleguide/_style-guide.scss */
 #slider li .caption .photographer {
   text-align: right;
 }
-/* line 730, ../sass/partials/styleguide/_style-guide.scss */
+/* line 731, ../sass/partials/styleguide/_style-guide.scss */
 #slider img {
   height: auto;
   /* float: left;
@@ -1300,11 +1301,11 @@ div.tabs {
   border: 0;
 }
 
-/* line 742, ../sass/partials/styleguide/_style-guide.scss */
+/* line 743, ../sass/partials/styleguide/_style-guide.scss */
 .slideshow {
   position: relative;
 }
-/* line 746, ../sass/partials/styleguide/_style-guide.scss */
+/* line 747, ../sass/partials/styleguide/_style-guide.scss */
 .slideshow .prev,
 .slideshow .next {
   position: absolute;
@@ -1317,12 +1318,12 @@ div.tabs {
   text-indent: -99999px;
   overflow: hidden;
 }
-/* line 759, ../sass/partials/styleguide/_style-guide.scss */
+/* line 760, ../sass/partials/styleguide/_style-guide.scss */
 .slideshow .prev {
   left: 10px;
   background-position: 10px 50%;
 }
-/* line 765, ../sass/partials/styleguide/_style-guide.scss */
+/* line 766, ../sass/partials/styleguide/_style-guide.scss */
 .slideshow .next {
   right: 10px;
   background-position: -37px 50%;
@@ -1345,7 +1346,7 @@ div.tabs {
   font-family: Arial, sans-serif;
   position: relative;
 }
-/* line 38, ../../../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .page-wrapper:after {
   content: "";
   display: table;

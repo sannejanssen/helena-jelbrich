@@ -88,3 +88,28 @@ footer {
     @include span-columns(8 omega);
   }
 }
+
+.collection {
+  @include span-columns(12 omega);
+  
+  .album {  
+    /* four in a row */
+    @include span-columns(3);
+
+    &.second {
+      @include span-columns(3);
+    }
+
+    &.third {
+      @include span-columns(3);
+    }
+
+    &.fourth {
+      @include span-columns(3 omega);
+    }
+  }
+}
+
+
+
+
