@@ -1,0 +1,90 @@
+////////////////////////
+// IE Layout Partials
+//
+// Seperate your layout from design, building sub folders and partials
+//  in this folder, with everything being imported, in casading order,
+//  into this file. This is for Internet Explorer's Use
+//
+// All box model properties go here
+////////////////////////
+
+
+header,
+footer,
+.slider-wrapper,
+.content-wrapper,
+.message-wrapper {
+  @extend .clearfix;
+  @include span-columns(12);
+
+  .center {
+    @include span-columns(12);
+  }
+
+  &.with-sidebar {
+
+    .center {
+      @include span-columns(8);
+    }
+
+    .sidebar {
+      @include span-columns(4 omega);
+    }
+  }
+}
+
+header {
+  .logo {
+    display: none;
+  }
+}
+
+.content-wrapper {
+  padding: 30px 0px 30px 0px;
+}
+
+.front {
+  .content-wrapper {
+    padding: 10px 0px 10px 0px;
+  }
+}
+
+footer {
+  .footer-first {
+    @include span-columns(3);
+  }
+
+  .footer-second {
+    @include span-columns(3);
+  }
+
+  .footer-third {
+    @include span-columns(3);
+  }
+
+  .footer-fourth {
+    @include span-columns(3 omega);
+  }
+
+  .footer-fifth {
+    @include span-columns(12);
+    
+    .copyright {
+      @include span-columns(9); 
+    }
+
+    .website {
+      @include span-columns(3 omega);
+    }
+  }
+}
+
+.node-type-info {
+  .image {
+    @include span-columns(4);
+  }
+
+  .text {
+    @include span-columns(8 omega);
+  }
+}

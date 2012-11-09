@@ -1,0 +1,41 @@
+/* Default form styling */
+
+
+form {
+  font-size: 0.9em;
+
+  .form-item {
+    margin-bottom: 10px;
+
+    label {
+      font-weight: normal;
+      margin-bottom: 0.2em;
+    }
+
+    input,
+    textarea {
+      border: 1px solid #959595;
+      background: none;
+      padding: 10px 5px;
+      color: #fff;
+
+      &.error {
+        border-color: red;
+      }
+    }
+  }
+
+  .form-actions {
+    input {
+      margin-top: 10px;
+      border: 1px solid #c9c9c9;
+      background-color: #fff;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+      width: auto;
+      padding: 8px 15px;
+      float: right;
+    }
+  }
+}

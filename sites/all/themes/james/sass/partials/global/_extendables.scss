@@ -1,0 +1,35 @@
+////////////////////////
+// Extendables Partials
+//
+// All of your extendable classes, ids, and silent extendables
+//   should go in this file.
+////////////////////////
+
+.clearfix {
+  zoom:1;
+  &:before, &:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.clean-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  list-style-type: none;
+  list-style-image: none;
+
+  li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-type: none;
+    list-style-image: none;
+   }
+}

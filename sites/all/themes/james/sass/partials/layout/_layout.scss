@@ -1,0 +1,366 @@
+
+// GRID SYSTEM 
+$breakpoint-default-media: 'all';
+$breakpoint-default-feature: 'min-width';
+$breakpoint-default-pair: 'width';
+$breakpoint-to-ems: false;
+
+$total-columns: 12;
+$column-width: 4.5em;
+$gutter-width: 1em;
+$grid-padding: $gutter-width/2;
+
+/*
+// Development
+body.html {
+  background-color: red;
+}
+
+@include breakpoint($breakpoint_iphone_land) {
+  body.html {
+    background-color: green;
+  }
+}
+
+@include breakpoint($breakpoint_ipad_port) {
+  body.html {
+    background-color: orange;
+  }
+}
+
+@include breakpoint($breakpoint_ipad_land) {
+  body.html {
+    background-color: yellow;
+  }
+}
+
+@include breakpoint($breakpoint_desktop) {
+  body.html {
+    background-color: blue;
+  }
+}
+*/
+
+.page-wrapper {
+  @include container;
+  width: 100%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+
+header,
+footer,
+.slider-wrapper,
+.content-wrapper,
+.message-wrapper {
+  @extend .clearfix;
+  @include span-columns(12);
+
+  .center {
+    @include span-columns(12);
+  }
+
+  &.with-sidebar {
+    .sidebar {
+      @include span-columns(12);
+    }
+
+    @include breakpoint($breakpoint_ipad_land) {
+      .center {
+        @include span-columns(8);
+      }
+
+      .sidebar {
+        @include span-columns(4 omega);
+      }
+    }
+  }
+}
+
+.admin-wrapper {
+  @extend .clearfix;
+  @include span-columns(12);
+}
+
+header {
+  .logo {
+    @include span-columns(8, 12);
+
+    @include breakpoint($breakpoint_ipad_land) {
+      display: none;
+    }
+
+
+  }
+  nav {
+    @include span-columns(12 omega, 12);
+
+    ul {
+      @include span-columns(12 omega, 12);
+    }
+  }
+}
+
+header,
+footer,
+.slider-wrapper {
+  margin-bottom: 10px;
+}
+
+header {
+  font-family: 'FuturaBTLight';
+}
+
+.content-wrapper {
+  border-bottom: 2px solid #fff;
+  border-top: 2px solid #fff;
+  padding: 10px 0px 10px 0px;
+
+  @include breakpoint($breakpoint_ipad_port) {
+    padding: 30px 0px 30px 0px;    
+  }
+}
+
+.front {
+  .content-wrapper {
+    padding: 10px 0px 10px 0px;
+  }
+}
+
+.front {
+  .content-wrapper {
+    padding-top: 10px;
+  }
+}
+
+
+
+footer {
+  .footer-first {
+    display: none;
+
+    @include breakpoint($breakpoint_ipad_land) {
+      @include span-columns(3);
+    }
+  }
+
+  .footer-second {
+    @include span-columns(12 omega);
+
+    @include breakpoint($breakpoint_iphone_land) {
+      @include span-columns(6);
+    }
+
+    @include breakpoint($breakpoint_ipad_port) {
+      @include span-columns(4);
+    }
+
+    @include breakpoint($breakpoint_ipad_land) {
+      @include span-columns(3);
+    }
+  }
+
+  .footer-third {
+    @include span-columns(12); 
+
+    @include breakpoint($breakpoint_iphone_land) {
+      display: none;
+    }
+
+    @include breakpoint($breakpoint_ipad_port) {
+      @include span-columns(4);
+    }
+
+    @include breakpoint($breakpoint_ipad_land) {
+      @include span-columns(3);
+    }
+  }
+
+  .footer-fourth {
+    @include span-columns(12);
+
+    @include breakpoint($breakpoint_iphone_land) {
+      @include span-columns(6 omega);
+    }
+
+    @include breakpoint($breakpoint_ipad_port) {
+      @include span-columns(4 omega);  
+    }
+
+    @include breakpoint($breakpoint_ipad_land) {
+      @include span-columns(3 omega);
+    }
+  }
+
+  .footer-fifth {
+    @include span-columns(12);
+
+    .copyright {
+      @include span-columns(12);
+
+      @include breakpoint($breakpoint_ipad_land) {
+        @include span-columns(9);  
+      }
+    }
+
+    .website {
+      @include span-columns(12 omega);
+
+      @include breakpoint($breakpoint_ipad_land) {
+        @include span-columns(3 omega);  
+      }
+    }
+  }
+}
+
+.node-type-info {
+  .image {
+    @include span-columns(12);
+
+    @include breakpoint($breakpoint_iphone_land) {
+      @include span-columns(4);
+    }
+  }
+
+  .text {
+    @include span-columns(12);
+
+    @include breakpoint($breakpoint_iphone_land) {
+      @include span-columns(8 omega);
+    }
+  }
+}
+
+.news-items {
+  width: 100%;
+
+  .news {
+    width: 100%;
+  }
+}
+
+
+.contact {
+
+  .form-item {
+    @include span-columns(8 omega,8);
+
+    label,
+    input,
+    .form-textarea-wrapper {
+      @include span-columns(8 omega,8);
+    }
+
+    @include breakpoint($breakpoint_ipad_port) {
+      label {
+        @include span-columns(2,8);
+      }
+      input,
+      .form-textarea-wrapper {
+        @include span-columns(6 omega,8);
+      }
+    }
+  }
+}
+
+.collection {
+  @include span-columns(12 omega);
+
+  .album {  
+    /* two in a row */
+    @include span-columns(6);
+
+    &.second {
+      @include span-columns(6 omega);
+    }
+
+
+    @include breakpoint($breakpoint_ipad_port) {
+      
+      /* three in a row */
+      @include span-columns(4);
+
+      &.second {
+        @include span-columns(4);
+      }
+
+      &.third {
+        @include span-columns(4 omega);
+      }
+    }
+
+    @include breakpoint($breakpoint_ipad_land) {
+      /* four in a row */
+      @include span-columns(3);
+
+      &.second {
+        @include span-columns(3);
+      }
+
+      &.third {
+        @include span-columns(3);
+      }
+
+      &.fourth {
+        @include span-columns(3 omega);
+      }
+    }
+  }
+}
+
+#slider {
+  .caption {
+    @include span-columns(12);
+
+    .label-inline {
+      display: inline;
+    }
+
+    .left-caption {
+      @include span-columns(8);
+
+      .juwels {
+        @include span-columns(8,8);
+      }
+
+
+    }
+
+    .photographer {
+      @include span-columns(4 omega);
+    }
+
+
+  }  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

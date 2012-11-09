@@ -1,0 +1,200 @@
+////////////////////////
+// IE Design Partials
+//
+// Seperate your layout from design, building sub folders and partials
+//  in this folder, with everything being imported, in casading order,
+//  into this file. This is for Internet Explorer's Use.
+//
+// All styling, non box model properties go here
+////////////////////////
+
+.front .center img {
+  float: left;
+}
+
+.form-item,
+.form-actions {
+  margin: 0;
+}
+
+input {
+  width: 100%;
+}
+
+header {
+  font-size: 1.2em;
+    
+  ul.menu {
+    position: static;
+    right: 0px;
+    top: 0px;
+    margin-bottom: 0px;
+
+    li {
+      display: block !important;
+      float: left;
+      width: 13%;
+      height: 125px;
+      border: none;
+      background-color: #000;
+
+      a {
+        padding: 0;
+        height: auto;
+        margin-top: 51px;
+      }
+
+      &.first {
+        margin-top: 0px;
+        text-align: left;
+        width: 12%;
+        a {
+          text-align: left;
+        }
+      }
+
+      &.last {
+        width: 10%;
+        a {
+          text-align: right;
+        }
+      }
+
+      &.home {
+        display: block;
+        width: 26%;
+        background-image: url('../img/helena-jelbrich.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        a {
+          display: block;
+          text-indent: -9999px;
+          margin-top: 0;
+          height: 125px;
+        }
+
+      }
+
+      &#navigationtoggle {
+        display: none;
+        a {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+footer {
+
+  .footer-first,
+  .footer-second,
+  .footer-third,
+  .footer-fourth {
+    border: none;
+  }
+
+  .footer-fifth {
+    padding-top: 10px;
+
+    ul {
+      li {
+        float: left;
+        margin-right: 5px;
+
+        &:after {
+          content: " |";
+        }
+
+        &.last {
+          margin-right: 0px;
+
+          &:after {
+            content: '';
+          }
+        }
+      }
+
+      &.sanne {
+        float: right;
+
+        li {
+
+          &:after {
+            content: '';
+          }              
+        }
+      }
+    }
+  }
+}
+
+#mailchimp-newsletter-nieuwsbrief {
+  
+  .form-type-textfield {
+    label {
+      display: block;
+      font-weight: normal;
+      font-size: 13px;
+    }
+  }
+}
+
+#mailchimp-lists-user-subscribe-form-nieuwsbrief {
+  #edit-submit {
+    text-transform: capitalize;
+    background: none;
+    text-indent: -9999px;
+    border: none;
+    display: block;
+    float: right;
+    width: 20px;
+    height: 25px;
+    background-image: url('../img/subscribe-arrow.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 85px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+name = James
+description = A flexible, responsive theme.
+version = 1.0
+core = 7.x
+
+; --------------------------------------------------------------------------------
+; Regions
+; --------------------------------------------------------------------------------
+
+regions[admin] = Administration
+regions[navigation] = Navigation
+regions[slider] = Slider
+regions[content] = Content
+regions[sidebar] = Sidebar
+
+regions[footer_first] = Footer first
+regions[footer_second] = Footer second
+regions[footer_third] = Footer third
+regions[footer_fourth] = Footer fourth
+regions[footer_fifth] = Footer fifth
+
+; --------------------------------------------------------------------------------
+; Stylesheets
+; --------------------------------------------------------------------------------
+
+stylesheets[all][] = stylesheets/style.css
+
+; --------------------------------------------------------------------------------
+; Scripts
+; --------------------------------------------------------------------------------
+
+scripts[] = js/slides.min.jquery.js
+scripts[] = js/responsiveslides.js
+scripts[] = js/scripts.js
+
+; --------------------------------------------------------------------------------
+; Theme features
+; --------------------------------------------------------------------------------
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = favicon

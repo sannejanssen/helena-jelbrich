@@ -1,0 +1,39 @@
+////////////////////////
+// Base Partials
+//
+// These files will be shared across all three of your output
+//  CSS files. Generally included here are only Compass Extension
+//  imports and imports for variables, functions, mixins, and extendables.
+////////////////////////
+
+////////////////////////
+// Compass Imports
+//
+// Toolkit include @import 'compass' so you don't need to.
+////////////////////////
+
+////////////////////////
+// Compass Extensions
+////////////////////////
+@import 'toolkit';
+@import 'susy';
+@import 'respond-to';
+
+////////////////////////
+// Private Imports
+////////////////////////
+@import 'variables';
+@import 'functions';
+@import 'mixins';
+@import 'extendables';
+
+@font-face {
+    font-family: 'FuturaBTLight';
+    src: url('../fonts/futurabt-lightcondensed-webfont.eot');
+    src: url('../fonts/futurabt-lightcondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/futurabt-lightcondensed-webfont.woff') format('woff'),
+         url('../fonts/futurabt-lightcondensed-webfont.ttf') format('truetype'),
+         url('../fonts/futurabt-lightcondensed-webfont.svg#futurabtlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

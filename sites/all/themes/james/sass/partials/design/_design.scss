@@ -1,0 +1,22 @@
+////////////////////////
+// Design Partials
+//
+// Seperate your layout from design, building sub folders and partials
+//  in this folder, with everything being imported, in casading order,
+//  into this file.
+//
+// All styling, non box model properties go here
+////////////////////////
+
+.front .center img {
+  float: left;
+}
+
+.form-item,
+.form-actions {
+  margin: 0;
+}
+
+input {
+  width: 100%;
+}
