@@ -4,5 +4,8 @@ sites/*/settings*.php
 # Ignore paths that contain user-generated content.
 sites/*/files
 
+# Ignore SASS cache files
+sites/*/.sass-cache
+
 # mac paths
 .DS_Store
