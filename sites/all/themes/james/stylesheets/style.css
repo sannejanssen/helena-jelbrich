@@ -1295,17 +1295,14 @@ div.tabs {
 /* line 731, ../sass/partials/styleguide/_style-guide.scss */
 #slider img {
   height: auto;
-  /* float: left;
-  display: block;
-  /* width: 100%; */
   border: 0;
 }
 
-/* line 743, ../sass/partials/styleguide/_style-guide.scss */
+/* line 738, ../sass/partials/styleguide/_style-guide.scss */
 .slideshow {
   position: relative;
 }
-/* line 747, ../sass/partials/styleguide/_style-guide.scss */
+/* line 742, ../sass/partials/styleguide/_style-guide.scss */
 .slideshow .prev,
 .slideshow .next {
   position: absolute;
@@ -1318,12 +1315,12 @@ div.tabs {
   text-indent: -99999px;
   overflow: hidden;
 }
-/* line 760, ../sass/partials/styleguide/_style-guide.scss */
+/* line 755, ../sass/partials/styleguide/_style-guide.scss */
 .slideshow .prev {
   left: 10px;
   background-position: 10px 50%;
 }
-/* line 766, ../sass/partials/styleguide/_style-guide.scss */
+/* line 761, ../sass/partials/styleguide/_style-guide.scss */
 .slideshow .next {
   right: 10px;
   background-position: -37px 50%;
