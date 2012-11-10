@@ -8,7 +8,6 @@
 // All box model properties go here
 ////////////////////////
 
-
 header,
 footer,
 .slider-wrapper,
@@ -90,12 +89,12 @@ footer {
 }
 
 .collection {
-  @include span-columns(12 omega);
+  @include span-columns(12);
   
   .album {  
     /* four in a row */
     @include span-columns(3);
-
+    
     &.second {
       @include span-columns(3);
     }
@@ -109,7 +108,3 @@ footer {
     }
   }
 }
-
-
-
-

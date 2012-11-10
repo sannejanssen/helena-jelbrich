@@ -1,0 +1,59 @@
+/*
+ * ---------------------------------
+ * STYLING OF THE MAILCHIMP FORM
+ * ---------------------------------
+ */
+
+.mailchimp {
+  
+  #mailchimp-newsletter-nieuwsbrief {
+    @extend .clearfix;
+    width: 85%;
+    float: left;
+
+    /* Hide mailchimp title */
+    #edit-mailchimp-lists-mailchimp-nieuwsbrief-title {
+      display: none;
+    }
+
+    .form-type-textfield {
+      /* Hide form labels */
+      
+      label {
+        display: none;
+      }
+    }
+  }
+
+  input {
+    &#edit-submit {
+      display: block;
+      background: none;
+      border: none;
+      text-transform: uppercase;
+      text-indent: -9999px;
+      float: right;
+      width: 20px;
+      height: 25px;
+      background-image: url('../img/subscribe-arrow.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-top: 61px;
+
+      @include breakpoint($breakpoint_ipad_port) {
+        margin-top: 59px;
+      }
+
+      @include breakpoint($breakpoint_ipad_port) {
+        margin-top: 56px;
+      }
+    }
+  }
+
+  /* Tooltip styling */
+  #subscribe-tooltip {
+    color: #999;
+    font-size: 0.8em;
+    font-style: italic;
+  }
+}

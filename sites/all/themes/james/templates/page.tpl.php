@@ -84,7 +84,7 @@
         </a>
       <?php endif; ?>
       <?php if ($is_front): ?>
-        <img src="<?php print $logo; ?>" alt="<?php print $site_name; ?>" />
+        <a href="<?php print $base_path; ?>"><img src="<?php print $logo; ?>" alt="<?php print $site_name; ?>" /></a>
       <?php endif; ?>
     </div><!-- /#logo -->
     <nav>

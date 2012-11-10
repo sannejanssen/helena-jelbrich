@@ -1,0 +1,71 @@
+/*
+ * ---------------------------------
+ * STYLING OF THE CONTACT PAGE
+ * ---------------------------------
+ */
+
+.contact {
+
+  .form-item {
+    @include span-columns(8 omega,8);
+
+    label,
+    input,
+    .form-textarea-wrapper {
+      @include span-columns(8 omega,8);
+    }
+
+    @include breakpoint($breakpoint_ipad_port) {
+      label {
+        @include span-columns(2,8);
+      }
+      input,
+      .form-textarea-wrapper {
+        @include span-columns(6 omega,8);
+      }
+    }
+  }
+
+  h2 {
+    font-size: 0.95em;
+    color: $yellow;
+    margin-top: 0;
+  }
+}
+
+.contact-info {
+  margin-top: 20px;
+
+  @include breakpoint($breakpoint_ipad_land) {
+    margin-top: 0;   
+  }
+
+  h2 {
+    color: $yellow;
+    font-size: 0.95em;
+    margin: 0;
+  }
+
+  h3 {
+    color: $yellow;
+    font-size: 0.95em;
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.95em;
+
+    span {
+      @include span-columns(1,4);
+    }
+
+    a,
+    a:active, 
+    a:link, 
+    a:visited {
+      color: #fff;
+    }
+  }
+}

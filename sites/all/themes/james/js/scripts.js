@@ -1,5 +1,18 @@
 (function($) {
 
+    // Slideshow behavior
+  Drupal.behaviors.slider = {
+    attach: function(context) {
+
+      $("#slider").responsiveSlides({
+        auto: true,
+        pager: false,
+        nav: true,
+        speed: 500,
+      });
+    }
+  };
+
   // Responsive menu
   Drupal.behaviors.responsivemenu = {
     attach: function(context) {
@@ -33,28 +46,20 @@
         var label = $(this).find("label");
         label.find("span").remove();
 
-        var labeltext = Drupal.t(label.text());
+        var labeltext = "Email";
+
+        if( ($.trim(label.text()) ) == 'Name'  ) {
+          labeltext = "Naam";
+        }
+
         var input = $(this).find("input");
         input.val('');
         input.attr('placeholder', labeltext);
 
-        // label.hide();
       });
 
       $('.form-item-mailchimp-lists-mailchimp-nieuwsbrief-mergevars-FNAME').after('<span id="subscribe-tooltip">Klik op de pijl om te bevestigen</span>');
-    }
-  };
-
-  // Slideshow behavior
-  Drupal.behaviors.slider = {
-    attach: function(context) {
-
-      $("#slider").responsiveSlides({
-        auto: true,
-        pager: false,
-        nav: true,
-        speed: 500,
-      });
+      $('.mailchimp input#edit-submit').val('Inschrijven');
     }
   };
 

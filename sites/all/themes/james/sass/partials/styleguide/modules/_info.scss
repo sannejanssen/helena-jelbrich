@@ -1,0 +1,34 @@
+/*
+ * ---------------------------------
+ * STYLING OF THE DEFAULT INFO PAGE
+ * ---------------------------------
+ */
+
+.node-type-info {
+  .image {
+    @include span-columns(12);
+
+    @include breakpoint($breakpoint_iphone_land) {
+      @include span-columns(4);
+    }
+  }
+
+  .text {
+    @include span-columns(12);
+
+    @include breakpoint($breakpoint_iphone_land) {
+      @include span-columns(8 omega);
+    }
+
+    p {
+      margin: 0;
+      margin-bottom: 0.75em;
+    }
+
+    h2 {
+      color: $yellow;
+      font-size: 1em;
+      margin: 0;
+    }
+  }
+}

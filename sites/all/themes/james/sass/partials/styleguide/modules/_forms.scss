@@ -1,8 +1,13 @@
-/* Default form styling */
-
+/*
+ * ---------------------------------
+ * STYLING OF THE FORM ELEMENTS
+ * ---------------------------------
+ */
 
 form {
-  font-size: 0.9em;
+  @include breakpoint($breakpoint_ipad_land) {
+    font-size: 0.9em;
+  }
 
   .form-item {
     margin-bottom: 10px;
@@ -25,17 +30,16 @@ form {
     }
   }
 
-  .form-actions {
-    input {
-      margin-top: 10px;
-      border: 1px solid #c9c9c9;
-      background-color: #fff;
-      -webkit-border-radius: 3px;
-      -moz-border-radius: 3px;
-      border-radius: 3px;
-      width: auto;
-      padding: 8px 15px;
-      float: right;
-    }
+  input[typ="submit"],
+  .form-submit {
+    margin-top: 10px;
+    border: 1px solid #c9c9c9;
+    background-color: #fff;
+    -webkit-border-radius: $border-radius;
+    -moz-border-radius: $border-radius;
+    border-radius: $border-radius;
+    width: auto;
+    padding: 8px 15px;
+    float: right;
   }
 }

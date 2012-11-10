@@ -1,0 +1,43 @@
+/*
+ * ---------------------------------
+ * STYLING OF THE ADMIN ELEMENTS
+ * ---------------------------------
+ */
+
+.logged-in {
+  .tabs {
+
+    &.primary {
+      position: absolute;
+      top: 100px;
+      left: 0px;
+
+      @extend .clean-list;
+      float: right;
+      overflow: hidden;
+
+      li {
+        float: left;
+        display: block;
+        background-color: #ccc;
+        border: 1px solid #999;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        margin-left: 10px;
+
+        &:hover,
+        &.active {
+          background-color: #aaa;
+        }
+
+        a {
+          margin: 3px 10px;
+          color: #333;
+          text-decoration: none;
+          font-size: 0.9em;
+        }
+      }
+    }
+  }
+}

@@ -154,7 +154,7 @@ footer {
     background-image: url('../img/subscribe-arrow.png');
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: 85px;
+    margin-top: 65px;
   }
 }
 
@@ -197,26 +197,39 @@ footer {
 
 
 
+.news {
+  .image {
+    @include span-columns(4,8);
+  }
+
+  .text {
+    @include span-columns(4 omega,8);
+  }
+}
 
 
+/* album covers styling */
+.collection {
+  float: none;
+  .album {
+    .image {
+      position: static;
+      display: block;
+      
+      overflow: visible;
+      float: none;
 
+      a {
+        float: none;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        img {
+          float: none;
+          width: auto;
+        }
+      }
+    }
+  }
+}
 
 
 

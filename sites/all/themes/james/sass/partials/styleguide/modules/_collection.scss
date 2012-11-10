@@ -1,0 +1,252 @@
+/*
+ * ---------------------------------
+ * STYLING OF THE COLLECTION PAGE
+ * ---------------------------------
+ */
+
+/* album covers layout */
+.collection {
+  @include span-columns(12);
+  
+  .album {  
+    /* one in a row */
+    @include span-columns(12);
+
+    @include breakpoint($breakpoint_iphone_land) {
+      /* two in a row */
+      @include span-columns(6);
+
+      &.second {
+        @include span-columns(6 omega);
+      }
+    }
+
+    @include breakpoint($breakpoint_ipad_port) {
+      /* two in a row */
+      @include span-columns(4);
+
+      &.second {
+        @include span-columns(4);
+      }
+
+      &.third {
+        @include span-columns(4 omega);
+      }
+    }
+
+    @include breakpoint($breakpoint_ipad_land) {
+      /* four in a row */
+      @include span-columns(3);
+
+      &.second {
+        @include span-columns(3);
+      }
+
+      &.third {
+        @include span-columns(3);
+      }
+
+      &.fourth {
+        @include span-columns(3 omega);
+      }
+    }
+  }
+}
+
+/* album covers styling */
+.collection {
+  .album {
+    margin-bottom: 8%;
+    
+    @include breakpoint($breakpoint_iphone_land) {
+      border: none;
+      padding-bottom: 0;
+    }
+
+    @include breakpoint($breakpoint_ipad_port) {
+      margin-bottom: 3%;
+    }
+
+    @include breakpoint($breakpoint_ipad_land) {
+      margin-bottom: 2%;
+    }
+
+    h2 {
+      margin: 0;
+      color: #fff;
+      float: left;
+      font-size: 1.2em;
+      font-weight: normal;
+      line-height: 1em;
+      margin-top: 10px;
+
+      @include breakpoint($breakpoint_iphone_land) {
+        font-size: 0.95em;
+      }
+
+      a,
+      a:link,
+      a:active,
+      a:visited {
+        color: #fff;
+      }
+    }
+
+    .read-more {
+      float: right;
+      margin-top: 12px;
+      font-size: 1em;
+      line-height: 1em;
+
+      &::before {
+        content: '›';
+        margin-right: 3px;
+        color: $yellow;
+      }
+
+      @include breakpoint($breakpoint_iphone_land) {
+        font-size: 0.95em;
+        margin-top: 10px;
+      }
+    }
+
+    .image {
+      float: left;
+      overflow: hidden;
+      position: relative;
+
+      a {
+        float: left;
+        
+        img {
+          float: left;
+        }        
+      }
+    }
+
+    &:hover,
+    &:focus {
+      cursor: pointer;
+
+      a,
+      a:link,
+      a:visited,
+      a:active {
+        color: $yellow;
+      }
+
+      .image {
+
+        a {
+
+          &::after {
+            content: " ";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-image: url(../img/album-hover5.png);
+            background-repeat: no-repeat;
+            background-position: center;
+          }
+
+        }
+      }
+    }
+  }
+}
+
+#slider {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+  li {
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+
+    &:first-child {
+      position: relative;
+      display: block;
+      float: left;
+    }
+
+    img {
+      height: auto;
+      max-width: 100%;
+      border: 0;
+    }
+  }
+
+  .caption {
+    @include span-columns(12);
+
+    display: block;
+    margin: 0;
+    max-width: none;
+    text-align: left;
+    font-size: 0.85em;
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+    padding: 5px 10px;
+    background-color: #222;
+    opacity: 0.7;
+
+    .label-inline {
+      display: inline;
+    }
+
+    .left-caption {
+      @include span-columns(8);
+
+      .juwels {
+        @include span-columns(8,8);
+        margin-bottom: 0.3em;
+      }
+    }
+
+    .photographer {
+      @include span-columns(4 omega);
+      text-align: right;
+    }
+  }
+}
+
+.slideshow {
+  position: relative;
+  display: block;
+
+  .prev,
+  .next {
+    position: absolute;
+    width: 50px;
+    height: 100%;
+    top: 0;
+    background-image: url('../img/slider-arrows.png');
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    text-indent: -99999px;
+    overflow: hidden;
+  }
+
+
+  .prev {
+    left: 10px;
+    background-position: 10px 50%;
+    
+  }
+
+  .next {
+    right: 10px;
+    background-position: -37px 50%;
+  }
+}
