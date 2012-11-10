@@ -1,0 +1,8 @@
+filename = "Helena-Jelbrich-20121110-18:24"
+description = ""
+datestamp = "1352568258"
+generator = "Backup and Migrate (http://drupal.org/project/backup_migrate)"
+generatorversion = "7.x-2.x"
+sites[0][version] = "7.17"
+sites[0][name] = "Helena-Jelbrich"
+sites[0][url] = "http://localhost/0001_HELENA-JELBRICH/06_WEBSITE/01_FILES/"
