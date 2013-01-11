@@ -13,8 +13,41 @@ function james_preprocess_page(&$variables) {
       'preprocess' => FALSE
     )
  );
-} 
+}
 
+function james_preprocess_commerce_line_item_summary(&$variables) {
+  /*
+  $variables['status'] = FALSE;
+
+  if($variables['id'] == 1) {
+    $variables['status'] = TRUE;
+  }
+  */
+
+  
+  // global $base_root;
+
+  // dpm(base_path());
+
+
+  $variables['cart_url'] = base_path() . 'cart';
+}
+
+
+function james_form_alter(&$form, &$form_state, $form_id) {
+
+  // Ask a question about a project (on webshop project page)
+  if ($form_id == 'webform_client_form_261') {
+    $webshop_item_title = drupal_get_title();
+
+    global $base_root;
+    $webshop_item_url = $base_root . request_uri();
+
+    // dpm($form);
+    $form['submitted']['product']['#value'] = $webshop_item_title;
+    $form['submitted']['url']['#value'] = $webshop_item_url;
+  }
+}
 
 /**
  * Remove useless Drupal core or module css.
@@ -31,19 +64,28 @@ function james_css_alter(&$css) {
  */
 function james_menu_link(array $variables) {
 
-  // dpm($variables);
-
+  // Capture the menu link element
   $element = $variables['element'];
 
-  // dpm($variables);
-  if($element['#href'] == '<front>') {
-    $element['#attributes']['class'][] = 'home';
-    $element['#prefix'] = '<h1>';
-    $element['#suffix'] = '</h1>';
-    $element['#title'] = "Helena-Jelbrich";
-    // dpm($element);
-    // dpm($site_name);
+  // If frontpage, make the home logo an H1 element
+  if(drupal_is_front_page()) {
+    if($element['#href'] == '<front>') {
+      $element['#attributes']['class'][] = 'home';
+      $element['#prefix'] = '<h1>';
+      $element['#suffix'] = '</h1>';
+      $element['#title'] = "Helena-Jelbrich";
+    }
   }
+  else
+  {
+    if($element['#href'] == '<front>') {
+      $element['#attributes']['class'][] = 'home';
+      // $element['#prefix'] = '<h1>';
+      // $element['#suffix'] = '</h1>';
+      $element['#title'] = "Helena-Jelbrich";
+    }
+  }
+
 
   $sub_menu = '';
 

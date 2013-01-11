@@ -5,7 +5,8 @@ sites/*/settings*.php
 sites/*/files
 
 # Ignore SASS cache files
-sites/*/.sass-cache
+
 
 # mac paths
 .DS_Store
+*.scssc

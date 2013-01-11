@@ -70,12 +70,23 @@
  * @see html.tpl.php
  */
 ?>
-<div class="page-wrapper">
-  <?php if($page['admin']): ?>
-    <div class="admin-wrapper">
-      <?php print render($page['admin']); ?>
+<div class="admin-wrapper">
+  <?php if($page['admin_first'] || $page['admin_second']): ?>
+    <div class="admin-content">
+      <?php if($page['admin_first']): ?>
+        <div class="admin-first">
+          <?php print render($page['admin_first']); ?>
+        </div>
+      <?php endif; ?>
+      <?php if($page['admin_second']): ?>
+        <div class="admin-second">
+          <?php print render($page['admin_second']); ?>
+        </div>
+      <?php endif; ?>
     </div>
   <?php endif; ?>
+</div>
+<div class="page-wrapper">
   <header>
     <div class="logo">
       <?php if (!$is_front): ?>

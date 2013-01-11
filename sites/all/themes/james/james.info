@@ -7,7 +7,8 @@ core = 7.x
 ; Regions
 ; --------------------------------------------------------------------------------
 
-regions[admin] = Administration
+regions[admin_first] = Administration first
+regions[admin_second] = Administration second
 regions[navigation] = Navigation
 regions[slider] = Slider
 regions[content] = Content

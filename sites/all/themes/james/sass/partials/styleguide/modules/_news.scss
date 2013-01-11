@@ -4,6 +4,12 @@
  * ---------------------------------
  */
 
+ .page-nieuws {
+  h1 {
+    @extend .element-invisible;
+  }
+ }
+
 .news {
   border-bottom: 1px solid $dark-grey;
   padding-bottom: 4%;

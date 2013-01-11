@@ -24,6 +24,14 @@ a:focus {
   text-decoration: underline;
 }
 
+h1 {
+  color: $yellow;
+}
+
+.display-inline {
+  display: inline;
+}
+
 /* Page elements */
 .page-wrapper {
   margin: 0 auto;
@@ -37,7 +45,7 @@ a:focus {
 .content-wrapper {
   border-bottom: 2px solid #fff;
   border-top: 2px solid #fff;
-  padding: 10px 0px;
+  padding: 25px 0px;
 
   @include breakpoint($breakpoint_ipad_port) {
     padding: 15px 0px;

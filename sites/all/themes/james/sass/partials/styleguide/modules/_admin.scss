@@ -41,3 +41,26 @@
     }
   }
 }
+
+.admin-wrapper {
+  background-color: #222;
+  border-bottom: dotted 1px #555;
+}
+.admin-content {
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+
+  .admin-second {
+    font-size: 1.1em;
+    text-align: right;
+  }
+
+  @include breakpoint($breakpoint_ipad_land) {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+
+    .admin-second {
+      font-size: 0.9em;
+    }
+  }
+}

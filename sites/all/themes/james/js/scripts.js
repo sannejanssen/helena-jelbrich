@@ -5,7 +5,7 @@
     attach: function(context) {
 
       $("#slider").responsiveSlides({
-        auto: true,
+        auto: false,
         pager: false,
         nav: true,
         speed: 500,
@@ -72,6 +72,32 @@
       var count = 0;
 
       $('.collection .album').each(function() {
+        count += 1;
+
+        if( count % 2 == 0) {
+          $(this).addClass('second');
+        }
+
+        if( count % 3 == 0) {
+          $(this).addClass('third');
+        }
+
+        if( count % 4 == 0) {
+          $(this).addClass('fourth');
+        }
+      });
+    }
+  };
+
+    // Add extra classes to album covers
+  Drupal.behaviors.webshopcovers = {
+    attach: function(context) {
+
+      var albums = $('.webshop .album').length;
+
+      var count = 0;
+
+      $('.webshop .album').each(function() {
         count += 1;
 
         if( count % 2 == 0) {

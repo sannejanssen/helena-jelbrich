@@ -28,6 +28,18 @@ form {
         border-color: red;
       }
     }
+
+    select {
+      border: 1px solid #959595;
+      padding: 10px 5px;
+      margin-bottom: 10px;
+
+      &.error {
+        border-color: red;
+      }
+    }
+
+
   }
 
   input[typ="submit"],
@@ -41,5 +53,6 @@ form {
     width: auto;
     padding: 8px 15px;
     float: right;
+    margin-left: 10px;
   }
 }

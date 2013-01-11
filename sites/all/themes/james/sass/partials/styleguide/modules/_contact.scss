@@ -26,11 +26,21 @@
     }
   }
 
+  h1 {
+    font-size: 0.95em;
+    color: $yellow;
+    margin-top: 0;
+    margin-bottom: 1em;
+    line-height: 2em;
+  }
+
   h2 {
     font-size: 0.95em;
     color: $yellow;
     margin-top: 0;
   }
+
+
 }
 
 .contact-info {

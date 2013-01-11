@@ -18,7 +18,8 @@ $gutter-width: 1em;
 $grid-padding: $gutter-width/2;
 
 /* Page elements */
-.page-wrapper {
+.page-wrapper,
+.admin-content {
   @include container;
   width: 100%;
 }
@@ -159,15 +160,62 @@ footer {
 }
 
 
-
-
-
-/* TODO */
-
 /* Admin wrapper */
-/*
 .admin-wrapper {
-  @extend .clearfix;
-  @include span-columns(12);
+  width: 100%;
+
+  .admin-content {
+
+    .admin-first {
+      display: none;
+    }
+    .admin-second {
+      @include span-columns(12);
+    }
+
+    @include breakpoint($breakpoint_ipad_port) {
+      .admin-first {
+        @include span-columns(12);
+      }
+    }
+
+    @include breakpoint($breakpoint_ipad_land) {
+      .admin-first {
+        @include span-columns(10);
+      }
+      .admin-second {
+        @include span-columns(2 omega);
+
+        .line-item-summary {
+          @include span-columns(12);
+        }
+      }
+    }
+  }
 }
-*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
