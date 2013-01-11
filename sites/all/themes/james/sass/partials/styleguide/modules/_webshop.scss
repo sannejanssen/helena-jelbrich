@@ -1,0 +1,127 @@
+/*
+ * ---------------------------------
+ * STYLING OF THE WEBSHOP PAGES
+ * ---------------------------------
+ */
+
+/* ------ WEBSHOP LANDINGPAGE ------ */
+/* LAYOUT */
+.webshop-detail {
+  .detail,
+  .order {
+    @include span-columns(12,12);
+  }
+
+  @include breakpoint($breakpoint_ipad_port) {
+    .detail {
+      @include span-columns(7,12);
+    }
+    
+    .order {
+      @include span-columns(5 omega,12);
+    }
+  }
+
+  @include breakpoint($breakpoint_ipad_land) {
+    .detail {
+      @include span-columns(8,12);
+    }
+    
+    .order {
+      @include span-columns(4 omega,12);
+    }
+  }
+}
+
+/* STYLE */
+.page-webshop {
+  h1 {
+    @extend .element-invisible;
+  }
+
+  .webshop {
+    @extend .collection;
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+/* DESIGN */
+.webshop-detail {
+  h2 {
+    color: $yellow;
+    margin-top: 0;
+    margin-bottom: 0.3em;
+    font-size: 1.2em;
+    line-height: 0.95em;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 1.5em;
+  }
+
+  .detail {
+    h1 {
+      margin-bottom: 0.5em;
+    }
+  }
+
+  .order {
+    .details {
+      padding-left: 1.2em;
+      margin-top: 0.5em;
+
+      li {
+        margin-bottom: 0.4em;
+      }
+
+      h3 {
+        font-size: 1em;
+        font-weight: normal;
+        margin-right: 5px;
+        &:after {
+          content: ":";
+        }
+      }
+    }
+  }
+}
+
+.yellow-box {
+  border: 2px solid $yellow;
+  padding: 20px;
+  margin-bottom: 2em;  
+
+  .commerce-product-field-commerce-price {
+    float: right;
+    margin-bottom: 0.7em;
+  }
+
+  form {
+    @extend .clearfix;
+
+    .attribute-widgets {
+      > .form-item {
+        > label {
+          @extend .element-invisible;
+        }
+
+        .form-radios {
+          .form-item {
+            input {
+              width: 8%;
+            }
+          }
+        }
+      }
+    }
+    input[type="submit"] {
+      float: left;
+      width: 100%;
+      margin-top: 2em;
+    }
+  }
+}
