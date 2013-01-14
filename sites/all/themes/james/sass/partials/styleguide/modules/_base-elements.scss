@@ -238,7 +238,7 @@ footer {
     font-weight: normal;
     margin-bottom: 0px;
     margin-top: 0.2em;
-    font-size: 1.2em;
+    font-size: 1em;
 
     @include breakpoint($breakpoint_ipad_land) {
       font-size: 0.95em;

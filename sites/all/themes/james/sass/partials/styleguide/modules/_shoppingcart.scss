@@ -15,444 +15,93 @@
   .cart &{
     margin-top: 0.5em;
   }
+}
 
-
+.page-cart {
+  h1 {
+    margin-bottom: 0.5em;
+  }
 }
 
 /* Shopping cart overview */
 .cart {
   @include span-columns(12);
 
+  .cart-item {
+    @include span-columns(12);
+    margin-bottom: 1.5em;
+
+    &.views-row-last {
+      border-bottom: 1px solid $text-color;
+      padding-bottom: 1em;
+    }
+  }
+  
+  .title {
+    @include span-columns(12);
+    margin-bottom: 0.5em;
+  }
+  .price {
+    @include span-columns(3);
+    padding: 9px 0;
+  }
+  .quantity {
+    @include span-columns(2);
+    text-align: center;
+    .form-item {
+      margin-bottom: 0;
+      
+      input {
+        text-align: center;  
+      }
+    }
+  }
+  .remove {
+    @include span-columns(4);
+    text-align: center;
+    input {
+      float: none;
+      padding: 11px 5px;
+      margin-top: 0;
+    }
+  }
+  .total {
+    @include span-columns(3 omega);
+    padding: 9px 0;
+    text-align: right;
+  }
+
   .view-header {
     display: none;
-    color: $light-grey;
-
     .title,
     .price,
     .quantity,
     .remove,
     .total {
-      margin-top: 0;
-      margin-bottom: 0;
       padding: 0;
-      color: $light-grey;
-    }
-
-    @include breakpoint($breakpoint_ipad_port) {
-      @include span-columns(12);
     }
   }
 
-  &.views-row-even {
-    background-color: #222;
-  }
+  .form-actions {
+    input {
+      margin-left: 10px;
 
-  .cart-item {
-    @include span-columns(12);
-    border-bottom: 1px solid #555;
-    padding: 0.5em 0.5em;
-
-    &.views-row-odd {
-      background-color: #2e2e2e;
-    }
-
-    &.views-row-even {
-      background-color: #222;
-    }
-  }
-
-  .title {
-    @include span-columns(12);
-    margin-bottom: 0.5em;
-    color: $yellow;
-  }
-
-  .price {
-    @include span-columns(6,24);
-    padding: 8px 0;
-  }
-
-  .quantity {
-    @include span-columns(4,24);
-
-    .form-item {
-      margin-bottom: 0;
-
-      input {
-        text-align: right;
+      &#edit-checkout {
+        font-weight: bold;
       }
     }
-  }
-
-  .remove {
-    @include span-columns(8 omega,24);
-
-    .delete-line-item {
-      float: right;
-      padding: 4px 10px;
-      margin-left: 0;
-      margin-top: 7px;
-    }
-  }
-
-  .total {
-    @include span-columns(6,24);
-    padding: 8px 0;
-    text-align: right;
   }
 
   @include breakpoint($breakpoint_ipad_port) {
-    .title {
-      @include span-columns(6);
-    }
-
-    .price {
-      @include span-columns(2);
-    }
-
-    .quantity {
-      @include span-columns(1);
-    }
-
-    .remove {
-      @include span-columns(2);
-
-      .delete-line-item {
-        float: left;
-        padding: 4px 10px;
-        margin-left: 0;
-        margin-top: 7px;
-      }
-    }
-
-    .total {
-      @include span-columns(1 omega);
-    }
-  }
-}
-
-/* Checkout page */
-.page-checkout {
-
-  /* set font size equal to cart overview page */
-  form {
-    font-size: 1em;
-  }
-
-  fieldset {
-    border: 0;
-    padding: 0;
-
-    margin-bottom: 1.5em;
-
-    .fieldset-wrapper {
-      background-color: #444;
-      padding: 0.5em;
-      @include span-columns(12);
-    }
-
-
-    legend {
-      font-size: 1.2em;
-      padding-bottom: 0.5em;
-      padding-top: 1em;
-    }
-
-    .view-header {
-      display: none;
-    }
-
-    .title {
-    }
-    .quantity {
-      width: auto;
-      margin-right: 0.3em;
-    }
-
-    .price {
-      padding: 0;
-    }
-
-    .total {
-      padding: 0;
-      @include span-columns(3 omega);
-      font-weight: bold;
-    }
-
-    .line-item-total {
-      font-weight: bold;
-    }
-
-    .account-login-container {
-      // padding-bottom: 0.4em;
-    }
-
-    &.customer_profile_shipping {
-      margin-bottom: 0;
-    }
-
-    .customer-profile-shipping-ajax-wrapper {
-      .fieldset-wrapper {
-        margin-bottom: 0;
-      }
-    }
-
-    .commerce-customer-profile-copy {
-      input {
-        @include span-columns(1);
-        margin-bottom: 2em;
-      }
-      legend {
-        @include span-columns(11 omega);
-      }
-    }
-
-    &.checkout-buttons {
-      text-transform: uppercase;
-      text-indent: -9999px;
-      
-      .fieldset-wrapper {
-        background: none;
-        padding-right: 0;
-      }
-
-      .checkout-cancel {
-        padding-top: 8px;
-      }
-      .checkout-continue {
-        // @include span-columns(14 omega,24);
-      }
-    }
-
-    /* Next step: shipping method */
-    &.commerce_shipping {
-      .form-item-commerce-shipping-shipping-service {
-        @include span-columns(12);
-        padding-top: 0.5em;
-        // padding-bottom: 2em;
-        
-        input {
-          @include span-columns(2 omega,24);
-        }
-        label {
-          @include span-columns(22, 24);
-        }
-      }
-    }
-  }
-  #commerce-shipping-service-ajax-wrapper {
-    @include span-columns(12,12);
-
-    @include breakpoint($breakpoint_ipad_port) {
-      @include span-columns(50,101);
-    }
-  }
-
-  .commerce_payment {
-    @include span-columns(12,12);
-
-    @include breakpoint($breakpoint_ipad_port) {
-      @include span-columns(50 omega,101);
-    }   
-  }
-
-  .checkout-buttons,
-  .payment-information {
-    @include span-columns(12,12);
-  }
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-/*
-.page-checkout {
-
-
-
-
-
-
-  h1 {
-    margin-bottom: 0.2em;
-  }
-
-  
-
-  fieldset {
-    border: none;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 2em;
-    padding-bottom: 0.5em;
-
-    legend {
-      padding-bottom: 0.5em;
-      font-weight: bold;
-    }
-
-    .fieldset-wrapper {
-      @include span-columns(12);
-      background-color: #222;
-      border: 1px solid #555;
-    }
-
-
-
-
-
-
-    /*
     .cart-item {
-      @include breakpoint($breakpoint_ipad_port) {
-        .title {
-          @include span-columns(6);
-        } 
-        .price {
-          @include span-columns(2);
-        } 
-        .quantity {
-          @include span-columns(2);
-        } 
-        .total {
-          @include span-columns(2 omega);
-        }
-      } 
+      margin-bottom: 0.5em;
     }
-    */
-
-    /*
-    .view-content {
-      .cart-item {
-        .quantity {
-          padding: 9px 0;
-        }
-        .total {
-          padding-top: 0;
-        }
-      }
-    }
-    */
-    /*
-
-  }
-
-  
-
-
-
-
-
-
-  /*
-  
-  #commerce-checkout-form-checkout {
-    > div > .form-wrapper {
-      @include span-columns(12);
-      border-bottom: 1px solid $yellow;
-      .cart-item {
-
-        .title {
-          font-weight: bold;
-          color: $yellow;
-        }
-        
-      }
-
-
-        /*
-  @include span-columns(12);
-  border-bottom: 1px solid #555;
-  padding: 0.5em;
-
-  &.views-row-last {
-    border: none;
-  }
-
-  /* Disable header for mobile */
-
-  /*
-  .view-header & {
-    display: none;
-  }
-
-  &.views-row-odd {
-    background-color: #2e2e2e;
-  }
-
-  &.views-row-even {
-    background-color: #222;
-  }
-
-  .title {
-    @include span-columns(12);
-    margin-bottom: 0.5em;
-  }
-
-  .price {
-    @include span-columns(8);
-    padding: 9px 0;
-  }
-
-  .quantity {
-    @include span-columns(4 omega);
-    
-    .form-item {
-      margin-bottom: 0;
-
-      input {
-        text-align: right;
-      }
-    }
-  }
-
-  .remove {
-    @include span-columns(6);
-
-    .delete-line-item {
-      float: left;
-      padding: 4px 10px;
-      margin-left: 0;
-    }
-  }
-
-  .total {
-    @include span-columns(6 omega);
-    padding-top: 8px;
-    margin-top: 10px;
-    text-align: right;
-    font-weight: bold;
-  }
-
-  @include breakpoint($breakpoint_ipad_port) {
-    .view-header & {
-      display: block;
-
-      .title {
-        padding: 0;
-      }
-
-      .price,
-      .total {
-        padding: 0;
-        font-weight: normal;
-        margin-top: 0;
-      }
-    }
-
     .title {
-      @include span-columns(12,24);
+      @include span-columns(11,24);
       padding: 9px 0;
+      a {
+        color: $text-color;
+      }
     }
     .price {
       @include span-columns(3,24);
@@ -462,159 +111,186 @@
     }
     .remove {
       @include span-columns(4,24);
-      text-align: right;
-
-      .delete-line-item {
-        float: right;
-      }
-
     }
     .total {
       @include span-columns(3 omega,24);
     }
+
+    .view-header {
+      @include span-columns(12);
+      display: block;
+      font-weight: bold;
+      color: $yellow;
+      margin-bottom: 0.5em;
+    }    
   }
-  
 }
 
-*/
+.page-checkout {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* } 
-
-
-  }
-*/
-
-
-/*
-  .form-wrapper {
-
-
-    /*
-    margin-bottom: 1em;
-    @include span-columns(12);
-
-    border-top: 1px solid $yellow;
-    padding-top: 0.5em;
-*/
-
-
-
-
-
-/*
+  form {
+    font-size: 1em;
   }
 
-  /*
   fieldset {
-    @include span-columns(12);
-
-    border: none;
-    margin: 0;
     padding: 0;
-
-    .fieldset-wrapper {
-      border-top: 1px solid $yellow;
-      padding-top: 0.5em;
-    }
+    margin: 0;
+    border: 0;
+    margin-top: 1em;
+    padding-bottom: 1em;
 
     legend {
       color: $yellow;
-      padding-bottom: 0.4em;
+      padding-bottom: 1em;
+      font-weight: bold;
     }
 
-    
+    .cart {
+      .view-header {
+        display: none;
+      }
+
+      .title {
+        padding: 0;
+      }
+      .quantity {
+        text-align: right;
+        width: auto;
+      }
+      .price {
+        text-align: left;
+        padding: 0;
+      }
+      .total {
+        padding: 0;
+      }
+
+      .view-footer {
+        table {
+          @include span-columns(12);
+          margin-top: 1em;
+
+          tbody {
+            border: none;
+            @include span-columns(12);
+          }
+          tr {
+            background: none;
+            border: none;
+            @include span-columns(12);
+            margin-right: 0;
+            padding-right: 0;
+
+            td {
+              
+              &.component-title {
+                @include span-columns(18,24);
+                text-align: right;
+              }
+              &.component-total {
+                @include span-columns(6 omega,24);
+              }
+
+              @include breakpoint($breakpoint_ipad_port) {
+                &.component-title {
+                  @include span-columns(20,24);
+                }
+                &.component-total {
+                  @include span-columns(4 omega,24);
+                }
+
+
+
+              }
+            }
+          }
+
+        }
+      }
+    }
+    @include breakpoint($breakpoint_ipad_port) {
+      .cart-item {
+        margin-bottom: 0;
+      }
+    }
+
+    /* Full name input field */
+    .form-item-customer-profile-billing-commerce-customer-address-und-0-name-line,
+    .form-item-customer-profile-shipping-commerce-customer-address-und-0-name-line {
+      @include span-columns(12,12);
+    }
+
+    /* Postal code input field */
+    .form-item-customer-profile-billing-commerce-customer-address-und-0-postal-code,
+    .form-item-customer-profile-shipping-commerce-customer-address-und-0-postal-code {
+      @include span-columns(4,12);
+
+      @include breakpoint($breakpoint_ipad_port) {
+        @include span-columns(2,12);
+      }
+    }
+
+    /* City input field */
+    .form-item-customer-profile-billing-commerce-customer-address-und-0-locality,
+    .form-item-customer-profile-shipping-commerce-customer-address-und-0-locality {
+      @include span-columns(8 omega,12);
+
+      @include breakpoint($breakpoint_ipad_port) {
+        @include span-columns(10 omega,12);
+      }
+    }
+
+    .commerce-customer-profile-copy {
+      @include span-columns(12,12);
+      margin-bottom: 2em;
+
+      input {
+        @include span-columns(2,36);
+        margin-top: 0.5em;
+      }
+      label {
+        @include span-columns(34 omega,36);
+      }
+    }
+
+    &.checkout-buttons {
+
+      .checkout-cancel,
+      .checkout-back {
+        margin-right: 1em;
+        margin-top: 1em;
+      }
+    }
+
+    &.commerce_shipping {
+      .form-item {
+        @include span-columns(12,12);
+        margin-bottom: 0;
+
+        input {
+          @include span-columns(2,36);
+          margin-top: 0.25em;
+        }
+        label {
+          @include span-columns(34 omega,36);
+        }
+      }
+    }
+
+    &.commerce_payment {
+      #edit-commerce-payment-payment-method {
+        display: none;
+      }
+      #payment-details {
+        @include span-columns(12,12);
+        p {
+          margin-top: 0;
+        }
+      }
+    }
+
+
   }
-  */
- 
-/*
-  .quantity {
-    @include span-columns(2);
-    float: left;
-    padding: 9px 0;
-  }
-  .price {
-    @include span-columns(6);
-  }
-  .total {
-    @include span-columns(3 omega);
-    padding: 9px 0;
-    margin: 0;
-  }
-  */
-  /*
 }
-
-/*
-.addressfield-container-inline {
-  > div {
-    width: 100%;  
-  }
-}
-
-.addressfield-container-inline .form-item-customer-profile-billing-commerce-customer-address-und-0-postal-code {
-  margin-bottom: -0.6em;
-}
-
-/* --------- CLEANUP --------- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

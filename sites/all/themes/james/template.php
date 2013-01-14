@@ -16,20 +16,6 @@ function james_preprocess_page(&$variables) {
 }
 
 function james_preprocess_commerce_line_item_summary(&$variables) {
-  /*
-  $variables['status'] = FALSE;
-
-  if($variables['id'] == 1) {
-    $variables['status'] = TRUE;
-  }
-  */
-
-  
-  // global $base_root;
-
-  // dpm(base_path());
-
-
   $variables['cart_url'] = base_path() . 'cart';
 }
 
@@ -43,10 +29,112 @@ function james_form_alter(&$form, &$form_state, $form_id) {
     global $base_root;
     $webshop_item_url = $base_root . request_uri();
 
-    // dpm($form);
     $form['submitted']['product']['#value'] = $webshop_item_title;
     $form['submitted']['url']['#value'] = $webshop_item_url;
   }
+
+  // Step 2 of the checkout process: personal information
+  if ($form_id == 'commerce_checkout_form_checkout') {
+
+    // In dutch because it's not translatable
+    $form['buttons']['continue']['#value'] = 'Verder naar verzending';
+    
+    /* Remove &nbsp; before city input field */
+    unset($form['customer_profile_billing']['commerce_customer_address']['und'][0]['locality_block']['locality']['#prefix']);
+    unset($form['customer_profile_shipping']['commerce_customer_address']['und'][0]['locality_block']['locality']['#prefix']);
+
+    /* Remove 'or' between cancel & continue */
+    unset($form['buttons']['cancel']['#prefix']);
+
+    // dpm();
+  }
+
+  // Step 3 of the checkout process: shipping information
+  if ($form_id == 'commerce_checkout_form_shipping') {
+
+    // In dutch because it's not translatable
+    $form['buttons']['continue']['#value'] = 'Verder naar overzicht';
+    $form['buttons']['back']['#value'] = 'Terug naar bestelling';
+
+    /* Remove 'or' between cancel & continue */
+    unset($form['buttons']['back']['#prefix']);
+    // dpm($form['buttons']);
+  }
+
+  // Step 4 of the checkout process: place your order
+  if ($form_id == 'commerce_checkout_form_review') {
+
+    // In dutch because it's not translatable
+    $form['buttons']['continue']['#value'] = 'Plaats uw bestelling';
+    $form['buttons']['back']['#value'] = 'Terug naar verzending';
+  }
+
+  // dpm($form_id);
+}
+
+function james_form_element($variables) {
+  // dpm($variables);
+  $element = &$variables['element'];
+  // This is also used in the installer, pre-database setup.
+  $t = get_t();
+
+  // This function is invoked as theme wrapper, but the rendered form element
+  // may not necessarily have been processed by form_builder().
+  $element += array(
+    '#title_display' => 'before',
+  );
+
+  // Add element #id for #type 'item'.
+  if (isset($element['#markup']) && !empty($element['#id'])) {
+    $attributes['id'] = $element['#id'];
+  }
+  // Add element's #type and #name as class to aid with JS/CSS selectors.
+  $attributes['class'] = array('form-item');
+  if (!empty($element['#type'])) {
+    $attributes['class'][] = 'form-type-' . strtr($element['#type'], '_', '-');
+  }
+  if (!empty($element['#name'])) {
+    $attributes['class'][] = 'form-item-' . strtr($element['#name'], array(' ' => '-', '_' => '-', '[' => '-', ']' => ''));
+  }
+  // Add a class for disabled elements to facilitate cross-browser styling.
+  if (!empty($element['#attributes']['disabled'])) {
+    $attributes['class'][] = 'form-disabled';
+  }
+  $output = '<div' . drupal_attributes($attributes) . '>' . "\n";
+
+  // If #title is not set, we don't display any label or required marker.
+  if (!isset($element['#title'])) {
+    $element['#title_display'] = 'none';
+  }
+  $prefix = isset($element['#field_prefix']) ? '<span class="field-prefix">' . $element['#field_prefix'] . '</span> ' : '';
+  $suffix = isset($element['#field_suffix']) ? ' <span class="field-suffix">' . $element['#field_suffix'] . '</span>' : '';
+
+  switch ($element['#title_display']) {
+    case 'before':
+    case 'invisible':
+      $output .= ' ' . theme('form_element_label', $variables);
+      $output .= ' ' . $prefix . $element['#children'] . $suffix . "\n";
+      break;
+
+    case 'after':
+      $output .= ' ' . $prefix . $element['#children'] . $suffix;
+      $output .= ' ' . theme('form_element_label', $variables) . "\n";
+      break;
+
+    case 'none':
+    case 'attribute':
+      // Output no label and no required marker, only the children.
+      $output .= ' ' . $prefix . $element['#children'] . $suffix . "\n";
+      break;
+  }
+
+  if (!empty($element['#description'])) {
+    $output .= '<div class="description">' . $element['#description'] . "</div>\n";
+  }
+
+  $output .= "</div>\n";
+
+  return $output;
 }
 
 /**
