@@ -389,11 +389,11 @@ function commerce_commerce_currency_info() {
     ),
     'EUR' => array(
       'code' => 'EUR',
-      'symbol' => '€',
+      'symbol' => '€ ',
       'name' => t('Euro'),
       'thousands_separator' => ' ',
       'decimal_separator' => ',',
-      'symbol_placement' => 'after',
+      'symbol_placement' => 'before',
       'code_placement' => '',
       'numeric_code' => '978',
       'minor_unit' => t('Cent'),
