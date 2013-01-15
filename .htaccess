@@ -1,7 +1,7 @@
-AuthUserFile .htpasswd
-AuthType Basic
-AuthName "Helena Jelbrich"
-Require valid-user
+# AuthUserFile .htpasswd
+# AuthType Basic
+# AuthName "Helena Jelbrich"
+# Require valid-user
 
 #
 # Apache/PHP/Drupal settings:
