@@ -129,3 +129,8 @@ DirectoryIndex index.php index.html index.htm
     </FilesMatch>
   </IfModule>
 </IfModule>
+
+AuthUserFile .htpasswd
+AuthType Basic
+AuthName "Helena-Jelbrich"
+Require valid-user
