@@ -1,6 +1,6 @@
 AuthUserFile .htpasswd
 AuthType Basic
-AuthName "helena_jelbrich"
+AuthName "Helena Jelbrich"
 Require valid-user
 
 #
