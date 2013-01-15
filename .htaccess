@@ -132,5 +132,5 @@ DirectoryIndex index.php index.html index.htm
 
 AuthUserFile .htpasswd
 AuthType Basic
-AuthName "Helena-Jelbrich"
+AuthName "helena_jelbrich"
 Require valid-user
