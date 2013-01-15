@@ -1,7 +1,8 @@
-# AuthUserFile .htpasswd
-# AuthType Basic
-# AuthName "Helena Jelbrich"
-# Require valid-user
+AuthName "Restricted Area" 
+AuthType Basic 
+AuthUserFile .htpasswd 
+AuthGroupFile /dev/null 
+require valid-user
 
 #
 # Apache/PHP/Drupal settings:
