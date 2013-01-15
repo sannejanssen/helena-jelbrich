@@ -1,6 +1,6 @@
 AuthName "Restricted Area" 
 AuthType Basic 
-AuthUserFile .htpasswd 
+AuthUserFile /dev.helena-jelbrich.be/.htpasswd 
 AuthGroupFile /dev/null 
 require valid-user
 
