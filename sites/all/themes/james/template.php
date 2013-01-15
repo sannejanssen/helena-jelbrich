@@ -58,7 +58,6 @@ function james_form_alter(&$form, &$form_state, $form_id) {
 
     /* Remove 'or' between cancel & continue */
     unset($form['buttons']['back']['#prefix']);
-    // dpm($form['buttons']);
   }
 
   // Step 4 of the checkout process: place your order
@@ -67,6 +66,21 @@ function james_form_alter(&$form, &$form_state, $form_id) {
     // In dutch because it's not translatable
     $form['buttons']['continue']['#value'] = 'Plaats uw bestelling';
     $form['buttons']['back']['#value'] = 'Terug naar verzending';
+  }
+
+  // Step 5 of the checkout process: confirmation message
+  if ($form_id == 'commerce_checkout_form_complete') {
+
+    /* TODO check code*/
+
+    $order_url = $form['checkout_completion_message']['message']['#markup'];
+    $message = "<p>Uw bestelling is geplaatst. <a href='$order_url'>U kan deze hier bekijken</a></p>";
+
+    global $base_root;
+    $message .= "<p><a href='$base_root'>Klik hier om terug te keren naar de startpagina</a></p>";
+    $form['checkout_completion_message']['message']['#markup'] = $message;
+
+    // dpm($form);
   }
 
   // dpm($form_id);

@@ -198,13 +198,9 @@
                 &.component-total {
                   @include span-columns(4 omega,24);
                 }
-
-
-
               }
             }
           }
-
         }
       }
     }
@@ -268,11 +264,21 @@
         margin-bottom: 0;
 
         input {
-          @include span-columns(2,36);
-          margin-top: 0.25em;
+          @include span-columns(4,36);
+          margin-top: 0.1em;
         }
         label {
-          @include span-columns(34 omega,36);
+          @include span-columns(32 omega,36);
+        }
+
+        @include breakpoint($breakpoint_ipad_port) {
+          input {
+            @include span-columns(2,36);
+            margin-top: 0.1em;
+          }
+          label {
+            @include span-columns(34 omega,36);
+          }
         }
       }
     }
@@ -288,8 +294,116 @@
         }
       }
     }
+  }
+}
 
+.page-checkout-review {
+  .checkout-help {
+    @include span-columns(12,12);
+    margin-bottom: 2em;
+    color: $dark-grey;
+  }
+  table {
+    @include span-columns(12,12);
 
+    tbody {
+      border-top: none;
+      @include span-columns(12,12);
+
+      tr {
+        background: none;
+        border-bottom: none;
+        @include span-columns(12,12);
+
+        &.even {
+          margin-bottom: 2em;
+        }
+
+        &.pane-title,
+        &.pane-data {
+          padding: 0;
+
+          td {
+            padding: 0;
+            @include span-columns(12,12);
+          }
+        }
+      }
+    }
+  }
+  .cart {
+    margin-top: 1em;
+
+    .cart-item {
+      
+    }
+
+    .title {
+      padding: 0;
+
+      @include breakpoint($breakpoint_ipad_port) {
+        margin-bottom: 0;
+      }
+    }
+    .quantity {
+      margin-bottom: 0;
+      padding: 0;
+      text-align: left;
+      width: auto;
+
+      @include breakpoint($breakpoint_ipad_port) {
+        @include span-columns(2,24);
+        text-align: center;
+      }
+
+    }
+    .price {
+      margin-bottom: 0;
+      padding: 0;
+    }
+    .total {
+      margin-bottom: 0;
+      padding: 0;
+    }
+
+    .view-footer {
+      table {
+        @include span-columns(12);
+        margin-top: 1em;
+
+        tbody {
+          border: none;
+          @include span-columns(12);
+        }
+        tr {
+          background: none;
+          border: none;
+          @include span-columns(12);
+          margin-right: 0;
+          padding-right: 0;
+
+          td {
+            
+            &.component-title {
+              @include span-columns(18,24);
+              text-align: right;
+            }
+            &.component-total {
+              @include span-columns(6 omega,24);
+            }
+
+            @include breakpoint($breakpoint_ipad_port) {
+              &.component-title {
+                @include span-columns(20,24);
+              }
+              &.component-total {
+                @include span-columns(4 omega,24);
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
 
