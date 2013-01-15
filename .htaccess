@@ -1,3 +1,8 @@
+AuthUserFile .htpasswd
+AuthType Basic
+AuthName "helena_jelbrich"
+Require valid-user
+
 #
 # Apache/PHP/Drupal settings:
 #
@@ -129,8 +134,3 @@ DirectoryIndex index.php index.html index.htm
     </FilesMatch>
   </IfModule>
 </IfModule>
-
-AuthUserFile .htpasswd
-AuthType Basic
-AuthName "helena_jelbrich"
-Require valid-user
