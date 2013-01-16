@@ -1,8 +1,8 @@
-AuthName "Restricted Area" 
-AuthType Basic 
-AuthUserFile /opt/www/sannejanssen2/web/dev.helena-jelbrich.be/.htpasswd 
-AuthGroupFile /dev/null 
-require valid-user
+# AuthName "Restricted Area" 
+# AuthType Basic 
+# AuthUserFile /opt/www/sannejanssen2/web/dev.helena-jelbrich.be/.htpasswd 
+# AuthGroupFile /dev/null 
+# require valid-user
 
 #
 # Apache/PHP/Drupal settings:
