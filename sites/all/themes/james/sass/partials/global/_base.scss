@@ -37,3 +37,9 @@
     font-weight: normal;
     font-style: normal;
 }
+
+p {
+  @include breakpoint($breakpoint_ipad_land) {
+    font-size: 0.9em;
+  }
+}

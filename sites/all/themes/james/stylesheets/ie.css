@@ -77,6 +77,13 @@ footer:after,
   font-style: normal;
 }
 
+@media (min-width: 800px) {
+  /* line 41, ../sass/partials/global/_base.scss */
+  p {
+    font-size: 0.9em;
+  }
+}
+
 /* Import base elements */
 /*
  * ---------------------------------
@@ -1977,6 +1984,11 @@ form .form-submit {
     #margin-left: -1em;
     display: inline;
   }
+}
+
+/* line 42, ../sass/partials/styleguide/_style-guide.scss */
+img {
+  width: 100%;
 }
 
 /*
