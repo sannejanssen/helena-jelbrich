@@ -1,11 +1,11 @@
-/* line 8, ../../../../../../../../../../Library/Ruby/Gems/1.8/gems/toolkit-0.1.15/stylesheets/toolkit/_border-box.scss */
+/* line 8, ../../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/toolkit-0.1.15/stylesheets/toolkit/_border-box.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 4, ../../../../../../../../../../Library/Ruby/Gems/1.8/gems/toolkit-0.1.15/stylesheets/toolkit/_fluid-media.scss */
+/* line 4, ../../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/toolkit-0.1.15/stylesheets/toolkit/_fluid-media.scss */
 img {
   max-width: 100%;
   height: auto;
@@ -957,15 +957,20 @@ form .form-submit {
  * STYLING OF THE COLLECTION PAGE
  * ---------------------------------
  */
+/* line 11, ../sass/partials/styleguide/modules/_collection.scss */
+.page-collecties img {
+  width: 100%;
+}
+
 /* album covers layout */
-/* line 12, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 16, ../sass/partials/styleguide/modules/_collection.scss */
 .collection, .page-webshop .webshop {
   width: 100%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 15, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 19, ../sass/partials/styleguide/modules/_collection.scss */
 .collection .album, .page-webshop .webshop .album {
   /* one in a row */
   width: 100%;
@@ -974,7 +979,7 @@ form .form-submit {
   display: inline;
 }
 @media (min-width: 321px) {
-  /* line 15, ../sass/partials/styleguide/modules/_collection.scss */
+  /* line 19, ../sass/partials/styleguide/modules/_collection.scss */
   .collection .album, .page-webshop .webshop .album {
     /* two in a row */
     width: 49.15254%;
@@ -982,7 +987,7 @@ form .form-submit {
     margin-right: 1.69492%;
     display: inline;
   }
-  /* line 23, ../sass/partials/styleguide/modules/_collection.scss */
+  /* line 27, ../sass/partials/styleguide/modules/_collection.scss */
   .collection .album.second, .page-webshop .webshop .album.second {
     width: 49.15254%;
     float: right;
@@ -992,7 +997,7 @@ form .form-submit {
   }
 }
 @media (min-width: 481px) {
-  /* line 15, ../sass/partials/styleguide/modules/_collection.scss */
+  /* line 19, ../sass/partials/styleguide/modules/_collection.scss */
   .collection .album, .page-webshop .webshop .album {
     /* two in a row */
     width: 32.20339%;
@@ -1000,14 +1005,14 @@ form .form-submit {
     margin-right: 1.69492%;
     display: inline;
   }
-  /* line 32, ../sass/partials/styleguide/modules/_collection.scss */
+  /* line 36, ../sass/partials/styleguide/modules/_collection.scss */
   .collection .album.second, .page-webshop .webshop .album.second {
     width: 32.20339%;
     float: left;
     margin-right: 1.69492%;
     display: inline;
   }
-  /* line 36, ../sass/partials/styleguide/modules/_collection.scss */
+  /* line 40, ../sass/partials/styleguide/modules/_collection.scss */
   .collection .album.third, .page-webshop .webshop .album.third {
     width: 32.20339%;
     float: right;
@@ -1017,7 +1022,7 @@ form .form-submit {
   }
 }
 @media (min-width: 800px) {
-  /* line 15, ../sass/partials/styleguide/modules/_collection.scss */
+  /* line 19, ../sass/partials/styleguide/modules/_collection.scss */
   .collection .album, .page-webshop .webshop .album {
     /* four in a row */
     width: 23.72881%;
@@ -1025,21 +1030,21 @@ form .form-submit {
     margin-right: 1.69492%;
     display: inline;
   }
-  /* line 45, ../sass/partials/styleguide/modules/_collection.scss */
+  /* line 49, ../sass/partials/styleguide/modules/_collection.scss */
   .collection .album.second, .page-webshop .webshop .album.second {
     width: 23.72881%;
     float: left;
     margin-right: 1.69492%;
     display: inline;
   }
-  /* line 49, ../sass/partials/styleguide/modules/_collection.scss */
+  /* line 53, ../sass/partials/styleguide/modules/_collection.scss */
   .collection .album.third, .page-webshop .webshop .album.third {
     width: 23.72881%;
     float: left;
     margin-right: 1.69492%;
     display: inline;
   }
-  /* line 53, ../sass/partials/styleguide/modules/_collection.scss */
+  /* line 57, ../sass/partials/styleguide/modules/_collection.scss */
   .collection .album.fourth, .page-webshop .webshop .album.fourth {
     width: 23.72881%;
     float: right;
@@ -1050,30 +1055,30 @@ form .form-submit {
 }
 
 /* album covers styling */
-/* line 62, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 66, ../sass/partials/styleguide/modules/_collection.scss */
 .collection .album, .page-webshop .webshop .album {
   margin-bottom: 8%;
 }
 @media (min-width: 321px) {
-  /* line 62, ../sass/partials/styleguide/modules/_collection.scss */
+  /* line 66, ../sass/partials/styleguide/modules/_collection.scss */
   .collection .album, .page-webshop .webshop .album {
     border: none;
     padding-bottom: 0;
   }
 }
 @media (min-width: 481px) {
-  /* line 62, ../sass/partials/styleguide/modules/_collection.scss */
+  /* line 66, ../sass/partials/styleguide/modules/_collection.scss */
   .collection .album, .page-webshop .webshop .album {
     margin-bottom: 3%;
   }
 }
 @media (min-width: 800px) {
-  /* line 62, ../sass/partials/styleguide/modules/_collection.scss */
+  /* line 66, ../sass/partials/styleguide/modules/_collection.scss */
   .collection .album, .page-webshop .webshop .album {
     margin-bottom: 2%;
   }
 }
-/* line 78, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 82, ../sass/partials/styleguide/modules/_collection.scss */
 .collection .album h2, .page-webshop .webshop .album h2 {
   margin: 0;
   color: #fff;
@@ -1082,16 +1087,16 @@ form .form-submit {
   font-weight: normal;
   line-height: 1.3em;
   margin-top: 10px;
-  min-height: 2.5em;
+  min-height: 3em;
   max-width: 70%;
 }
 @media (min-width: 321px) {
-  /* line 78, ../sass/partials/styleguide/modules/_collection.scss */
+  /* line 82, ../sass/partials/styleguide/modules/_collection.scss */
   .collection .album h2, .page-webshop .webshop .album h2 {
     font-size: 0.95em;
   }
 }
-/* line 96, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 100, ../sass/partials/styleguide/modules/_collection.scss */
 .collection .album h2 a, .page-webshop .webshop .album h2 a,
 .collection .album h2 a:link,
 .page-webshop .webshop .album h2 a:link,
@@ -1101,45 +1106,45 @@ form .form-submit {
 .page-webshop .webshop .album h2 a:visited {
   color: #fff;
 }
-/* line 101, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 105, ../sass/partials/styleguide/modules/_collection.scss */
 .collection .album .read-more, .page-webshop .webshop .album .read-more {
   float: right;
   margin-top: 12px;
   font-size: 1em;
   line-height: 1em;
 }
-/* line 107, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 111, ../sass/partials/styleguide/modules/_collection.scss */
 .collection .album .read-more::before, .page-webshop .webshop .album .read-more::before {
   content: '›';
   margin-right: 3px;
   color: #bd9b28;
 }
 @media (min-width: 321px) {
-  /* line 101, ../sass/partials/styleguide/modules/_collection.scss */
+  /* line 105, ../sass/partials/styleguide/modules/_collection.scss */
   .collection .album .read-more, .page-webshop .webshop .album .read-more {
     font-size: 0.95em;
     margin-top: 10px;
   }
 }
-/* line 119, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 123, ../sass/partials/styleguide/modules/_collection.scss */
 .collection .album .image, .page-webshop .webshop .album .image {
   float: left;
   overflow: hidden;
   position: relative;
 }
-/* line 124, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 128, ../sass/partials/styleguide/modules/_collection.scss */
 .collection .album .image a, .page-webshop .webshop .album .image a {
   float: left;
 }
-/* line 127, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 131, ../sass/partials/styleguide/modules/_collection.scss */
 .collection .album .image a img, .page-webshop .webshop .album .image a img {
   float: left;
 }
-/* line 134, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 138, ../sass/partials/styleguide/modules/_collection.scss */
 .collection .album:hover, .page-webshop .webshop .album:hover, .collection .album:focus, .page-webshop .webshop .album:focus {
   cursor: pointer;
 }
-/* line 140, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 144, ../sass/partials/styleguide/modules/_collection.scss */
 .collection .album:hover a, .page-webshop .webshop .album:hover a,
 .collection .album:hover a:link,
 .page-webshop .webshop .album:hover a:link,
@@ -1155,7 +1160,7 @@ form .form-submit {
 .page-webshop .webshop .album:focus a:active {
   color: #bd9b28;
 }
-/* line 148, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 152, ../sass/partials/styleguide/modules/_collection.scss */
 .collection .album:hover .image a::after, .page-webshop .webshop .album:hover .image a::after, .collection .album:focus .image a::after, .page-webshop .webshop .album:focus .image a::after {
   content: " ";
   width: 100%;
@@ -1168,7 +1173,7 @@ form .form-submit {
   background-position: center;
 }
 
-/* line 166, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 170, ../sass/partials/styleguide/modules/_collection.scss */
 #slider {
   position: relative;
   list-style: none;
@@ -1177,7 +1182,7 @@ form .form-submit {
   padding: 0;
   margin: 0;
 }
-/* line 174, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 178, ../sass/partials/styleguide/modules/_collection.scss */
 #slider li {
   position: absolute;
   display: none;
@@ -1186,19 +1191,19 @@ form .form-submit {
   top: 0;
   text-align: center;
 }
-/* line 182, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 186, ../sass/partials/styleguide/modules/_collection.scss */
 #slider li:first-child {
   position: relative;
   display: block;
   float: left;
 }
-/* line 188, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 192, ../sass/partials/styleguide/modules/_collection.scss */
 #slider li img {
   height: auto;
   max-width: 100%;
   border: 0;
 }
-/* line 195, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 199, ../sass/partials/styleguide/modules/_collection.scss */
 #slider .caption {
   width: 100%;
   float: left;
@@ -1216,18 +1221,18 @@ form .form-submit {
   background-color: #222;
   opacity: 0.7;
 }
-/* line 210, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 214, ../sass/partials/styleguide/modules/_collection.scss */
 #slider .caption .label-inline {
   display: inline;
 }
-/* line 214, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 218, ../sass/partials/styleguide/modules/_collection.scss */
 #slider .caption .left-caption {
   width: 66.10169%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 217, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 221, ../sass/partials/styleguide/modules/_collection.scss */
 #slider .caption .left-caption .juwels {
   width: 100%;
   float: left;
@@ -1235,7 +1240,7 @@ form .form-submit {
   display: inline;
   margin-bottom: 0.3em;
 }
-/* line 223, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 227, ../sass/partials/styleguide/modules/_collection.scss */
 #slider .caption .photographer {
   width: 32.20339%;
   float: right;
@@ -1245,12 +1250,12 @@ form .form-submit {
   text-align: right;
 }
 
-/* line 230, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 234, ../sass/partials/styleguide/modules/_collection.scss */
 .slideshow {
   position: relative;
   display: block;
 }
-/* line 235, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 239, ../sass/partials/styleguide/modules/_collection.scss */
 .slideshow .prev,
 .slideshow .next {
   position: absolute;
@@ -1263,12 +1268,12 @@ form .form-submit {
   text-indent: -99999px;
   overflow: hidden;
 }
-/* line 248, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 252, ../sass/partials/styleguide/modules/_collection.scss */
 .slideshow .prev {
   left: 10px;
   background-position: 10px 50%;
 }
-/* line 254, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 258, ../sass/partials/styleguide/modules/_collection.scss */
 .slideshow .next {
   right: 10px;
   background-position: -37px 50%;
@@ -1326,14 +1331,18 @@ form .form-submit {
 }
 
 /* STYLE */
-/* line 44, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 42, ../sass/partials/styleguide/modules/_webshop.scss */
+.page-webshop img {
+  width: 100%;
+}
+/* line 48, ../sass/partials/styleguide/modules/_webshop.scss */
 .page-webshop .webshop ul {
   margin: 0;
   padding: 0;
 }
 
 /* DESIGN */
-/* line 53, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 57, ../sass/partials/styleguide/modules/_webshop.scss */
 .webshop-detail h2 {
   color: #bd9b28;
   margin-top: 0;
@@ -1341,51 +1350,51 @@ form .form-submit {
   font-size: 1.2em;
   line-height: 0.95em;
 }
-/* line 61, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 65, ../sass/partials/styleguide/modules/_webshop.scss */
 .webshop-detail p {
   margin-top: 0;
   margin-bottom: 1.5em;
 }
-/* line 67, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 71, ../sass/partials/styleguide/modules/_webshop.scss */
 .webshop-detail .detail h1 {
   margin-bottom: 0.5em;
 }
-/* line 73, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 77, ../sass/partials/styleguide/modules/_webshop.scss */
 .webshop-detail .order .details {
   padding-left: 1.2em;
   margin-top: 0.5em;
 }
-/* line 77, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 81, ../sass/partials/styleguide/modules/_webshop.scss */
 .webshop-detail .order .details li {
   margin-bottom: 0.4em;
 }
-/* line 81, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 85, ../sass/partials/styleguide/modules/_webshop.scss */
 .webshop-detail .order .details h3 {
   font-size: 1em;
   font-weight: normal;
   margin-right: 5px;
 }
-/* line 85, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 89, ../sass/partials/styleguide/modules/_webshop.scss */
 .webshop-detail .order .details h3:after {
   content: ":";
 }
 
-/* line 93, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 97, ../sass/partials/styleguide/modules/_webshop.scss */
 .yellow-box {
   border: 2px solid #bd9b28;
   padding: 20px;
   margin-bottom: 2em;
 }
-/* line 98, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 102, ../sass/partials/styleguide/modules/_webshop.scss */
 .yellow-box .commerce-product-field-commerce-price {
   float: right;
   margin-bottom: 0.7em;
 }
-/* line 114, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 118, ../sass/partials/styleguide/modules/_webshop.scss */
 .yellow-box form .attribute-widgets > .form-item .form-radios .form-item input {
   width: 8%;
 }
-/* line 121, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 125, ../sass/partials/styleguide/modules/_webshop.scss */
 .yellow-box form input[type="submit"] {
   float: left;
   width: 100%;
@@ -1968,11 +1977,6 @@ form .form-submit {
     #margin-left: -1em;
     display: inline;
   }
-}
-
-/* line 42, ../sass/partials/styleguide/_style-guide.scss */
-img {
-  width: 100%;
 }
 
 /*

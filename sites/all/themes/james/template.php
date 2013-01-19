@@ -36,6 +36,9 @@ function james_form_alter(&$form, &$form_state, $form_id) {
   // Step 2 of the checkout process: personal information
   if ($form_id == 'commerce_checkout_form_checkout') {
 
+    /* Translate 'Order total' */
+    $form['cart_contents']['cart_contents_view']['#markup'] = str_replace('Order total', 'Totaal', $form['cart_contents']['cart_contents_view']['#markup']);
+
     /* Remove address 2, change address 1 to just 'address' */
     unset($form['customer_profile_billing']['commerce_customer_address']['und'][0]['street_block']['premise']);
     $form['customer_profile_billing']['commerce_customer_address']['und'][0]['street_block']['thoroughfare']['#title'] = 'Adres';
@@ -69,6 +72,9 @@ function james_form_alter(&$form, &$form_state, $form_id) {
 
   // Step 4 of the checkout process: place your order
   if ($form_id == 'commerce_checkout_form_review') {
+
+    /* Translate 'Order total' */
+    $form['checkout_review']['review']['#data']['cart_contents']['data'] = str_replace('Order total', 'Totaal', $form['checkout_review']['review']['#data']['cart_contents']['data']);
 
     // In dutch because it's not translatable
     $form['buttons']['continue']['#value'] = 'Plaats uw bestelling';

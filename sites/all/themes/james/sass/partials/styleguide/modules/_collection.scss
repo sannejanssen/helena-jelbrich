@@ -7,6 +7,10 @@
   h1 {
     @extend .element-invisible;
   }
+
+  img {
+    width: 100%;
+  }
 }
 /* album covers layout */
 .collection {
@@ -83,7 +87,7 @@
       font-weight: normal;
       line-height: 1.3em;
       margin-top: 10px;
-      min-height: 2.5em;
+      min-height: 3em;
       max-width: 70%;
 
       @include breakpoint($breakpoint_iphone_land) {

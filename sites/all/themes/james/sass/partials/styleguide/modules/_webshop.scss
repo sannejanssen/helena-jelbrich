@@ -39,6 +39,10 @@
     @extend .element-invisible;
   }
 
+  img {
+    width: 100%;
+  }
+
   .webshop {
     @extend .collection;
     ul {
