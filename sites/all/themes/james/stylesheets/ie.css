@@ -1,11 +1,11 @@
-/* line 8, ../../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/toolkit-0.1.15/stylesheets/toolkit/_border-box.scss */
+/* line 8, ../../../../../../../../../../Library/Ruby/Gems/1.8/gems/toolkit-0.1.15/stylesheets/toolkit/_border-box.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 4, ../../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/toolkit-0.1.15/stylesheets/toolkit/_fluid-media.scss */
+/* line 4, ../../../../../../../../../../Library/Ruby/Gems/1.8/gems/toolkit-0.1.15/stylesheets/toolkit/_fluid-media.scss */
 img {
   max-width: 100%;
   height: auto;
@@ -1993,6 +1993,40 @@ form .form-submit {
     #margin-left: -1em;
     display: inline;
   }
+}
+
+/* Import order module */
+/*
+ * ---------------------------------
+ * STYLING OF THE ORDER PAGES
+ * ---------------------------------
+ */
+/* Order overview page */
+/* line 9, ../sass/partials/styleguide/modules/_order.scss */
+.page-user-orders h1 {
+  margin-bottom: 0.5em;
+}
+/* line 14, ../sass/partials/styleguide/modules/_order.scss */
+.page-user-orders .cart .title {
+  margin-bottom: 0;
+}
+/* line 17, ../sass/partials/styleguide/modules/_order.scss */
+.page-user-orders .cart .title span {
+  display: block;
+  width: 100%;
+}
+/* line 21, ../sass/partials/styleguide/modules/_order.scss */
+.page-user-orders .cart .title span.code {
+  color: #aaaaaa;
+  font-size: 0.8em;
+}
+/* line 27, ../sass/partials/styleguide/modules/_order.scss */
+.page-user-orders .cart .quantity {
+  padding: 9px 0;
+}
+/* line 33, ../sass/partials/styleguide/modules/_order.scss */
+.page-user-orders .view-header .quantity {
+  padding: 0;
 }
 
 /*
