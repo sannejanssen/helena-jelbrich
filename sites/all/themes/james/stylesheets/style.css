@@ -1,13 +1,13 @@
 /* normalize.css v2.0.1 | MIT License | git.io/normalize */
 /* normalize.scss v2.0.1 | MIT/GPLv2 License | bit.ly/normalize-with-compass */
-/* line 8, ../../../../../../../../../../Library/Ruby/Gems/1.8/gems/toolkit-0.1.15/stylesheets/toolkit/_border-box.scss */
+/* line 8, ../../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/toolkit-0.1.15/stylesheets/toolkit/_border-box.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 4, ../../../../../../../../../../Library/Ruby/Gems/1.8/gems/toolkit-0.1.15/stylesheets/toolkit/_fluid-media.scss */
+/* line 4, ../../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/toolkit-0.1.15/stylesheets/toolkit/_fluid-media.scss */
 img {
   max-width: 100%;
   height: auto;
@@ -46,7 +46,7 @@ footer:after,
 }
 
 /* line 21, ../sass/partials/global/_extendables.scss */
-.clean-list, header ul.menu, footer ul, .logged-in .tabs.primary {
+.clean-list, header ul.menu, footer ul, .logged-in .tabs.primary, .admin-wrapper ul.menu {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -54,7 +54,7 @@ footer:after,
   list-style-image: none;
 }
 /* line 28, ../sass/partials/global/_extendables.scss */
-.clean-list li, header ul.menu li, footer ul li, .logged-in .tabs.primary li {
+.clean-list li, header ul.menu li, footer ul li, .logged-in .tabs.primary li, .admin-wrapper ul.menu li {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -1029,24 +1029,46 @@ footer .footer-fifth ul.sanne a:hover, footer .footer-fifth ul.sanne a:focus {
   background-color: #222;
   border-bottom: dotted 1px #555;
 }
+/* line 53, ../sass/partials/styleguide/modules/_admin.scss */
+.admin-wrapper ul.menu li {
+  display: inline;
+  float: left;
+  list-style-type: none;
+  list-style: none;
+  list-style-image: none;
+  background-color: #666;
+  margin-right: 4px;
+}
+/* line 62, ../sass/partials/styleguide/modules/_admin.scss */
+.admin-wrapper ul.menu li:hover {
+  background-color: #bd9b28;
+}
+/* line 66, ../sass/partials/styleguide/modules/_admin.scss */
+.admin-wrapper ul.menu li a {
+  color: #fff;
+  font-size: 0.8em;
+  display: block;
+  padding: 2px 10px;
+  text-decoration: none;
+}
 
-/* line 49, ../sass/partials/styleguide/modules/_admin.scss */
+/* line 81, ../sass/partials/styleguide/modules/_admin.scss */
 .admin-content {
   padding-top: 0.8em;
   padding-bottom: 0.8em;
 }
-/* line 53, ../sass/partials/styleguide/modules/_admin.scss */
+/* line 85, ../sass/partials/styleguide/modules/_admin.scss */
 .admin-content .admin-second {
   font-size: 1.1em;
   text-align: right;
 }
 @media (min-width: 800px) {
-  /* line 49, ../sass/partials/styleguide/modules/_admin.scss */
+  /* line 81, ../sass/partials/styleguide/modules/_admin.scss */
   .admin-content {
     padding-top: 0.3em;
     padding-bottom: 0.3em;
   }
-  /* line 62, ../sass/partials/styleguide/modules/_admin.scss */
+  /* line 94, ../sass/partials/styleguide/modules/_admin.scss */
   .admin-content .admin-second {
     font-size: 0.9em;
   }
@@ -1895,15 +1917,16 @@ form .form-submit {
 /* line 42, ../sass/partials/styleguide/modules/_webshop.scss */
 .page-webshop img {
   width: 100%;
+  max-width: 100%;
 }
-/* line 48, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 49, ../sass/partials/styleguide/modules/_webshop.scss */
 .page-webshop .webshop ul {
   margin: 0;
   padding: 0;
 }
 
 /* DESIGN */
-/* line 57, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 58, ../sass/partials/styleguide/modules/_webshop.scss */
 .webshop-detail h2 {
   color: #bd9b28;
   margin-top: 0;
@@ -1911,51 +1934,51 @@ form .form-submit {
   font-size: 1.2em;
   line-height: 0.95em;
 }
-/* line 65, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 66, ../sass/partials/styleguide/modules/_webshop.scss */
 .webshop-detail p {
   margin-top: 0;
   margin-bottom: 1.5em;
 }
-/* line 71, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 72, ../sass/partials/styleguide/modules/_webshop.scss */
 .webshop-detail .detail h1 {
   margin-bottom: 0.5em;
 }
-/* line 77, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 78, ../sass/partials/styleguide/modules/_webshop.scss */
 .webshop-detail .order .details {
   padding-left: 1.2em;
   margin-top: 0.5em;
 }
-/* line 81, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 82, ../sass/partials/styleguide/modules/_webshop.scss */
 .webshop-detail .order .details li {
   margin-bottom: 0.4em;
 }
-/* line 85, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 86, ../sass/partials/styleguide/modules/_webshop.scss */
 .webshop-detail .order .details h3 {
   font-size: 1em;
   font-weight: normal;
   margin-right: 5px;
 }
-/* line 89, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 90, ../sass/partials/styleguide/modules/_webshop.scss */
 .webshop-detail .order .details h3:after {
   content: ":";
 }
 
-/* line 97, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 98, ../sass/partials/styleguide/modules/_webshop.scss */
 .yellow-box {
   border: 2px solid #bd9b28;
   padding: 20px;
   margin-bottom: 2em;
 }
-/* line 102, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 103, ../sass/partials/styleguide/modules/_webshop.scss */
 .yellow-box .commerce-product-field-commerce-price {
   float: right;
   margin-bottom: 0.7em;
 }
-/* line 118, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 119, ../sass/partials/styleguide/modules/_webshop.scss */
 .yellow-box form .attribute-widgets > .form-item .form-radios .form-item input {
   width: 8%;
 }
-/* line 125, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 126, ../sass/partials/styleguide/modules/_webshop.scss */
 .yellow-box form input[type="submit"] {
   float: left;
   width: 100%;
@@ -2573,51 +2596,27 @@ form .form-submit {
 .page-user-orders .view-header .quantity {
   padding: 0;
 }
-
-/*
-
-.admin-wrapper {
-  ul {
-    &.menu {
-      @extend .clean-list;
-
-      li {
-        display: inline;
-        float: left;
-        list-style-type: none;
-        list-style: none;
-        list-style-image: none;
-        background-color: #666;
-
-        &:hover {
-          background-color: $yellow;
-        }
-
-        a {
-          color: #fff;
-          font-size: 0.8em;
-          display: block;
-          padding: 2px 10px;
-          text-decoration: none;
-        }
-
-
-      }
-    }
-
-
-  }
+/* line 40, ../sass/partials/styleguide/modules/_order.scss */
+.page-user-orders .entity-commerce-order .field {
+  width: 100%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  margin-bottom: 1em;
+}
+/* line 48, ../sass/partials/styleguide/modules/_order.scss */
+.page-user-orders tbody,
+.page-user-orders td,
+.page-user-orders tr {
+  border: none;
+  background: none;
 }
 
-.logged-in {
-
-  .admin-wrapper {
-    border-bottom: 1px solid #555;
-    padding-bottom: 5px;
-  }
-
+/* line 54, ../sass/partials/styleguide/modules/_order.scss */
+.field-name-commerce-order-total .commerce-price-formatted-components tr.component-type-commerce-price-formatted-amount {
+  background: none;
 }
-*/
+
 /*
  * ---------------------------------
  * LAYOUT OF THE WEBSITE
@@ -2639,7 +2638,7 @@ form .form-submit {
   padding-right: 0.5em;
   width: 100%;
 }
-/* line 38, ../../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .page-wrapper:after,
 .admin-content:after {
   content: "";
@@ -2721,13 +2720,22 @@ header .logo {
   margin-right: 1.53846%;
   display: inline;
 }
+@media (min-width: 481px) {
+  /* line 65, ../sass/partials/layout/_layout.scss */
+  header .logo {
+    width: 40.76923%;
+    float: left;
+    margin-right: 1.53846%;
+    display: inline;
+  }
+}
 @media (min-width: 800px) {
   /* line 65, ../sass/partials/layout/_layout.scss */
   header .logo {
     display: none;
   }
 }
-/* line 74, ../sass/partials/layout/_layout.scss */
+/* line 80, ../sass/partials/layout/_layout.scss */
 header nav {
   width: 100%;
   float: right;
@@ -2735,7 +2743,7 @@ header nav {
   #margin-left: -1em;
   display: inline;
 }
-/* line 77, ../sass/partials/layout/_layout.scss */
+/* line 83, ../sass/partials/layout/_layout.scss */
 header nav ul {
   width: 100%;
   float: right;
@@ -2745,12 +2753,12 @@ header nav ul {
 }
 
 /* Footer layout */
-/* line 85, ../sass/partials/layout/_layout.scss */
+/* line 91, ../sass/partials/layout/_layout.scss */
 footer .footer-first {
   display: none;
 }
 @media (min-width: 800px) {
-  /* line 85, ../sass/partials/layout/_layout.scss */
+  /* line 91, ../sass/partials/layout/_layout.scss */
   footer .footer-first {
     width: 23.84615%;
     float: left;
@@ -2758,7 +2766,7 @@ footer .footer-first {
     display: inline;
   }
 }
-/* line 93, ../sass/partials/layout/_layout.scss */
+/* line 99, ../sass/partials/layout/_layout.scss */
 footer .footer-second {
   width: 100%;
   float: right;
@@ -2767,7 +2775,7 @@ footer .footer-second {
   display: inline;
 }
 @media (min-width: 321px) {
-  /* line 93, ../sass/partials/layout/_layout.scss */
+  /* line 99, ../sass/partials/layout/_layout.scss */
   footer .footer-second {
     width: 49.23077%;
     float: left;
@@ -2776,7 +2784,7 @@ footer .footer-second {
   }
 }
 @media (min-width: 481px) {
-  /* line 93, ../sass/partials/layout/_layout.scss */
+  /* line 99, ../sass/partials/layout/_layout.scss */
   footer .footer-second {
     width: 32.30769%;
     float: left;
@@ -2785,7 +2793,7 @@ footer .footer-second {
   }
 }
 @media (min-width: 800px) {
-  /* line 93, ../sass/partials/layout/_layout.scss */
+  /* line 99, ../sass/partials/layout/_layout.scss */
   footer .footer-second {
     width: 23.84615%;
     float: left;
@@ -2793,7 +2801,7 @@ footer .footer-second {
     display: inline;
   }
 }
-/* line 109, ../sass/partials/layout/_layout.scss */
+/* line 115, ../sass/partials/layout/_layout.scss */
 footer .footer-third {
   width: 100%;
   float: left;
@@ -2801,13 +2809,13 @@ footer .footer-third {
   display: inline;
 }
 @media (min-width: 321px) {
-  /* line 109, ../sass/partials/layout/_layout.scss */
+  /* line 115, ../sass/partials/layout/_layout.scss */
   footer .footer-third {
     display: none;
   }
 }
 @media (min-width: 481px) {
-  /* line 109, ../sass/partials/layout/_layout.scss */
+  /* line 115, ../sass/partials/layout/_layout.scss */
   footer .footer-third {
     width: 32.30769%;
     float: left;
@@ -2816,7 +2824,7 @@ footer .footer-third {
   }
 }
 @media (min-width: 800px) {
-  /* line 109, ../sass/partials/layout/_layout.scss */
+  /* line 115, ../sass/partials/layout/_layout.scss */
   footer .footer-third {
     width: 23.84615%;
     float: left;
@@ -2824,7 +2832,7 @@ footer .footer-third {
     display: inline;
   }
 }
-/* line 125, ../sass/partials/layout/_layout.scss */
+/* line 131, ../sass/partials/layout/_layout.scss */
 footer .footer-fourth {
   width: 100%;
   float: left;
@@ -2832,7 +2840,7 @@ footer .footer-fourth {
   display: inline;
 }
 @media (min-width: 321px) {
-  /* line 125, ../sass/partials/layout/_layout.scss */
+  /* line 131, ../sass/partials/layout/_layout.scss */
   footer .footer-fourth {
     width: 49.23077%;
     float: right;
@@ -2842,7 +2850,7 @@ footer .footer-fourth {
   }
 }
 @media (min-width: 481px) {
-  /* line 125, ../sass/partials/layout/_layout.scss */
+  /* line 131, ../sass/partials/layout/_layout.scss */
   footer .footer-fourth {
     width: 32.30769%;
     float: right;
@@ -2852,7 +2860,7 @@ footer .footer-fourth {
   }
 }
 @media (min-width: 800px) {
-  /* line 125, ../sass/partials/layout/_layout.scss */
+  /* line 131, ../sass/partials/layout/_layout.scss */
   footer .footer-fourth {
     width: 23.84615%;
     float: right;
@@ -2861,14 +2869,14 @@ footer .footer-fourth {
     display: inline;
   }
 }
-/* line 141, ../sass/partials/layout/_layout.scss */
+/* line 147, ../sass/partials/layout/_layout.scss */
 footer .footer-fifth {
   width: 100%;
   float: left;
   margin-right: 1.53846%;
   display: inline;
 }
-/* line 144, ../sass/partials/layout/_layout.scss */
+/* line 150, ../sass/partials/layout/_layout.scss */
 footer .footer-fifth .copyright {
   width: 100%;
   float: left;
@@ -2876,7 +2884,7 @@ footer .footer-fifth .copyright {
   display: inline;
 }
 @media (min-width: 800px) {
-  /* line 144, ../sass/partials/layout/_layout.scss */
+  /* line 150, ../sass/partials/layout/_layout.scss */
   footer .footer-fifth .copyright {
     width: 74.61538%;
     float: left;
@@ -2884,7 +2892,7 @@ footer .footer-fifth .copyright {
     display: inline;
   }
 }
-/* line 152, ../sass/partials/layout/_layout.scss */
+/* line 158, ../sass/partials/layout/_layout.scss */
 footer .footer-fifth .website {
   width: 100%;
   float: right;
@@ -2893,7 +2901,7 @@ footer .footer-fifth .website {
   display: inline;
 }
 @media (min-width: 800px) {
-  /* line 152, ../sass/partials/layout/_layout.scss */
+  /* line 158, ../sass/partials/layout/_layout.scss */
   footer .footer-fifth .website {
     width: 23.84615%;
     float: right;
@@ -2904,15 +2912,15 @@ footer .footer-fifth .website {
 }
 
 /* Admin wrapper */
-/* line 164, ../sass/partials/layout/_layout.scss */
+/* line 170, ../sass/partials/layout/_layout.scss */
 .admin-wrapper {
   width: 100%;
 }
-/* line 169, ../sass/partials/layout/_layout.scss */
+/* line 175, ../sass/partials/layout/_layout.scss */
 .admin-wrapper .admin-content .admin-first {
   display: none;
 }
-/* line 172, ../sass/partials/layout/_layout.scss */
+/* line 178, ../sass/partials/layout/_layout.scss */
 .admin-wrapper .admin-content .admin-second {
   width: 100%;
   float: left;
@@ -2920,7 +2928,7 @@ footer .footer-fifth .website {
   display: inline;
 }
 @media (min-width: 481px) {
-  /* line 177, ../sass/partials/layout/_layout.scss */
+  /* line 183, ../sass/partials/layout/_layout.scss */
   .admin-wrapper .admin-content .admin-first {
     width: 100%;
     float: left;
@@ -2929,14 +2937,14 @@ footer .footer-fifth .website {
   }
 }
 @media (min-width: 800px) {
-  /* line 183, ../sass/partials/layout/_layout.scss */
+  /* line 189, ../sass/partials/layout/_layout.scss */
   .admin-wrapper .admin-content .admin-first {
     width: 83.07692%;
     float: left;
     margin-right: 1.53846%;
     display: inline;
   }
-  /* line 186, ../sass/partials/layout/_layout.scss */
+  /* line 192, ../sass/partials/layout/_layout.scss */
   .admin-wrapper .admin-content .admin-second {
     width: 15.38462%;
     float: right;
@@ -2944,7 +2952,7 @@ footer .footer-fifth .website {
     #margin-left: -1em;
     display: inline;
   }
-  /* line 189, ../sass/partials/layout/_layout.scss */
+  /* line 195, ../sass/partials/layout/_layout.scss */
   .admin-wrapper .admin-content .admin-second .line-item-summary {
     width: 100%;
     float: left;

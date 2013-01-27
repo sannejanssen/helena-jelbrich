@@ -45,6 +45,38 @@
 .admin-wrapper {
   background-color: #222;
   border-bottom: dotted 1px #555;
+
+  ul {
+    &.menu {
+      @extend .clean-list;
+
+      li {
+        display: inline;
+        float: left;
+        list-style-type: none;
+        list-style: none;
+        list-style-image: none;
+        background-color: #666;
+        margin-right: 4px;
+
+        &:hover {
+          background-color: $yellow;
+        }
+
+        a {
+          color: #fff;
+          font-size: 0.8em;
+          display: block;
+          padding: 2px 10px;
+          text-decoration: none;
+        }
+
+
+      }
+    }
+
+
+  }
 }
 .admin-content {
   padding-top: 0.8em;

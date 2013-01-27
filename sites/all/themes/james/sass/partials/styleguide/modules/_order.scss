@@ -34,4 +34,23 @@
       padding: 0;
     }
   }
+
+  .entity-commerce-order {
+
+    .field {
+      @include span-columns(12);
+      margin-bottom: 1em;
+    }
+  }
+
+  tbody,
+  td,
+  tr {
+    border: none;
+    background: none;
+  }
+}
+
+.field-name-commerce-order-total .commerce-price-formatted-components tr.component-type-commerce-price-formatted-amount {
+  background: none;
 }
