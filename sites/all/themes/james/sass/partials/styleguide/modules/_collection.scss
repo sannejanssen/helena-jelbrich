@@ -127,7 +127,9 @@
 
       a {
         float: left;
-        
+        display: block;
+        line-height: 0;
+
         img {
           float: left;
         }        
@@ -147,6 +149,16 @@
 
       .image {
         a {
+          background-color: $yellow;
+          // background-color: red;
+
+          img {
+            zoom: 1;
+            filter: alpha(opacity=50);
+            opacity: 0.5;
+          }
+
+          /*
           &::after {
             content: " ";
             width: 100%;
@@ -158,6 +170,7 @@
             background-repeat: no-repeat;
             background-position: center;
           }
+          */
         }
       }
     }

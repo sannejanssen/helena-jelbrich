@@ -1177,16 +1177,18 @@ form .form-submit {
 /* line 128, ../sass/partials/styleguide/modules/_collection.scss */
 .collection .album .image a, .page-webshop .webshop .album .image a {
   float: left;
+  display: block;
+  line-height: 0;
 }
-/* line 131, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 133, ../sass/partials/styleguide/modules/_collection.scss */
 .collection .album .image a img, .page-webshop .webshop .album .image a img {
   float: left;
 }
-/* line 138, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 140, ../sass/partials/styleguide/modules/_collection.scss */
 .collection .album:hover, .page-webshop .webshop .album:hover, .collection .album:focus, .page-webshop .webshop .album:focus {
   cursor: pointer;
 }
-/* line 144, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 146, ../sass/partials/styleguide/modules/_collection.scss */
 .collection .album:hover a, .page-webshop .webshop .album:hover a,
 .collection .album:hover a:link,
 .page-webshop .webshop .album:hover a:link,
@@ -1202,20 +1204,31 @@ form .form-submit {
 .page-webshop .webshop .album:focus a:active {
   color: #bd9b28;
 }
-/* line 150, ../sass/partials/styleguide/modules/_collection.scss */
-.collection .album:hover .image a::after, .page-webshop .webshop .album:hover .image a::after, .collection .album:focus .image a::after, .page-webshop .webshop .album:focus .image a::after {
-  content: " ";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-image: url(../img/album-hover5.png);
-  background-repeat: no-repeat;
-  background-position: center;
+/* line 151, ../sass/partials/styleguide/modules/_collection.scss */
+.collection .album:hover .image a, .page-webshop .webshop .album:hover .image a, .collection .album:focus .image a, .page-webshop .webshop .album:focus .image a {
+  background-color: #bd9b28;
+  /*
+  &::after {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../img/album-hover5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  */
+}
+/* line 155, ../sass/partials/styleguide/modules/_collection.scss */
+.collection .album:hover .image a img, .page-webshop .webshop .album:hover .image a img, .collection .album:focus .image a img, .page-webshop .webshop .album:focus .image a img {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
 }
 
-/* line 167, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 180, ../sass/partials/styleguide/modules/_collection.scss */
 #slider {
   position: relative;
   list-style: none;
@@ -1224,7 +1237,7 @@ form .form-submit {
   padding: 0;
   margin: 0;
 }
-/* line 175, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 188, ../sass/partials/styleguide/modules/_collection.scss */
 #slider li {
   position: absolute;
   display: none;
@@ -1233,19 +1246,19 @@ form .form-submit {
   top: 0;
   text-align: center;
 }
-/* line 183, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 196, ../sass/partials/styleguide/modules/_collection.scss */
 #slider li:first-child {
   position: relative;
   display: block;
   float: left;
 }
-/* line 189, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 202, ../sass/partials/styleguide/modules/_collection.scss */
 #slider li img {
   height: auto;
   max-width: 100%;
   border: 0;
 }
-/* line 196, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 209, ../sass/partials/styleguide/modules/_collection.scss */
 #slider .caption {
   width: 100%;
   float: left;
@@ -1263,18 +1276,18 @@ form .form-submit {
   background-color: #222;
   opacity: 0.7;
 }
-/* line 211, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 224, ../sass/partials/styleguide/modules/_collection.scss */
 #slider .caption .label-inline {
   display: inline;
 }
-/* line 215, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 228, ../sass/partials/styleguide/modules/_collection.scss */
 #slider .caption .left-caption {
   width: 66.10169%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 218, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 231, ../sass/partials/styleguide/modules/_collection.scss */
 #slider .caption .left-caption .juwels {
   width: 100%;
   float: left;
@@ -1282,7 +1295,7 @@ form .form-submit {
   display: inline;
   margin-bottom: 0.3em;
 }
-/* line 224, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 237, ../sass/partials/styleguide/modules/_collection.scss */
 #slider .caption .photographer {
   width: 32.20339%;
   float: right;
@@ -1292,12 +1305,12 @@ form .form-submit {
   text-align: right;
 }
 
-/* line 231, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 244, ../sass/partials/styleguide/modules/_collection.scss */
 .slideshow {
   position: relative;
   display: block;
 }
-/* line 236, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 249, ../sass/partials/styleguide/modules/_collection.scss */
 .slideshow .prev,
 .slideshow .next {
   position: absolute;
@@ -1310,12 +1323,12 @@ form .form-submit {
   text-indent: -99999px;
   overflow: hidden;
 }
-/* line 249, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 262, ../sass/partials/styleguide/modules/_collection.scss */
 .slideshow .prev {
   left: 10px;
   background-position: 10px 50%;
 }
-/* line 255, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 268, ../sass/partials/styleguide/modules/_collection.scss */
 .slideshow .next {
   right: 10px;
   background-position: -37px 50%;
