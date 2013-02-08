@@ -31,6 +31,7 @@
         <span>winkelmandje</span> <span class="line-item-quantity-raw">(<?php print $quantity_raw; ?>)</span>
       </a>
     <?php endif; ?>
+    <?php print $links; ?>
   </div>
 
 <?php else : ?>

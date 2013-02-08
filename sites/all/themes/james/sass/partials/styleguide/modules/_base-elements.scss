@@ -152,14 +152,17 @@ header {
         display: block !important;
         float: left;
         width: 13%;
-        height: 125px;
+        /* height: 125px; */
         border: none;
         background-color: #000;
 
         a {
           padding: 0;
           height: auto;
-          margin-top: 51px;
+          /* margin-top: 51px;
+          background-color: red; */
+          padding-top: 2.14em;
+          padding-bottom: 2em;
         }
 
         &.first {
@@ -190,6 +193,7 @@ header {
             text-indent: -9999px;
             margin-top: 0;
             height: 125px;
+            padding: 0;
           }
 
         }

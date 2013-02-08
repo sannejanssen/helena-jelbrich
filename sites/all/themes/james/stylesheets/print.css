@@ -1,33 +1,33 @@
-/* line 8, ../../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/toolkit-0.1.15/stylesheets/toolkit/_border-box.scss */
+/* line 8, /Library/Ruby/Gems/1.8/gems/toolkit-0.1.15/stylesheets/toolkit/_border-box.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 4, ../../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/toolkit-0.1.15/stylesheets/toolkit/_fluid-media.scss */
+/* line 4, /Library/Ruby/Gems/1.8/gems/toolkit-0.1.15/stylesheets/toolkit/_fluid-media.scss */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* line 8, ../sass/partials/global/_extendables.scss */
+/* line 8, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/global/_extendables.scss */
 .clearfix, .mailchimp #mailchimp-newsletter-nieuwsbrief, .yellow-box form {
   zoom: 1;
 }
-/* line 10, ../sass/partials/global/_extendables.scss */
+/* line 10, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/global/_extendables.scss */
 .clearfix:before, .mailchimp #mailchimp-newsletter-nieuwsbrief:before, .yellow-box form:before, .clearfix:after, .mailchimp #mailchimp-newsletter-nieuwsbrief:after, .yellow-box form:after {
   content: "\0020";
   display: block;
   height: 0;
   overflow: hidden;
 }
-/* line 16, ../sass/partials/global/_extendables.scss */
+/* line 16, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/global/_extendables.scss */
 .clearfix:after, .mailchimp #mailchimp-newsletter-nieuwsbrief:after, .yellow-box form:after {
   clear: both;
 }
 
-/* line 21, ../sass/partials/global/_extendables.scss */
+/* line 21, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/global/_extendables.scss */
 .clean-list, header ul.menu, footer ul, .logged-in .tabs.primary, .admin-wrapper ul.menu {
   margin: 0;
   padding: 0;
@@ -35,7 +35,7 @@ img {
   list-style-type: none;
   list-style-image: none;
 }
-/* line 28, ../sass/partials/global/_extendables.scss */
+/* line 28, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/global/_extendables.scss */
 .clean-list li, header ul.menu li, footer ul li, .logged-in .tabs.primary li, .admin-wrapper ul.menu li {
   margin: 0;
   padding: 0;
@@ -44,7 +44,7 @@ img {
   list-style-image: none;
 }
 
-/* line 37, ../sass/partials/global/_extendables.scss */
+/* line 37, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/global/_extendables.scss */
 .element-invisible, .page-nieuws h1, .page-collecties h1, .page-webshop h1, .yellow-box form .attribute-widgets > .form-item > label {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -62,7 +62,7 @@ img {
 }
 
 @media (min-width: 800px) {
-  /* line 41, ../sass/partials/global/_base.scss */
+  /* line 41, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/global/_base.scss */
   p {
     font-size: 0.9em;
   }
@@ -75,14 +75,14 @@ img {
  * ---------------------------------
  */
 /* body styling */
-/* line 8, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 8, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 body {
   background-color: black;
   color: white;
 }
 
 /* Links */
-/* line 17, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 17, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 a,
 a:active,
 a:link,
@@ -91,24 +91,24 @@ a:visited {
   text-decoration: none;
 }
 
-/* line 23, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 23, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 a:hover,
 a:focus {
   text-decoration: underline;
 }
 
-/* line 27, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 27, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 h1 {
   color: #bd9b28;
 }
 
-/* line 31, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 31, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 .display-inline {
   display: inline;
 }
 
 /* Page elements */
-/* line 36, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 36, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 .page-wrapper {
   margin: 0 auto;
   font-family: Arial, sans-serif;
@@ -118,39 +118,39 @@ h1 {
   position: relative;
 }
 
-/* line 45, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 45, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 .content-wrapper {
   border-bottom: 2px solid #fff;
   border-top: 2px solid #fff;
   padding: 25px 0px;
 }
 @media (min-width: 481px) {
-  /* line 45, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 45, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   .content-wrapper {
     padding: 15px 0px;
   }
 }
 @media (min-width: 800px) {
-  /* line 45, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 45, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   .content-wrapper {
     padding: 30px 0px;
   }
 }
 
 /* fixed padding on frontpage */
-/* line 61, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 61, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 .front .content-wrapper {
   padding: 10px 0px;
 }
 
 /* header styling */
-/* line 67, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 67, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 header {
   font-family: 'FuturaBTLight';
   font-size: 1.5em;
   position: relative;
 }
-/* line 72, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 72, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 header ul.menu {
   position: relative;
   right: 0px;
@@ -158,12 +158,12 @@ header ul.menu {
   margin-bottom: 10px;
 }
 @media (min-width: 321px) {
-  /* line 72, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 72, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   header ul.menu {
     top: -20px;
   }
 }
-/* line 83, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 83, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 header ul.menu li {
   display: block;
   text-align: right;
@@ -171,15 +171,15 @@ header ul.menu li {
   background-color: #222;
   border-top: 1px solid #444;
 }
-/* line 93, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 93, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 header ul.menu li:hover a, header ul.menu li:focus a, header ul.menu li.active-trail a {
   color: #bd9b28;
 }
-/* line 98, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 98, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 header ul.menu li.first {
   margin-top: 20px;
 }
-/* line 102, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 102, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 header ul.menu li a {
   display: block;
   text-align: center;
@@ -190,7 +190,7 @@ header ul.menu li a {
   text-decoration: none;
   font-size: 1.3em;
 }
-/* line 113, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 113, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 header ul.menu li#navigationtoggle {
   background-image: url("../img/mobile_nav.png");
   background-image: none, url("../img/mobile_nav.svg"), url("../img/mobile_nav.png");
@@ -205,65 +205,68 @@ header ul.menu li#navigationtoggle {
   top: -60px;
   right: 0px;
 }
-/* line 127, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 127, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 header ul.menu li#navigationtoggle a {
   margin-right: 30px;
 }
-/* line 132, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 132, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 header ul.menu li.home {
   display: none;
   border: none;
 }
-/* line 135, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 135, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 header ul.menu li.home a {
   display: none;
 }
 @media (min-width: 800px) {
-  /* line 67, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 67, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   header {
     font-size: 1.2em;
   }
-  /* line 145, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 145, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   header ul.menu {
     position: static;
     right: 0px;
     top: 0px;
     margin-bottom: 0px;
   }
-  /* line 151, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 151, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   header ul.menu li {
     display: block !important;
     float: left;
     width: 13%;
-    height: 125px;
+    /* height: 125px; */
     border: none;
     background-color: #000;
   }
-  /* line 159, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 159, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   header ul.menu li a {
     padding: 0;
     height: auto;
-    margin-top: 51px;
+    /* margin-top: 51px;
+    background-color: red; */
+    padding-top: 2.14em;
+    padding-bottom: 2em;
   }
-  /* line 165, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 168, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   header ul.menu li.first {
     margin-top: 0px;
     text-align: left;
     width: 12%;
   }
-  /* line 169, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 172, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   header ul.menu li.first a {
     text-align: left;
   }
-  /* line 174, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 177, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   header ul.menu li.last {
     width: 10%;
   }
-  /* line 176, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 179, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   header ul.menu li.last a {
     text-align: right;
   }
-  /* line 181, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 184, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   header ul.menu li.home {
     display: block;
     width: 26%;
@@ -272,26 +275,27 @@ header ul.menu li.home a {
     background-repeat: no-repeat;
     background-size: 100%;
   }
-  /* line 188, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 191, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   header ul.menu li.home a {
     display: block;
     text-indent: -9999px;
     margin-top: 0;
     height: 125px;
+    padding: 0;
   }
-  /* line 197, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 201, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   header ul.menu li#navigationtoggle {
     display: none;
     top: -1000px;
   }
-  /* line 200, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 204, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   header ul.menu li#navigationtoggle a {
     display: none;
   }
 }
 
 /* Footer theming */
-/* line 214, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 218, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 footer .footer-first,
 footer .footer-second,
 footer .footer-third,
@@ -300,7 +304,7 @@ footer .footer-fourth {
   border-bottom: 1px solid #626262;
 }
 @media (min-width: 321px) {
-  /* line 214, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 218, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   footer .footer-first,
   footer .footer-second,
   footer .footer-third,
@@ -308,7 +312,7 @@ footer .footer-fourth {
     border: none;
   }
 }
-/* line 226, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 230, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 footer a,
 footer a:active,
 footer a:link,
@@ -316,12 +320,12 @@ footer a:visited {
   color: #aaaaaa;
   text-decoration: none;
 }
-/* line 232, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 236, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 footer a:hover,
 footer a:focus {
   text-decoration: underline;
 }
-/* line 236, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 240, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 footer h2 {
   color: #bd9b28;
   font-weight: normal;
@@ -330,97 +334,97 @@ footer h2 {
   font-size: 1em;
 }
 @media (min-width: 800px) {
-  /* line 236, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 240, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   footer h2 {
     font-size: 0.95em;
     margin-top: 0.8em;
   }
 }
-/* line 249, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 253, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 footer ul {
   line-height: 1.5em;
   color: #aaaaaa;
 }
-/* line 255, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 259, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 footer ul li a {
   text-decoration: none;
   color: #aaaaaa;
 }
-/* line 260, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 264, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 footer ul li a:hover, footer ul li a:focus {
   text-decoration: underline;
 }
 @media (min-width: 800px) {
-  /* line 249, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 253, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   footer ul {
     font-size: 0.8em;
   }
 }
-/* line 271, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 275, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 footer .footer-fifth {
   padding-top: 10px;
 }
-/* line 275, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 279, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 footer .footer-fifth ul li {
   text-align: left;
   color: #626262;
   margin-bottom: 3px;
 }
-/* line 280, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 284, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 footer .footer-fifth ul li a {
   color: #626262;
 }
-/* line 287, ../sass/partials/styleguide/modules/_base-elements.scss */
+/* line 291, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
 footer .footer-fifth ul.sanne a:hover, footer .footer-fifth ul.sanne a:focus {
   color: #cc2229;
 }
 @media (min-width: 481px) {
-  /* line 294, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 298, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   footer .footer-fifth ul li {
     float: left;
     margin-right: 5px;
   }
-  /* line 298, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 302, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   footer .footer-fifth ul li:after {
     content: '|';
     padding-left: 5px;
   }
-  /* line 303, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 307, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   footer .footer-fifth ul li.last {
     margin-right: 0px;
   }
-  /* line 306, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 310, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   footer .footer-fifth ul li.last:after {
     content: '';
   }
-  /* line 314, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 318, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   footer .footer-fifth ul.sanne li:after {
     content: '';
   }
 }
 @media (min-width: 800px) {
-  /* line 322, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 326, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   footer .footer-fifth ul li {
     float: left;
     margin-right: 5px;
   }
-  /* line 326, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 330, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   footer .footer-fifth ul li.last {
     margin-right: 0px;
   }
-  /* line 329, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 333, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   footer .footer-fifth ul li.last:after {
     content: '';
   }
-  /* line 335, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 339, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   footer .footer-fifth ul.sanne {
     float: right;
   }
-  /* line 338, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 342, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   footer .footer-fifth ul.sanne li {
     margin-right: 0;
   }
-  /* line 340, ../sass/partials/styleguide/modules/_base-elements.scss */
+  /* line 344, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_base-elements.scss */
   footer .footer-fifth ul.sanne li:after {
     content: '';
   }
@@ -432,7 +436,7 @@ footer .footer-fifth ul.sanne a:hover, footer .footer-fifth ul.sanne a:focus {
  * STYLING OF THE ADMIN ELEMENTS
  * ---------------------------------
  */
-/* line 10, ../sass/partials/styleguide/modules/_admin.scss */
+/* line 10, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_admin.scss */
 .logged-in .tabs.primary {
   position: absolute;
   top: 100px;
@@ -440,7 +444,7 @@ footer .footer-fifth ul.sanne a:hover, footer .footer-fifth ul.sanne a:focus {
   float: right;
   overflow: hidden;
 }
-/* line 19, ../sass/partials/styleguide/modules/_admin.scss */
+/* line 19, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_admin.scss */
 .logged-in .tabs.primary li {
   float: left;
   display: block;
@@ -451,11 +455,11 @@ footer .footer-fifth ul.sanne a:hover, footer .footer-fifth ul.sanne a:focus {
   border-radius: 3px;
   margin-left: 10px;
 }
-/* line 30, ../sass/partials/styleguide/modules/_admin.scss */
+/* line 30, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_admin.scss */
 .logged-in .tabs.primary li:hover, .logged-in .tabs.primary li.active {
   background-color: #aaa;
 }
-/* line 34, ../sass/partials/styleguide/modules/_admin.scss */
+/* line 34, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_admin.scss */
 .logged-in .tabs.primary li a {
   margin: 3px 10px;
   color: #333;
@@ -463,12 +467,12 @@ footer .footer-fifth ul.sanne a:hover, footer .footer-fifth ul.sanne a:focus {
   font-size: 0.9em;
 }
 
-/* line 45, ../sass/partials/styleguide/modules/_admin.scss */
+/* line 45, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_admin.scss */
 .admin-wrapper {
   background-color: #222;
   border-bottom: dotted 1px #555;
 }
-/* line 53, ../sass/partials/styleguide/modules/_admin.scss */
+/* line 53, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_admin.scss */
 .admin-wrapper ul.menu li {
   display: inline;
   float: left;
@@ -478,11 +482,11 @@ footer .footer-fifth ul.sanne a:hover, footer .footer-fifth ul.sanne a:focus {
   background-color: #666;
   margin-right: 4px;
 }
-/* line 62, ../sass/partials/styleguide/modules/_admin.scss */
+/* line 62, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_admin.scss */
 .admin-wrapper ul.menu li:hover {
   background-color: #bd9b28;
 }
-/* line 66, ../sass/partials/styleguide/modules/_admin.scss */
+/* line 66, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_admin.scss */
 .admin-wrapper ul.menu li a {
   color: #fff;
   font-size: 0.8em;
@@ -491,23 +495,23 @@ footer .footer-fifth ul.sanne a:hover, footer .footer-fifth ul.sanne a:focus {
   text-decoration: none;
 }
 
-/* line 81, ../sass/partials/styleguide/modules/_admin.scss */
+/* line 81, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_admin.scss */
 .admin-content {
   padding-top: 0.8em;
   padding-bottom: 0.8em;
 }
-/* line 85, ../sass/partials/styleguide/modules/_admin.scss */
+/* line 85, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_admin.scss */
 .admin-content .admin-second {
   font-size: 1.1em;
   text-align: right;
 }
 @media (min-width: 800px) {
-  /* line 81, ../sass/partials/styleguide/modules/_admin.scss */
+  /* line 81, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_admin.scss */
   .admin-content {
     padding-top: 0.3em;
     padding-bottom: 0.3em;
   }
-  /* line 94, ../sass/partials/styleguide/modules/_admin.scss */
+  /* line 94, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_admin.scss */
   .admin-content .admin-second {
     font-size: 0.9em;
   }
@@ -520,21 +524,21 @@ footer .footer-fifth ul.sanne a:hover, footer .footer-fifth ul.sanne a:focus {
  * ---------------------------------
  */
 @media (min-width: 800px) {
-  /* line 7, ../sass/partials/styleguide/modules/_forms.scss */
+  /* line 7, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_forms.scss */
   form {
     font-size: 0.9em;
   }
 }
-/* line 12, ../sass/partials/styleguide/modules/_forms.scss */
+/* line 12, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_forms.scss */
 form .form-item {
   margin-bottom: 10px;
 }
-/* line 15, ../sass/partials/styleguide/modules/_forms.scss */
+/* line 15, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_forms.scss */
 form .form-item label {
   font-weight: normal;
   margin-bottom: 0.2em;
 }
-/* line 21, ../sass/partials/styleguide/modules/_forms.scss */
+/* line 21, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_forms.scss */
 form .form-item input,
 form .form-item textarea {
   border: 1px solid #959595;
@@ -542,22 +546,22 @@ form .form-item textarea {
   padding: 10px 5px;
   color: #fff;
 }
-/* line 27, ../sass/partials/styleguide/modules/_forms.scss */
+/* line 27, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_forms.scss */
 form .form-item input.error,
 form .form-item textarea.error {
   border-color: red;
 }
-/* line 32, ../sass/partials/styleguide/modules/_forms.scss */
+/* line 32, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_forms.scss */
 form .form-item select {
   border: 1px solid #959595;
   padding: 10px 5px;
   margin-bottom: 10px;
 }
-/* line 37, ../sass/partials/styleguide/modules/_forms.scss */
+/* line 37, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_forms.scss */
 form .form-item select.error {
   border-color: red;
 }
-/* line 46, ../sass/partials/styleguide/modules/_forms.scss */
+/* line 46, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_forms.scss */
 form input[typ="submit"],
 form .form-submit {
   margin-top: 10px;
@@ -577,29 +581,29 @@ form .form-submit {
  * STYLING OF THE MAILCHIMP FORM
  * ---------------------------------
  */
-/* line 7, ../sass/partials/styleguide/modules/_mailchimp.scss */
+/* line 7, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_mailchimp.scss */
 .mailchimp {
   /* Tooltip styling */
 }
-/* line 9, ../sass/partials/styleguide/modules/_mailchimp.scss */
+/* line 9, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_mailchimp.scss */
 .mailchimp #mailchimp-newsletter-nieuwsbrief {
   width: 85%;
   float: left;
   /* Hide mailchimp title */
 }
-/* line 15, ../sass/partials/styleguide/modules/_mailchimp.scss */
+/* line 15, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_mailchimp.scss */
 .mailchimp #mailchimp-newsletter-nieuwsbrief #edit-mailchimp-lists-mailchimp-nieuwsbrief-title {
   display: none;
 }
-/* line 19, ../sass/partials/styleguide/modules/_mailchimp.scss */
+/* line 19, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_mailchimp.scss */
 .mailchimp #mailchimp-newsletter-nieuwsbrief .form-type-textfield {
   /* Hide form labels */
 }
-/* line 22, ../sass/partials/styleguide/modules/_mailchimp.scss */
+/* line 22, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_mailchimp.scss */
 .mailchimp #mailchimp-newsletter-nieuwsbrief .form-type-textfield label {
   display: none;
 }
-/* line 29, ../sass/partials/styleguide/modules/_mailchimp.scss */
+/* line 29, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_mailchimp.scss */
 .mailchimp input#edit-submit {
   display: block;
   background: none;
@@ -615,18 +619,18 @@ form .form-submit {
   margin-top: 61px;
 }
 @media (min-width: 481px) {
-  /* line 29, ../sass/partials/styleguide/modules/_mailchimp.scss */
+  /* line 29, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_mailchimp.scss */
   .mailchimp input#edit-submit {
     margin-top: 59px;
   }
 }
 @media (min-width: 481px) {
-  /* line 29, ../sass/partials/styleguide/modules/_mailchimp.scss */
+  /* line 29, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_mailchimp.scss */
   .mailchimp input#edit-submit {
     margin-top: 56px;
   }
 }
-/* line 54, ../sass/partials/styleguide/modules/_mailchimp.scss */
+/* line 54, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_mailchimp.scss */
 .mailchimp #subscribe-tooltip {
   color: #999;
   font-size: 0.8em;
@@ -639,7 +643,7 @@ form .form-submit {
  * STYLING OF THE DEFAULT INFO PAGE
  * ---------------------------------
  */
-/* line 8, ../sass/partials/styleguide/modules/_info.scss */
+/* line 8, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_info.scss */
 .node-type-info .image {
   width: 100%;
   float: left;
@@ -647,7 +651,7 @@ form .form-submit {
   display: inline;
 }
 @media (min-width: 321px) {
-  /* line 8, ../sass/partials/styleguide/modules/_info.scss */
+  /* line 8, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_info.scss */
   .node-type-info .image {
     width: 32.20339%;
     float: left;
@@ -655,7 +659,7 @@ form .form-submit {
     display: inline;
   }
 }
-/* line 16, ../sass/partials/styleguide/modules/_info.scss */
+/* line 16, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_info.scss */
 .node-type-info .text {
   width: 100%;
   float: left;
@@ -663,7 +667,7 @@ form .form-submit {
   display: inline;
 }
 @media (min-width: 321px) {
-  /* line 16, ../sass/partials/styleguide/modules/_info.scss */
+  /* line 16, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_info.scss */
   .node-type-info .text {
     width: 66.10169%;
     float: right;
@@ -672,12 +676,12 @@ form .form-submit {
     display: inline;
   }
 }
-/* line 23, ../sass/partials/styleguide/modules/_info.scss */
+/* line 23, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_info.scss */
 .node-type-info .text p {
   margin: 0;
   margin-bottom: 0.75em;
 }
-/* line 28, ../sass/partials/styleguide/modules/_info.scss */
+/* line 28, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_info.scss */
 .node-type-info .text h2 {
   color: #bd9b28;
   font-size: 1em;
@@ -690,7 +694,7 @@ form .form-submit {
  * STYLING OF THE CONTACT PAGE
  * ---------------------------------
  */
-/* line 9, ../sass/partials/styleguide/modules/_contact.scss */
+/* line 9, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_contact.scss */
 .contact .form-item {
   width: 100%;
   float: right;
@@ -698,7 +702,7 @@ form .form-submit {
   #margin-left: -1em;
   display: inline;
 }
-/* line 14, ../sass/partials/styleguide/modules/_contact.scss */
+/* line 14, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_contact.scss */
 .contact .form-item label,
 .contact .form-item input,
 .contact .form-item .form-textarea-wrapper {
@@ -709,14 +713,14 @@ form .form-submit {
   display: inline;
 }
 @media (min-width: 481px) {
-  /* line 19, ../sass/partials/styleguide/modules/_contact.scss */
+  /* line 19, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_contact.scss */
   .contact .form-item label {
     width: 23.07692%;
     float: left;
     margin-right: 2.5641%;
     display: inline;
   }
-  /* line 23, ../sass/partials/styleguide/modules/_contact.scss */
+  /* line 23, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_contact.scss */
   .contact .form-item input,
   .contact .form-item .form-textarea-wrapper {
     width: 74.35897%;
@@ -726,7 +730,7 @@ form .form-submit {
     display: inline;
   }
 }
-/* line 29, ../sass/partials/styleguide/modules/_contact.scss */
+/* line 29, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_contact.scss */
 .contact h1 {
   font-size: 0.95em;
   color: #bd9b28;
@@ -734,49 +738,49 @@ form .form-submit {
   margin-bottom: 1em;
   line-height: 2em;
 }
-/* line 37, ../sass/partials/styleguide/modules/_contact.scss */
+/* line 37, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_contact.scss */
 .contact h2 {
   font-size: 0.95em;
   color: #bd9b28;
   margin-top: 0;
 }
 
-/* line 46, ../sass/partials/styleguide/modules/_contact.scss */
+/* line 46, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_contact.scss */
 .contact-info {
   margin-top: 20px;
 }
 @media (min-width: 800px) {
-  /* line 46, ../sass/partials/styleguide/modules/_contact.scss */
+  /* line 46, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_contact.scss */
   .contact-info {
     margin-top: 0;
   }
 }
-/* line 53, ../sass/partials/styleguide/modules/_contact.scss */
+/* line 53, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_contact.scss */
 .contact-info h2 {
   color: #bd9b28;
   font-size: 0.95em;
   margin: 0;
 }
-/* line 59, ../sass/partials/styleguide/modules/_contact.scss */
+/* line 59, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_contact.scss */
 .contact-info h3 {
   color: #bd9b28;
   font-size: 0.95em;
   font-weight: normal;
   margin-bottom: 0;
 }
-/* line 66, ../sass/partials/styleguide/modules/_contact.scss */
+/* line 66, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_contact.scss */
 .contact-info p {
   margin: 0;
   font-size: 0.95em;
 }
-/* line 70, ../sass/partials/styleguide/modules/_contact.scss */
+/* line 70, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_contact.scss */
 .contact-info p span {
   width: 21.05263%;
   float: left;
   margin-right: 5.26316%;
   display: inline;
 }
-/* line 77, ../sass/partials/styleguide/modules/_contact.scss */
+/* line 77, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_contact.scss */
 .contact-info p a,
 .contact-info p a:active,
 .contact-info p a:link,
@@ -790,33 +794,33 @@ form .form-submit {
  * STYLING OF THE NEWS PAGE
  * ---------------------------------
  */
-/* line 13, ../sass/partials/styleguide/modules/_news.scss */
+/* line 13, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
 .news {
   border-bottom: 1px solid #626262;
   padding-bottom: 4%;
   margin-bottom: 4%;
 }
-/* line 18, ../sass/partials/styleguide/modules/_news.scss */
+/* line 18, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
 .news .image {
   overflow: hidden;
   height: 150px;
 }
-/* line 22, ../sass/partials/styleguide/modules/_news.scss */
+/* line 22, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
 .news .image img {
   margin-top: -90px;
 }
-/* line 28, ../sass/partials/styleguide/modules/_news.scss */
+/* line 28, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
 .news .text h2 {
   margin: 0.5em 0 0.5em 0;
   line-height: 1.3em;
 }
-/* line 33, ../sass/partials/styleguide/modules/_news.scss */
+/* line 33, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
 .news .text p {
   margin: 0;
   margin-bottom: 0.5em;
 }
 @media (min-width: 321px) {
-  /* line 40, ../sass/partials/styleguide/modules/_news.scss */
+  /* line 40, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
   .news .image {
     width: 35.89744%;
     float: left;
@@ -825,11 +829,11 @@ form .form-submit {
     overflow: visible;
     height: 100%;
   }
-  /* line 45, ../sass/partials/styleguide/modules/_news.scss */
+  /* line 45, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
   .news .image img {
     margin: 0;
   }
-  /* line 50, ../sass/partials/styleguide/modules/_news.scss */
+  /* line 50, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
   .news .text {
     width: 61.53846%;
     float: right;
@@ -837,20 +841,20 @@ form .form-submit {
     #margin-left: -1em;
     display: inline;
   }
-  /* line 53, ../sass/partials/styleguide/modules/_news.scss */
+  /* line 53, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
   .news .text h2 {
     margin-top: 0;
   }
 }
 @media (min-width: 800px) {
-  /* line 60, ../sass/partials/styleguide/modules/_news.scss */
+  /* line 60, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
   .news .image {
     width: 48.71795%;
     float: left;
     margin-right: 2.5641%;
     display: inline;
   }
-  /* line 64, ../sass/partials/styleguide/modules/_news.scss */
+  /* line 64, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
   .news .text {
     width: 48.71795%;
     float: right;
@@ -860,72 +864,72 @@ form .form-submit {
   }
 }
 
-/* line 72, ../sass/partials/styleguide/modules/_news.scss */
+/* line 72, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
 .sidebar h2 {
   color: #bd9b28;
   font-size: 1.2em;
   margin: 0;
   font-weight: normal;
 }
-/* line 79, ../sass/partials/styleguide/modules/_news.scss */
+/* line 79, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
 .sidebar .links {
   margin-bottom: 20px;
   line-height: 1.3em;
 }
-/* line 83, ../sass/partials/styleguide/modules/_news.scss */
+/* line 83, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
 .sidebar .links ul {
   margin: 0;
   padding-left: 17px;
 }
-/* line 87, ../sass/partials/styleguide/modules/_news.scss */
+/* line 87, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
 .sidebar .links ul li {
   list-style-type: square;
   margin-bottom: 0.7em;
 }
-/* line 91, ../sass/partials/styleguide/modules/_news.scss */
+/* line 91, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
 .sidebar .links ul li a {
   display: inline-block;
   width: 100%;
   color: #fff;
 }
-/* line 98, ../sass/partials/styleguide/modules/_news.scss */
+/* line 98, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
 .sidebar .links ul li a:visited, .sidebar .links ul li a:active, .sidebar .links ul li a:link {
   color: #fff;
   text-decoration: none;
 }
-/* line 104, ../sass/partials/styleguide/modules/_news.scss */
+/* line 104, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
 .sidebar .links ul li a:focus, .sidebar .links ul li a:hover {
   text-decoration: underline;
   color: #bd9b28;
 }
-/* line 111, ../sass/partials/styleguide/modules/_news.scss */
+/* line 111, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
 .sidebar .links ul li span {
   color: #ccc;
   font-size: 0.85em;
   line-height: 1em;
 }
-/* line 116, ../sass/partials/styleguide/modules/_news.scss */
+/* line 116, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
 .sidebar .links ul li span span {
   font-size: 1em;
 }
-/* line 120, ../sass/partials/styleguide/modules/_news.scss */
+/* line 120, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
 .sidebar .links ul li span.stroke {
   margin-left: 5px;
   margin-right: 5px;
 }
-/* line 125, ../sass/partials/styleguide/modules/_news.scss */
+/* line 125, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
 .sidebar .links ul li span.file {
   font-size: 1em;
 }
 @media (min-width: 321px) {
-  /* line 134, ../sass/partials/styleguide/modules/_news.scss */
+  /* line 134, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
   .sidebar .block {
     width: 47.36842%;
     float: left;
     margin-right: 5.26316%;
     display: inline;
   }
-  /* line 137, ../sass/partials/styleguide/modules/_news.scss */
+  /* line 137, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
   .sidebar .block:nth-child(2) {
     width: 47.36842%;
     float: right;
@@ -935,11 +939,11 @@ form .form-submit {
   }
 }
 @media (min-width: 800px) {
-  /* line 144, ../sass/partials/styleguide/modules/_news.scss */
+  /* line 144, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
   .sidebar h2 {
     font-size: 0.95em;
   }
-  /* line 148, ../sass/partials/styleguide/modules/_news.scss */
+  /* line 148, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
   .sidebar .block {
     width: 100%;
     float: right;
@@ -947,7 +951,7 @@ form .form-submit {
     #margin-left: -1em;
     display: inline;
   }
-  /* line 151, ../sass/partials/styleguide/modules/_news.scss */
+  /* line 151, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
   .sidebar .block:nth-child(2) {
     width: 100%;
     float: right;
@@ -955,19 +959,19 @@ form .form-submit {
     #margin-left: -1em;
     display: inline;
   }
-  /* line 157, ../sass/partials/styleguide/modules/_news.scss */
+  /* line 157, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
   .sidebar .block ul li a {
     font-size: 0.95em;
   }
-  /* line 161, ../sass/partials/styleguide/modules/_news.scss */
+  /* line 161, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
   .sidebar .block ul li span {
     font-size: 0.75em;
   }
-  /* line 163, ../sass/partials/styleguide/modules/_news.scss */
+  /* line 163, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
   .sidebar .block ul li span span {
     font-size: 1em;
   }
-  /* line 167, ../sass/partials/styleguide/modules/_news.scss */
+  /* line 167, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_news.scss */
   .sidebar .block ul li span.file {
     font-size: 1em;
   }
@@ -979,20 +983,20 @@ form .form-submit {
  * STYLING OF THE COLLECTION PAGE
  * ---------------------------------
  */
-/* line 11, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 11, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
 .page-collecties img {
   width: 100%;
 }
 
 /* album covers layout */
-/* line 16, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 16, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
 .collection, .page-webshop .webshop {
   width: 100%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 19, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 19, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
 .collection .album, .page-webshop .webshop .album {
   /* one in a row */
   width: 100%;
@@ -1001,7 +1005,7 @@ form .form-submit {
   display: inline;
 }
 @media (min-width: 321px) {
-  /* line 19, ../sass/partials/styleguide/modules/_collection.scss */
+  /* line 19, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
   .collection .album, .page-webshop .webshop .album {
     /* two in a row */
     width: 49.15254%;
@@ -1009,7 +1013,7 @@ form .form-submit {
     margin-right: 1.69492%;
     display: inline;
   }
-  /* line 27, ../sass/partials/styleguide/modules/_collection.scss */
+  /* line 27, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
   .collection .album.second, .page-webshop .webshop .album.second {
     width: 49.15254%;
     float: right;
@@ -1019,7 +1023,7 @@ form .form-submit {
   }
 }
 @media (min-width: 481px) {
-  /* line 19, ../sass/partials/styleguide/modules/_collection.scss */
+  /* line 19, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
   .collection .album, .page-webshop .webshop .album {
     /* two in a row */
     width: 32.20339%;
@@ -1027,14 +1031,14 @@ form .form-submit {
     margin-right: 1.69492%;
     display: inline;
   }
-  /* line 36, ../sass/partials/styleguide/modules/_collection.scss */
+  /* line 36, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
   .collection .album.second, .page-webshop .webshop .album.second {
     width: 32.20339%;
     float: left;
     margin-right: 1.69492%;
     display: inline;
   }
-  /* line 40, ../sass/partials/styleguide/modules/_collection.scss */
+  /* line 40, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
   .collection .album.third, .page-webshop .webshop .album.third {
     width: 32.20339%;
     float: right;
@@ -1044,7 +1048,7 @@ form .form-submit {
   }
 }
 @media (min-width: 800px) {
-  /* line 19, ../sass/partials/styleguide/modules/_collection.scss */
+  /* line 19, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
   .collection .album, .page-webshop .webshop .album {
     /* four in a row */
     width: 23.72881%;
@@ -1052,21 +1056,21 @@ form .form-submit {
     margin-right: 1.69492%;
     display: inline;
   }
-  /* line 49, ../sass/partials/styleguide/modules/_collection.scss */
+  /* line 49, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
   .collection .album.second, .page-webshop .webshop .album.second {
     width: 23.72881%;
     float: left;
     margin-right: 1.69492%;
     display: inline;
   }
-  /* line 53, ../sass/partials/styleguide/modules/_collection.scss */
+  /* line 53, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
   .collection .album.third, .page-webshop .webshop .album.third {
     width: 23.72881%;
     float: left;
     margin-right: 1.69492%;
     display: inline;
   }
-  /* line 57, ../sass/partials/styleguide/modules/_collection.scss */
+  /* line 57, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
   .collection .album.fourth, .page-webshop .webshop .album.fourth {
     width: 23.72881%;
     float: right;
@@ -1077,30 +1081,30 @@ form .form-submit {
 }
 
 /* album covers styling */
-/* line 66, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 66, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
 .collection .album, .page-webshop .webshop .album {
   margin-bottom: 8%;
 }
 @media (min-width: 321px) {
-  /* line 66, ../sass/partials/styleguide/modules/_collection.scss */
+  /* line 66, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
   .collection .album, .page-webshop .webshop .album {
     border: none;
     padding-bottom: 0;
   }
 }
 @media (min-width: 481px) {
-  /* line 66, ../sass/partials/styleguide/modules/_collection.scss */
+  /* line 66, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
   .collection .album, .page-webshop .webshop .album {
     margin-bottom: 3%;
   }
 }
 @media (min-width: 800px) {
-  /* line 66, ../sass/partials/styleguide/modules/_collection.scss */
+  /* line 66, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
   .collection .album, .page-webshop .webshop .album {
     margin-bottom: 2%;
   }
 }
-/* line 82, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 82, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
 .collection .album h2, .page-webshop .webshop .album h2 {
   margin: 0;
   color: #fff;
@@ -1113,12 +1117,12 @@ form .form-submit {
   max-width: 70%;
 }
 @media (min-width: 321px) {
-  /* line 82, ../sass/partials/styleguide/modules/_collection.scss */
+  /* line 82, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
   .collection .album h2, .page-webshop .webshop .album h2 {
     font-size: 0.95em;
   }
 }
-/* line 100, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 100, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
 .collection .album h2 a, .page-webshop .webshop .album h2 a,
 .collection .album h2 a:link,
 .page-webshop .webshop .album h2 a:link,
@@ -1128,45 +1132,45 @@ form .form-submit {
 .page-webshop .webshop .album h2 a:visited {
   color: #fff;
 }
-/* line 105, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 105, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
 .collection .album .read-more, .page-webshop .webshop .album .read-more {
   float: right;
   margin-top: 12px;
   font-size: 1em;
   line-height: 1em;
 }
-/* line 111, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 111, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
 .collection .album .read-more::before, .page-webshop .webshop .album .read-more::before {
   content: '›';
   margin-right: 3px;
   color: #bd9b28;
 }
 @media (min-width: 321px) {
-  /* line 105, ../sass/partials/styleguide/modules/_collection.scss */
+  /* line 105, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
   .collection .album .read-more, .page-webshop .webshop .album .read-more {
     font-size: 0.95em;
     margin-top: 10px;
   }
 }
-/* line 123, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 123, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
 .collection .album .image, .page-webshop .webshop .album .image {
   float: left;
   overflow: hidden;
   position: relative;
 }
-/* line 128, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 128, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
 .collection .album .image a, .page-webshop .webshop .album .image a {
   float: left;
 }
-/* line 131, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 131, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
 .collection .album .image a img, .page-webshop .webshop .album .image a img {
   float: left;
 }
-/* line 138, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 138, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
 .collection .album:hover, .page-webshop .webshop .album:hover, .collection .album:focus, .page-webshop .webshop .album:focus {
   cursor: pointer;
 }
-/* line 144, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 144, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
 .collection .album:hover a, .page-webshop .webshop .album:hover a,
 .collection .album:hover a:link,
 .page-webshop .webshop .album:hover a:link,
@@ -1182,7 +1186,7 @@ form .form-submit {
 .page-webshop .webshop .album:focus a:active {
   color: #bd9b28;
 }
-/* line 152, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 152, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
 .collection .album:hover .image a::after, .page-webshop .webshop .album:hover .image a::after, .collection .album:focus .image a::after, .page-webshop .webshop .album:focus .image a::after {
   content: " ";
   width: 100%;
@@ -1195,7 +1199,7 @@ form .form-submit {
   background-position: center;
 }
 
-/* line 170, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 170, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
 #slider {
   position: relative;
   list-style: none;
@@ -1204,7 +1208,7 @@ form .form-submit {
   padding: 0;
   margin: 0;
 }
-/* line 178, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 178, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
 #slider li {
   position: absolute;
   display: none;
@@ -1213,19 +1217,19 @@ form .form-submit {
   top: 0;
   text-align: center;
 }
-/* line 186, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 186, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
 #slider li:first-child {
   position: relative;
   display: block;
   float: left;
 }
-/* line 192, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 192, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
 #slider li img {
   height: auto;
   max-width: 100%;
   border: 0;
 }
-/* line 199, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 199, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
 #slider .caption {
   width: 100%;
   float: left;
@@ -1243,18 +1247,18 @@ form .form-submit {
   background-color: #222;
   opacity: 0.7;
 }
-/* line 214, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 214, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
 #slider .caption .label-inline {
   display: inline;
 }
-/* line 218, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 218, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
 #slider .caption .left-caption {
   width: 66.10169%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 221, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 221, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
 #slider .caption .left-caption .juwels {
   width: 100%;
   float: left;
@@ -1262,7 +1266,7 @@ form .form-submit {
   display: inline;
   margin-bottom: 0.3em;
 }
-/* line 227, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 227, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
 #slider .caption .photographer {
   width: 32.20339%;
   float: right;
@@ -1272,12 +1276,12 @@ form .form-submit {
   text-align: right;
 }
 
-/* line 234, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 234, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
 .slideshow {
   position: relative;
   display: block;
 }
-/* line 239, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 239, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
 .slideshow .prev,
 .slideshow .next {
   position: absolute;
@@ -1290,12 +1294,12 @@ form .form-submit {
   text-indent: -99999px;
   overflow: hidden;
 }
-/* line 252, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 252, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
 .slideshow .prev {
   left: 10px;
   background-position: 10px 50%;
 }
-/* line 258, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 258, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_collection.scss */
 .slideshow .next {
   right: 10px;
   background-position: -37px 50%;
@@ -1309,7 +1313,7 @@ form .form-submit {
  */
 /* ------ WEBSHOP LANDINGPAGE ------ */
 /* LAYOUT */
-/* line 11, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 11, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_webshop.scss */
 .webshop-detail .detail,
 .webshop-detail .order {
   width: 100%;
@@ -1318,14 +1322,14 @@ form .form-submit {
   display: inline;
 }
 @media (min-width: 481px) {
-  /* line 16, ../sass/partials/styleguide/modules/_webshop.scss */
+  /* line 16, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_webshop.scss */
   .webshop-detail .detail {
     width: 57.62712%;
     float: left;
     margin-right: 1.69492%;
     display: inline;
   }
-  /* line 20, ../sass/partials/styleguide/modules/_webshop.scss */
+  /* line 20, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_webshop.scss */
   .webshop-detail .order {
     width: 40.67797%;
     float: right;
@@ -1335,14 +1339,14 @@ form .form-submit {
   }
 }
 @media (min-width: 800px) {
-  /* line 26, ../sass/partials/styleguide/modules/_webshop.scss */
+  /* line 26, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_webshop.scss */
   .webshop-detail .detail {
     width: 66.10169%;
     float: left;
     margin-right: 1.69492%;
     display: inline;
   }
-  /* line 30, ../sass/partials/styleguide/modules/_webshop.scss */
+  /* line 30, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_webshop.scss */
   .webshop-detail .order {
     width: 32.20339%;
     float: right;
@@ -1353,19 +1357,19 @@ form .form-submit {
 }
 
 /* STYLE */
-/* line 42, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 42, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_webshop.scss */
 .page-webshop img {
   width: 100%;
   max-width: 100%;
 }
-/* line 49, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 49, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_webshop.scss */
 .page-webshop .webshop ul {
   margin: 0;
   padding: 0;
 }
 
 /* DESIGN */
-/* line 58, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 58, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_webshop.scss */
 .webshop-detail h2 {
   color: #bd9b28;
   margin-top: 0;
@@ -1373,55 +1377,61 @@ form .form-submit {
   font-size: 1.2em;
   line-height: 0.95em;
 }
-/* line 66, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 66, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_webshop.scss */
 .webshop-detail p {
   margin-top: 0;
   margin-bottom: 1.5em;
 }
-/* line 72, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 72, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_webshop.scss */
 .webshop-detail .detail h1 {
   margin-bottom: 0.5em;
 }
-/* line 78, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 78, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_webshop.scss */
 .webshop-detail .order .details {
   padding-left: 1.2em;
   margin-top: 0.5em;
 }
-/* line 82, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 82, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_webshop.scss */
 .webshop-detail .order .details li {
   margin-bottom: 0.4em;
 }
-/* line 86, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 86, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_webshop.scss */
 .webshop-detail .order .details h3 {
   font-size: 1em;
   font-weight: normal;
   margin-right: 5px;
 }
-/* line 90, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 90, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_webshop.scss */
 .webshop-detail .order .details h3:after {
   content: ":";
 }
 
-/* line 98, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 98, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_webshop.scss */
 .yellow-box {
   border: 2px solid #bd9b28;
   padding: 20px;
   margin-bottom: 2em;
 }
-/* line 103, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 103, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_webshop.scss */
 .yellow-box .commerce-product-field-commerce-price {
   float: right;
   margin-bottom: 0.7em;
 }
-/* line 119, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 119, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_webshop.scss */
 .yellow-box form .attribute-widgets > .form-item .form-radios .form-item input {
   width: 8%;
 }
-/* line 126, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 126, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_webshop.scss */
 .yellow-box form input[type="submit"] {
   float: left;
   width: 100%;
   margin-top: 2em;
+}
+/* line 132, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_webshop.scss */
+.yellow-box .back {
+  font-size: 0.9em;
+  text-align: center;
+  margin-top: 0.5em;
 }
 
 /* Import shoppingcart module */
@@ -1431,36 +1441,36 @@ form .form-submit {
  * ---------------------------------
  */
 /* Shopping cart status */
-/* line 8, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 8, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .line-item-summary {
   width: 100%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 11, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 11, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .admin-second .line-item-summary {
   margin-bottom: 0;
 }
-/* line 15, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 15, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .line-item-summary {
   margin-top: 0.5em;
 }
 
-/* line 21, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 21, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-cart h1 {
   margin-bottom: 0.5em;
 }
 
 /* Shopping cart overview */
-/* line 27, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 27, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart {
   width: 100%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 30, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 30, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .cart-item {
   width: 100%;
   float: left;
@@ -1468,12 +1478,12 @@ form .form-submit {
   display: inline;
   margin-bottom: 1.5em;
 }
-/* line 34, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 34, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .cart-item.views-row-last {
   border-bottom: 1px solid white;
   padding-bottom: 1em;
 }
-/* line 40, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 40, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .title {
   width: 100%;
   float: left;
@@ -1481,7 +1491,7 @@ form .form-submit {
   display: inline;
   margin-bottom: 0.5em;
 }
-/* line 44, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 44, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .price {
   width: 23.72881%;
   float: left;
@@ -1489,7 +1499,7 @@ form .form-submit {
   display: inline;
   padding: 9px 0;
 }
-/* line 48, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 48, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .quantity {
   width: 15.25424%;
   float: left;
@@ -1497,15 +1507,15 @@ form .form-submit {
   display: inline;
   text-align: center;
 }
-/* line 51, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 51, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .quantity .form-item {
   margin-bottom: 0;
 }
-/* line 54, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 54, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .quantity .form-item input {
   text-align: center;
 }
-/* line 59, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 59, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .remove {
   width: 32.20339%;
   float: left;
@@ -1513,13 +1523,13 @@ form .form-submit {
   display: inline;
   text-align: center;
 }
-/* line 62, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 62, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .remove input {
   float: none;
   padding: 11px 5px;
   margin-top: 0;
 }
-/* line 68, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 68, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .total {
   width: 23.72881%;
   float: right;
@@ -1529,11 +1539,11 @@ form .form-submit {
   padding: 9px 0;
   text-align: right;
 }
-/* line 74, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 74, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .view-header {
   display: none;
 }
-/* line 80, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 80, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .view-header .title,
 .cart .view-header .price,
 .cart .view-header .quantity,
@@ -1541,20 +1551,20 @@ form .form-submit {
 .cart .view-header .total {
   padding: 0;
 }
-/* line 86, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 86, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .form-actions input {
   margin-left: 10px;
 }
-/* line 89, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 89, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .form-actions input#edit-checkout {
   font-weight: bold;
 }
 @media (min-width: 481px) {
-  /* line 96, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 96, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
   .cart .cart-item {
     margin-bottom: 0.5em;
   }
-  /* line 99, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 99, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
   .cart .title {
     width: 45.37815%;
     float: left;
@@ -1562,32 +1572,32 @@ form .form-submit {
     display: inline;
     padding: 9px 0;
   }
-  /* line 102, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 102, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
   .cart .title a {
     color: white;
   }
-  /* line 106, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 106, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
   .cart .price {
     width: 11.76471%;
     float: left;
     margin-right: 0.84034%;
     display: inline;
   }
-  /* line 109, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 109, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
   .cart .quantity {
     width: 7.56303%;
     float: left;
     margin-right: 0.84034%;
     display: inline;
   }
-  /* line 112, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 112, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
   .cart .remove {
     width: 15.96639%;
     float: left;
     margin-right: 0.84034%;
     display: inline;
   }
-  /* line 115, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 115, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
   .cart .total {
     width: 11.76471%;
     float: right;
@@ -1595,7 +1605,7 @@ form .form-submit {
     #margin-left: -1em;
     display: inline;
   }
-  /* line 119, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 119, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
   .cart .view-header {
     width: 100%;
     float: left;
@@ -1608,11 +1618,11 @@ form .form-submit {
   }
 }
 
-/* line 131, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 131, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout form {
   font-size: 1em;
 }
-/* line 135, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 135, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset {
   padding: 0;
   margin: 0;
@@ -1623,35 +1633,35 @@ form .form-submit {
   /* Postal code input field */
   /* City input field */
 }
-/* line 142, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 142, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset legend {
   color: #bd9b28;
   padding-bottom: 1em;
   font-weight: bold;
 }
-/* line 149, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 149, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .cart .view-header {
   display: none;
 }
-/* line 153, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 153, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .cart .title {
   padding: 0;
 }
-/* line 156, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 156, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .cart .quantity {
   text-align: right;
   width: auto;
 }
-/* line 160, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 160, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .cart .price {
   text-align: left;
   padding: 0;
 }
-/* line 164, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 164, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .cart .total {
   padding: 0;
 }
-/* line 169, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 169, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .cart .view-footer table {
   width: 100%;
   float: left;
@@ -1659,7 +1669,7 @@ form .form-submit {
   display: inline;
   margin-top: 1em;
 }
-/* line 173, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 173, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .cart .view-footer table tbody {
   border: none;
   width: 100%;
@@ -1667,7 +1677,7 @@ form .form-submit {
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 177, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 177, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .cart .view-footer table tr {
   background: none;
   border: none;
@@ -1678,7 +1688,7 @@ form .form-submit {
   margin-right: 0;
   padding-right: 0;
 }
-/* line 186, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 186, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .cart .view-footer table tr td.component-title {
   width: 74.78992%;
   float: left;
@@ -1686,7 +1696,7 @@ form .form-submit {
   display: inline;
   text-align: right;
 }
-/* line 190, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 190, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .cart .view-footer table tr td.component-total {
   width: 24.36975%;
   float: right;
@@ -1695,14 +1705,14 @@ form .form-submit {
   display: inline;
 }
 @media (min-width: 481px) {
-  /* line 195, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 195, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
   .page-checkout fieldset .cart .view-footer table tr td.component-title {
     width: 83.19328%;
     float: left;
     margin-right: 0.84034%;
     display: inline;
   }
-  /* line 198, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 198, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
   .page-checkout fieldset .cart .view-footer table tr td.component-total {
     width: 15.96639%;
     float: right;
@@ -1712,12 +1722,12 @@ form .form-submit {
   }
 }
 @media (min-width: 481px) {
-  /* line 208, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 208, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
   .page-checkout fieldset .cart-item {
     margin-bottom: 0;
   }
 }
-/* line 215, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 215, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .form-item-customer-profile-billing-commerce-customer-address-und-0-name-line,
 .page-checkout fieldset .form-item-customer-profile-shipping-commerce-customer-address-und-0-name-line {
   width: 100%;
@@ -1725,7 +1735,7 @@ form .form-submit {
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 221, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 221, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .form-item-customer-profile-billing-commerce-customer-address-und-0-postal-code,
 .page-checkout fieldset .form-item-customer-profile-shipping-commerce-customer-address-und-0-postal-code {
   width: 32.20339%;
@@ -1734,7 +1744,7 @@ form .form-submit {
   display: inline;
 }
 @media (min-width: 481px) {
-  /* line 221, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 221, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
   .page-checkout fieldset .form-item-customer-profile-billing-commerce-customer-address-und-0-postal-code,
   .page-checkout fieldset .form-item-customer-profile-shipping-commerce-customer-address-und-0-postal-code {
     width: 15.25424%;
@@ -1743,7 +1753,7 @@ form .form-submit {
     display: inline;
   }
 }
-/* line 231, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 231, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .form-item-customer-profile-billing-commerce-customer-address-und-0-locality,
 .page-checkout fieldset .form-item-customer-profile-shipping-commerce-customer-address-und-0-locality {
   width: 66.10169%;
@@ -1753,7 +1763,7 @@ form .form-submit {
   display: inline;
 }
 @media (min-width: 481px) {
-  /* line 231, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 231, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
   .page-checkout fieldset .form-item-customer-profile-billing-commerce-customer-address-und-0-locality,
   .page-checkout fieldset .form-item-customer-profile-shipping-commerce-customer-address-und-0-locality {
     width: 83.05085%;
@@ -1763,7 +1773,7 @@ form .form-submit {
     display: inline;
   }
 }
-/* line 239, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 239, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .commerce-customer-profile-copy {
   width: 100%;
   float: left;
@@ -1771,7 +1781,7 @@ form .form-submit {
   display: inline;
   margin-bottom: 2em;
 }
-/* line 243, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 243, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .commerce-customer-profile-copy input {
   width: 5.02793%;
   float: left;
@@ -1779,7 +1789,7 @@ form .form-submit {
   display: inline;
   margin-top: 0.5em;
 }
-/* line 247, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 247, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .commerce-customer-profile-copy label {
   width: 94.41341%;
   float: right;
@@ -1787,13 +1797,13 @@ form .form-submit {
   #margin-left: -1em;
   display: inline;
 }
-/* line 255, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 255, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset.checkout-buttons .checkout-cancel,
 .page-checkout fieldset.checkout-buttons .checkout-back {
   margin-right: 1em;
   margin-top: 1em;
 }
-/* line 262, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 262, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset.commerce_shipping .form-item {
   width: 100%;
   float: left;
@@ -1801,7 +1811,7 @@ form .form-submit {
   display: inline;
   margin-bottom: 0;
 }
-/* line 266, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 266, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset.commerce_shipping .form-item input {
   width: 10.61453%;
   float: left;
@@ -1809,7 +1819,7 @@ form .form-submit {
   display: inline;
   margin-top: 0.1em;
 }
-/* line 270, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 270, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset.commerce_shipping .form-item label {
   width: 88.82682%;
   float: right;
@@ -1818,7 +1828,7 @@ form .form-submit {
   display: inline;
 }
 @media (min-width: 481px) {
-  /* line 275, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 275, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
   .page-checkout fieldset.commerce_shipping .form-item input {
     width: 5.02793%;
     float: left;
@@ -1826,7 +1836,7 @@ form .form-submit {
     display: inline;
     margin-top: 0.1em;
   }
-  /* line 279, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 279, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
   .page-checkout fieldset.commerce_shipping .form-item label {
     width: 94.41341%;
     float: right;
@@ -1835,23 +1845,23 @@ form .form-submit {
     display: inline;
   }
 }
-/* line 287, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 287, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset.commerce_payment #edit-commerce-payment-payment-method {
   display: none;
 }
-/* line 290, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 290, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset.commerce_payment #payment-details {
   width: 100%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 292, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 292, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset.commerce_payment #payment-details p {
   margin-top: 0;
 }
 
-/* line 301, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 301, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review .checkout-help {
   width: 100%;
   float: left;
@@ -1860,14 +1870,14 @@ form .form-submit {
   margin-bottom: 2em;
   color: #626262;
 }
-/* line 306, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 306, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review table {
   width: 100%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 309, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 309, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review table tbody {
   border-top: none;
   width: 100%;
@@ -1875,7 +1885,7 @@ form .form-submit {
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 313, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 313, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review table tbody tr {
   background: none;
   border-bottom: none;
@@ -1884,15 +1894,15 @@ form .form-submit {
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 318, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 318, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review table tbody tr.even {
   margin-bottom: 2em;
 }
-/* line 323, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 323, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review table tbody tr.pane-title, .page-checkout-review table tbody tr.pane-data {
   padding: 0;
 }
-/* line 326, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 326, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review table tbody tr.pane-title td, .page-checkout-review table tbody tr.pane-data td {
   padding: 0;
   width: 100%;
@@ -1900,21 +1910,28 @@ form .form-submit {
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 334, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 334, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
+.page-checkout-review fieldset {
+  width: 100%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+/* line 337, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review .cart {
   margin-top: 1em;
 }
-/* line 341, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 344, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review .cart .title {
   padding: 0;
 }
 @media (min-width: 481px) {
-  /* line 341, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 344, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
   .page-checkout-review .cart .title {
     margin-bottom: 0;
   }
 }
-/* line 348, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 351, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review .cart .quantity {
   margin-bottom: 0;
   padding: 0;
@@ -1922,7 +1939,7 @@ form .form-submit {
   width: auto;
 }
 @media (min-width: 481px) {
-  /* line 348, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 351, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
   .page-checkout-review .cart .quantity {
     width: 7.56303%;
     float: left;
@@ -1931,17 +1948,17 @@ form .form-submit {
     text-align: center;
   }
 }
-/* line 360, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 363, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review .cart .price {
   margin-bottom: 0;
   padding: 0;
 }
-/* line 364, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 367, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review .cart .total {
   margin-bottom: 0;
   padding: 0;
 }
-/* line 370, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 373, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review .cart .view-footer table {
   width: 100%;
   float: left;
@@ -1949,7 +1966,7 @@ form .form-submit {
   display: inline;
   margin-top: 1em;
 }
-/* line 374, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 377, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review .cart .view-footer table tbody {
   border: none;
   width: 100%;
@@ -1957,7 +1974,7 @@ form .form-submit {
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 378, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 381, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review .cart .view-footer table tr {
   background: none;
   border: none;
@@ -1968,7 +1985,7 @@ form .form-submit {
   margin-right: 0;
   padding-right: 0;
 }
-/* line 387, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 390, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review .cart .view-footer table tr td.component-title {
   width: 74.78992%;
   float: left;
@@ -1976,7 +1993,7 @@ form .form-submit {
   display: inline;
   text-align: right;
 }
-/* line 391, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 394, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review .cart .view-footer table tr td.component-total {
   width: 24.36975%;
   float: right;
@@ -1985,14 +2002,14 @@ form .form-submit {
   display: inline;
 }
 @media (min-width: 481px) {
-  /* line 396, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 399, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
   .page-checkout-review .cart .view-footer table tr td.component-title {
     width: 83.19328%;
     float: left;
     margin-right: 0.84034%;
     display: inline;
   }
-  /* line 399, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 402, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_shoppingcart.scss */
   .page-checkout-review .cart .view-footer table tr td.component-total {
     width: 15.96639%;
     float: right;
@@ -2009,33 +2026,33 @@ form .form-submit {
  * ---------------------------------
  */
 /* Order overview page */
-/* line 9, ../sass/partials/styleguide/modules/_order.scss */
+/* line 9, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_order.scss */
 .page-user-orders h1 {
   margin-bottom: 0.5em;
 }
-/* line 14, ../sass/partials/styleguide/modules/_order.scss */
+/* line 14, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_order.scss */
 .page-user-orders .cart .title {
   margin-bottom: 0;
 }
-/* line 17, ../sass/partials/styleguide/modules/_order.scss */
+/* line 17, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_order.scss */
 .page-user-orders .cart .title span {
   display: block;
   width: 100%;
 }
-/* line 21, ../sass/partials/styleguide/modules/_order.scss */
+/* line 21, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_order.scss */
 .page-user-orders .cart .title span.code {
   color: #aaaaaa;
   font-size: 0.8em;
 }
-/* line 27, ../sass/partials/styleguide/modules/_order.scss */
+/* line 27, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_order.scss */
 .page-user-orders .cart .quantity {
   padding: 9px 0;
 }
-/* line 33, ../sass/partials/styleguide/modules/_order.scss */
+/* line 33, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_order.scss */
 .page-user-orders .view-header .quantity {
   padding: 0;
 }
-/* line 40, ../sass/partials/styleguide/modules/_order.scss */
+/* line 40, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_order.scss */
 .page-user-orders .entity-commerce-order .field {
   width: 100%;
   float: left;
@@ -2043,7 +2060,7 @@ form .form-submit {
   display: inline;
   margin-bottom: 1em;
 }
-/* line 48, ../sass/partials/styleguide/modules/_order.scss */
+/* line 48, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_order.scss */
 .page-user-orders tbody,
 .page-user-orders td,
 .page-user-orders tr {
@@ -2051,7 +2068,7 @@ form .form-submit {
   background: none;
 }
 
-/* line 54, ../sass/partials/styleguide/modules/_order.scss */
+/* line 54, /Users/Sanne/workspace/sannejanssen/helenajelbrich/sites/all/themes/james/sass/partials/styleguide/modules/_order.scss */
 .field-name-commerce-order-total .commerce-price-formatted-components tr.component-type-commerce-price-formatted-amount {
   background: none;
 }

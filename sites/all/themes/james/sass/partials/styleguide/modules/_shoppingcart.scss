@@ -331,6 +331,9 @@
       }
     }
   }
+  fieldset {
+    @include span-columns(12,12);
+  }
   .cart {
     margin-top: 1em;
 
