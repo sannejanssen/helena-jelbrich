@@ -10,6 +10,7 @@
 
   .admin-second &{
     margin-bottom: 0;
+    
 
     > a {
       margin-right: 10px;
@@ -27,6 +28,12 @@
 
   .cart &{
     margin-top: 0.5em;
+  }
+}
+
+.admin-second {
+  .view-empty {
+    color: $light-grey;
   }
 }
 

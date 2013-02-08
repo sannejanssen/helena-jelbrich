@@ -10,3 +10,4 @@ sites/*/files
 # mac paths
 .DS_Store
 *.scssc
+phpinfo.php

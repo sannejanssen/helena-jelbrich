@@ -146,9 +146,7 @@
       }
 
       .image {
-
         a {
-
           &::after {
             content: " ";
             width: 100%;
@@ -160,7 +158,6 @@
             background-repeat: no-repeat;
             background-position: center;
           }
-
         }
       }
     }
@@ -205,7 +202,7 @@
     text-align: left;
     font-size: 0.85em;
     position: absolute;
-    bottom: 7px;
+    bottom: 6px;
     left: 0;
     padding: 5px 10px;
     background-color: #222;

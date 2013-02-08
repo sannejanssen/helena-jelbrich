@@ -1202,7 +1202,7 @@ form .form-submit {
 .page-webshop .webshop .album:focus a:active {
   color: #bd9b28;
 }
-/* line 152, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 150, ../sass/partials/styleguide/modules/_collection.scss */
 .collection .album:hover .image a::after, .page-webshop .webshop .album:hover .image a::after, .collection .album:focus .image a::after, .page-webshop .webshop .album:focus .image a::after {
   content: " ";
   width: 100%;
@@ -1215,7 +1215,7 @@ form .form-submit {
   background-position: center;
 }
 
-/* line 170, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 167, ../sass/partials/styleguide/modules/_collection.scss */
 #slider {
   position: relative;
   list-style: none;
@@ -1224,7 +1224,7 @@ form .form-submit {
   padding: 0;
   margin: 0;
 }
-/* line 178, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 175, ../sass/partials/styleguide/modules/_collection.scss */
 #slider li {
   position: absolute;
   display: none;
@@ -1233,19 +1233,19 @@ form .form-submit {
   top: 0;
   text-align: center;
 }
-/* line 186, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 183, ../sass/partials/styleguide/modules/_collection.scss */
 #slider li:first-child {
   position: relative;
   display: block;
   float: left;
 }
-/* line 192, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 189, ../sass/partials/styleguide/modules/_collection.scss */
 #slider li img {
   height: auto;
   max-width: 100%;
   border: 0;
 }
-/* line 199, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 196, ../sass/partials/styleguide/modules/_collection.scss */
 #slider .caption {
   width: 100%;
   float: left;
@@ -1257,24 +1257,24 @@ form .form-submit {
   text-align: left;
   font-size: 0.85em;
   position: absolute;
-  bottom: 7px;
+  bottom: 6px;
   left: 0;
   padding: 5px 10px;
   background-color: #222;
   opacity: 0.7;
 }
-/* line 214, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 211, ../sass/partials/styleguide/modules/_collection.scss */
 #slider .caption .label-inline {
   display: inline;
 }
-/* line 218, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 215, ../sass/partials/styleguide/modules/_collection.scss */
 #slider .caption .left-caption {
   width: 66.10169%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 221, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 218, ../sass/partials/styleguide/modules/_collection.scss */
 #slider .caption .left-caption .juwels {
   width: 100%;
   float: left;
@@ -1282,7 +1282,7 @@ form .form-submit {
   display: inline;
   margin-bottom: 0.3em;
 }
-/* line 227, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 224, ../sass/partials/styleguide/modules/_collection.scss */
 #slider .caption .photographer {
   width: 32.20339%;
   float: right;
@@ -1292,12 +1292,12 @@ form .form-submit {
   text-align: right;
 }
 
-/* line 234, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 231, ../sass/partials/styleguide/modules/_collection.scss */
 .slideshow {
   position: relative;
   display: block;
 }
-/* line 239, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 236, ../sass/partials/styleguide/modules/_collection.scss */
 .slideshow .prev,
 .slideshow .next {
   position: absolute;
@@ -1310,12 +1310,12 @@ form .form-submit {
   text-indent: -99999px;
   overflow: hidden;
 }
-/* line 252, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 249, ../sass/partials/styleguide/modules/_collection.scss */
 .slideshow .prev {
   left: 10px;
   background-position: 10px 50%;
 }
-/* line 258, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 255, ../sass/partials/styleguide/modules/_collection.scss */
 .slideshow .next {
   right: 10px;
   background-position: -37px 50%;
@@ -1436,14 +1436,15 @@ form .form-submit {
 /* line 119, ../sass/partials/styleguide/modules/_webshop.scss */
 .yellow-box form .attribute-widgets > .form-item .form-radios .form-item input {
   width: 8%;
+  border: none;
 }
-/* line 126, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 127, ../sass/partials/styleguide/modules/_webshop.scss */
 .yellow-box form input[type="submit"] {
   float: left;
   width: 100%;
   margin-top: 2em;
 }
-/* line 132, ../sass/partials/styleguide/modules/_webshop.scss */
+/* line 133, ../sass/partials/styleguide/modules/_webshop.scss */
 .yellow-box .back {
   font-size: 0.9em;
   text-align: center;
@@ -1468,37 +1469,42 @@ form .form-submit {
 .admin-second .line-item-summary {
   margin-bottom: 0;
 }
-/* line 14, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 15, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .admin-second .line-item-summary > a {
   margin-right: 10px;
 }
-/* line 18, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 19, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .admin-second .line-item-summary ul {
   display: inline;
 }
-/* line 22, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 23, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .admin-second .line-item-summary ul li {
   display: inline;
 }
-/* line 28, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 29, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .line-item-summary {
   margin-top: 0.5em;
 }
 
-/* line 34, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 35, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+.admin-second .view-empty {
+  color: #aaaaaa;
+}
+
+/* line 41, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-cart h1 {
   margin-bottom: 0.5em;
 }
 
 /* Shopping cart overview */
-/* line 40, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 47, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart {
   width: 100%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 43, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 50, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .cart-item {
   width: 100%;
   float: left;
@@ -1506,12 +1512,12 @@ form .form-submit {
   display: inline;
   margin-bottom: 1.5em;
 }
-/* line 47, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 54, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .cart-item.views-row-last {
   border-bottom: 1px solid white;
   padding-bottom: 1em;
 }
-/* line 53, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 60, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .title {
   width: 100%;
   float: left;
@@ -1519,7 +1525,7 @@ form .form-submit {
   display: inline;
   margin-bottom: 0.5em;
 }
-/* line 57, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 64, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .price {
   width: 23.72881%;
   float: left;
@@ -1527,7 +1533,7 @@ form .form-submit {
   display: inline;
   padding: 9px 0;
 }
-/* line 61, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 68, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .quantity {
   width: 15.25424%;
   float: left;
@@ -1535,15 +1541,15 @@ form .form-submit {
   display: inline;
   text-align: center;
 }
-/* line 64, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 71, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .quantity .form-item {
   margin-bottom: 0;
 }
-/* line 67, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 74, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .quantity .form-item input {
   text-align: center;
 }
-/* line 72, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 79, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .remove {
   width: 32.20339%;
   float: left;
@@ -1551,13 +1557,13 @@ form .form-submit {
   display: inline;
   text-align: center;
 }
-/* line 75, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 82, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .remove input {
   float: none;
   padding: 11px 5px;
   margin-top: 0;
 }
-/* line 81, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 88, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .total {
   width: 23.72881%;
   float: right;
@@ -1567,11 +1573,11 @@ form .form-submit {
   padding: 9px 0;
   text-align: right;
 }
-/* line 87, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 94, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .view-header {
   display: none;
 }
-/* line 93, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 100, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .view-header .title,
 .cart .view-header .price,
 .cart .view-header .quantity,
@@ -1579,20 +1585,20 @@ form .form-submit {
 .cart .view-header .total {
   padding: 0;
 }
-/* line 99, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 106, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .form-actions input {
   margin-left: 10px;
 }
-/* line 102, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 109, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .cart .form-actions input#edit-checkout {
   font-weight: bold;
 }
 @media (min-width: 481px) {
-  /* line 109, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 116, ../sass/partials/styleguide/modules/_shoppingcart.scss */
   .cart .cart-item {
     margin-bottom: 0.5em;
   }
-  /* line 112, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 119, ../sass/partials/styleguide/modules/_shoppingcart.scss */
   .cart .title {
     width: 45.37815%;
     float: left;
@@ -1600,32 +1606,32 @@ form .form-submit {
     display: inline;
     padding: 9px 0;
   }
-  /* line 115, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 122, ../sass/partials/styleguide/modules/_shoppingcart.scss */
   .cart .title a {
     color: white;
   }
-  /* line 119, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 126, ../sass/partials/styleguide/modules/_shoppingcart.scss */
   .cart .price {
     width: 11.76471%;
     float: left;
     margin-right: 0.84034%;
     display: inline;
   }
-  /* line 122, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 129, ../sass/partials/styleguide/modules/_shoppingcart.scss */
   .cart .quantity {
     width: 7.56303%;
     float: left;
     margin-right: 0.84034%;
     display: inline;
   }
-  /* line 125, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 132, ../sass/partials/styleguide/modules/_shoppingcart.scss */
   .cart .remove {
     width: 15.96639%;
     float: left;
     margin-right: 0.84034%;
     display: inline;
   }
-  /* line 128, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 135, ../sass/partials/styleguide/modules/_shoppingcart.scss */
   .cart .total {
     width: 11.76471%;
     float: right;
@@ -1633,7 +1639,7 @@ form .form-submit {
     #margin-left: -1em;
     display: inline;
   }
-  /* line 132, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 139, ../sass/partials/styleguide/modules/_shoppingcart.scss */
   .cart .view-header {
     width: 100%;
     float: left;
@@ -1646,11 +1652,11 @@ form .form-submit {
   }
 }
 
-/* line 144, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 151, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout form {
   font-size: 1em;
 }
-/* line 148, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 155, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset {
   padding: 0;
   margin: 0;
@@ -1661,35 +1667,35 @@ form .form-submit {
   /* Postal code input field */
   /* City input field */
 }
-/* line 155, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 162, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset legend {
   color: #bd9b28;
   padding-bottom: 1em;
   font-weight: bold;
 }
-/* line 162, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 169, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .cart .view-header {
   display: none;
 }
-/* line 166, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 173, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .cart .title {
   padding: 0;
 }
-/* line 169, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 176, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .cart .quantity {
   text-align: right;
   width: auto;
 }
-/* line 173, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 180, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .cart .price {
   text-align: left;
   padding: 0;
 }
-/* line 177, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 184, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .cart .total {
   padding: 0;
 }
-/* line 182, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 189, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .cart .view-footer table {
   width: 100%;
   float: left;
@@ -1697,7 +1703,7 @@ form .form-submit {
   display: inline;
   margin-top: 1em;
 }
-/* line 186, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 193, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .cart .view-footer table tbody {
   border: none;
   width: 100%;
@@ -1705,7 +1711,7 @@ form .form-submit {
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 190, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 197, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .cart .view-footer table tr {
   background: none;
   border: none;
@@ -1716,7 +1722,7 @@ form .form-submit {
   margin-right: 0;
   padding-right: 0;
 }
-/* line 199, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 206, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .cart .view-footer table tr td.component-title {
   width: 74.78992%;
   float: left;
@@ -1724,7 +1730,7 @@ form .form-submit {
   display: inline;
   text-align: right;
 }
-/* line 203, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 210, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .cart .view-footer table tr td.component-total {
   width: 24.36975%;
   float: right;
@@ -1733,14 +1739,14 @@ form .form-submit {
   display: inline;
 }
 @media (min-width: 481px) {
-  /* line 208, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 215, ../sass/partials/styleguide/modules/_shoppingcart.scss */
   .page-checkout fieldset .cart .view-footer table tr td.component-title {
     width: 83.19328%;
     float: left;
     margin-right: 0.84034%;
     display: inline;
   }
-  /* line 211, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 218, ../sass/partials/styleguide/modules/_shoppingcart.scss */
   .page-checkout fieldset .cart .view-footer table tr td.component-total {
     width: 15.96639%;
     float: right;
@@ -1750,12 +1756,12 @@ form .form-submit {
   }
 }
 @media (min-width: 481px) {
-  /* line 221, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 228, ../sass/partials/styleguide/modules/_shoppingcart.scss */
   .page-checkout fieldset .cart-item {
     margin-bottom: 0;
   }
 }
-/* line 228, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 235, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .form-item-customer-profile-billing-commerce-customer-address-und-0-name-line,
 .page-checkout fieldset .form-item-customer-profile-shipping-commerce-customer-address-und-0-name-line {
   width: 100%;
@@ -1763,7 +1769,7 @@ form .form-submit {
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 234, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 241, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .form-item-customer-profile-billing-commerce-customer-address-und-0-postal-code,
 .page-checkout fieldset .form-item-customer-profile-shipping-commerce-customer-address-und-0-postal-code {
   width: 32.20339%;
@@ -1772,7 +1778,7 @@ form .form-submit {
   display: inline;
 }
 @media (min-width: 481px) {
-  /* line 234, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 241, ../sass/partials/styleguide/modules/_shoppingcart.scss */
   .page-checkout fieldset .form-item-customer-profile-billing-commerce-customer-address-und-0-postal-code,
   .page-checkout fieldset .form-item-customer-profile-shipping-commerce-customer-address-und-0-postal-code {
     width: 15.25424%;
@@ -1781,7 +1787,7 @@ form .form-submit {
     display: inline;
   }
 }
-/* line 244, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 251, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .form-item-customer-profile-billing-commerce-customer-address-und-0-locality,
 .page-checkout fieldset .form-item-customer-profile-shipping-commerce-customer-address-und-0-locality {
   width: 66.10169%;
@@ -1791,7 +1797,7 @@ form .form-submit {
   display: inline;
 }
 @media (min-width: 481px) {
-  /* line 244, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 251, ../sass/partials/styleguide/modules/_shoppingcart.scss */
   .page-checkout fieldset .form-item-customer-profile-billing-commerce-customer-address-und-0-locality,
   .page-checkout fieldset .form-item-customer-profile-shipping-commerce-customer-address-und-0-locality {
     width: 83.05085%;
@@ -1801,7 +1807,7 @@ form .form-submit {
     display: inline;
   }
 }
-/* line 252, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 259, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .commerce-customer-profile-copy {
   width: 100%;
   float: left;
@@ -1809,7 +1815,7 @@ form .form-submit {
   display: inline;
   margin-bottom: 2em;
 }
-/* line 256, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 263, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .commerce-customer-profile-copy input {
   width: 5.02793%;
   float: left;
@@ -1817,7 +1823,7 @@ form .form-submit {
   display: inline;
   margin-top: 0.5em;
 }
-/* line 260, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 267, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset .commerce-customer-profile-copy label {
   width: 94.41341%;
   float: right;
@@ -1825,13 +1831,13 @@ form .form-submit {
   #margin-left: -1em;
   display: inline;
 }
-/* line 268, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 275, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset.checkout-buttons .checkout-cancel,
 .page-checkout fieldset.checkout-buttons .checkout-back {
   margin-right: 1em;
   margin-top: 1em;
 }
-/* line 275, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 282, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset.commerce_shipping .form-item {
   width: 100%;
   float: left;
@@ -1839,7 +1845,7 @@ form .form-submit {
   display: inline;
   margin-bottom: 0;
 }
-/* line 279, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 286, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset.commerce_shipping .form-item input {
   width: 10.61453%;
   float: left;
@@ -1847,7 +1853,7 @@ form .form-submit {
   display: inline;
   margin-top: 0.1em;
 }
-/* line 283, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 290, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset.commerce_shipping .form-item label {
   width: 88.82682%;
   float: right;
@@ -1856,7 +1862,7 @@ form .form-submit {
   display: inline;
 }
 @media (min-width: 481px) {
-  /* line 288, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 295, ../sass/partials/styleguide/modules/_shoppingcart.scss */
   .page-checkout fieldset.commerce_shipping .form-item input {
     width: 5.02793%;
     float: left;
@@ -1864,7 +1870,7 @@ form .form-submit {
     display: inline;
     margin-top: 0.1em;
   }
-  /* line 292, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 299, ../sass/partials/styleguide/modules/_shoppingcart.scss */
   .page-checkout fieldset.commerce_shipping .form-item label {
     width: 94.41341%;
     float: right;
@@ -1873,23 +1879,23 @@ form .form-submit {
     display: inline;
   }
 }
-/* line 300, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 307, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset.commerce_payment #edit-commerce-payment-payment-method {
   display: none;
 }
-/* line 303, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 310, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset.commerce_payment #payment-details {
   width: 100%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 305, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 312, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout fieldset.commerce_payment #payment-details p {
   margin-top: 0;
 }
 
-/* line 314, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 321, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review .checkout-help {
   width: 100%;
   float: left;
@@ -1898,14 +1904,14 @@ form .form-submit {
   margin-bottom: 2em;
   color: #626262;
 }
-/* line 319, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 326, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review table {
   width: 100%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 322, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 329, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review table tbody {
   border-top: none;
   width: 100%;
@@ -1913,7 +1919,7 @@ form .form-submit {
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 326, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 333, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review table tbody tr {
   background: none;
   border-bottom: none;
@@ -1922,15 +1928,15 @@ form .form-submit {
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 331, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 338, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review table tbody tr.even {
   margin-bottom: 2em;
 }
-/* line 336, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 343, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review table tbody tr.pane-title, .page-checkout-review table tbody tr.pane-data {
   padding: 0;
 }
-/* line 339, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 346, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review table tbody tr.pane-title td, .page-checkout-review table tbody tr.pane-data td {
   padding: 0;
   width: 100%;
@@ -1938,28 +1944,28 @@ form .form-submit {
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 347, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 354, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review fieldset {
   width: 100%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 350, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 357, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review .cart {
   margin-top: 1em;
 }
-/* line 357, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 364, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review .cart .title {
   padding: 0;
 }
 @media (min-width: 481px) {
-  /* line 357, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 364, ../sass/partials/styleguide/modules/_shoppingcart.scss */
   .page-checkout-review .cart .title {
     margin-bottom: 0;
   }
 }
-/* line 364, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 371, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review .cart .quantity {
   margin-bottom: 0;
   padding: 0;
@@ -1967,7 +1973,7 @@ form .form-submit {
   width: auto;
 }
 @media (min-width: 481px) {
-  /* line 364, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 371, ../sass/partials/styleguide/modules/_shoppingcart.scss */
   .page-checkout-review .cart .quantity {
     width: 7.56303%;
     float: left;
@@ -1976,17 +1982,17 @@ form .form-submit {
     text-align: center;
   }
 }
-/* line 376, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 383, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review .cart .price {
   margin-bottom: 0;
   padding: 0;
 }
-/* line 380, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 387, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review .cart .total {
   margin-bottom: 0;
   padding: 0;
 }
-/* line 386, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 393, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review .cart .view-footer table {
   width: 100%;
   float: left;
@@ -1994,7 +2000,7 @@ form .form-submit {
   display: inline;
   margin-top: 1em;
 }
-/* line 390, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 397, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review .cart .view-footer table tbody {
   border: none;
   width: 100%;
@@ -2002,7 +2008,7 @@ form .form-submit {
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 394, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 401, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review .cart .view-footer table tr {
   background: none;
   border: none;
@@ -2013,7 +2019,7 @@ form .form-submit {
   margin-right: 0;
   padding-right: 0;
 }
-/* line 403, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 410, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review .cart .view-footer table tr td.component-title {
   width: 74.78992%;
   float: left;
@@ -2021,7 +2027,7 @@ form .form-submit {
   display: inline;
   text-align: right;
 }
-/* line 407, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+/* line 414, ../sass/partials/styleguide/modules/_shoppingcart.scss */
 .page-checkout-review .cart .view-footer table tr td.component-total {
   width: 24.36975%;
   float: right;
@@ -2030,14 +2036,14 @@ form .form-submit {
   display: inline;
 }
 @media (min-width: 481px) {
-  /* line 412, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 419, ../sass/partials/styleguide/modules/_shoppingcart.scss */
   .page-checkout-review .cart .view-footer table tr td.component-title {
     width: 83.19328%;
     float: left;
     margin-right: 0.84034%;
     display: inline;
   }
-  /* line 415, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  /* line 422, ../sass/partials/styleguide/modules/_shoppingcart.scss */
   .page-checkout-review .cart .view-footer table tr td.component-total {
     width: 15.96639%;
     float: right;
