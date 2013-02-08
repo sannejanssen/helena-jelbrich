@@ -26,7 +26,7 @@
   }
 
   input {
-    &#edit-submit {
+    &[type=submit] {
       display: block;
       background: none;
       border: none;

@@ -10,6 +10,19 @@
 
   .admin-second &{
     margin-bottom: 0;
+
+    > a {
+      margin-right: 10px;
+    }
+
+    ul {
+      @extend .clean-list;
+      display: inline;
+
+      li {
+        display: inline;
+      }
+    }
   }
 
   .cart &{

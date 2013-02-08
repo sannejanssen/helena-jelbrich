@@ -187,10 +187,10 @@ footer {
 
     @include breakpoint($breakpoint_ipad_land) {
       .admin-first {
-        @include span-columns(10);
+        @include span-columns(9);
       }
       .admin-second {
-        @include span-columns(2 omega);
+        @include span-columns(3 omega);
 
         .line-item-summary {
           @include span-columns(12);
