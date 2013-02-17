@@ -10,63 +10,78 @@
   }
  }
 
-.news {
-  border-bottom: 1px solid $dark-grey;
-  padding-bottom: 4%;
-  margin-bottom: 4%;
+/* News teasers */
+.news-items {
 
-  .image {
-    overflow: hidden;
-    height: 150px;
+  .news {
+    border-bottom: 1px solid $dark-grey;
+    padding-bottom: 4%;
+    margin-bottom: 4%;
 
-    img {
-      margin-top: -90px;
-    }
-  }
-  .text {
-
-    h2 {
-      margin: 0.5em 0 0.5em 0;
-      line-height: 1.3em;
-    }
-
-    p {
-      margin: 0;
-      margin-bottom: 0.5em;
-    }
-  }
-
-  @include breakpoint($breakpoint_iphone_land) {
     .image {
-      @include span-columns(3,8);
-      overflow: visible;
-      height: 100%;
+      overflow: hidden;
+      height: 150px;
 
       img {
-        margin: 0;
+        margin-top: -90px;
       }
     }
 
     .text {
-      @include span-columns(5 omega,8);
-
       h2 {
-        margin-top: 0;
+        margin: 0.5em 0 0.5em 0;
+        line-height: 1.3em;
+      }
+
+      p {
+        margin: 0;
+        margin-bottom: 0.5em;
       }
     }
-  }
 
-  @include breakpoint($breakpoint_ipad_land) {
-    .image {
-      @include span-columns(4,8);
+    @include breakpoint($breakpoint_iphone_land) {
+      .image {
+        @include span-columns(3,8);
+        overflow: visible;
+        height: 100%;
+
+        img {
+          margin: 0;
+        }
+      }
+
+      .text {
+        @include span-columns(5 omega,8);
+
+        h2 {
+          margin-top: 0;
+        }
+      }
     }
 
-    .text {
-      @include span-columns(4 omega,8);
+    @include breakpoint($breakpoint_ipad_land) {
+      .image {
+        @include span-columns(4,8);
+      }
+
+      .text {
+        @include span-columns(4 omega,8);
+      }
     }
   }
 }
 
+/* News detail page */
+.node-type-news {
+  h2 {
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-top: 0;
+  }
+
+}
 
 .sidebar {
   h2 {

@@ -810,34 +810,35 @@ form .form-submit {
  * STYLING OF THE NEWS PAGE
  * ---------------------------------
  */
-/* line 13, ../sass/partials/styleguide/modules/_news.scss */
-.news {
+/* News teasers */
+/* line 16, ../sass/partials/styleguide/modules/_news.scss */
+.news-items .news {
   border-bottom: 1px solid #626262;
   padding-bottom: 4%;
   margin-bottom: 4%;
 }
-/* line 18, ../sass/partials/styleguide/modules/_news.scss */
-.news .image {
+/* line 21, ../sass/partials/styleguide/modules/_news.scss */
+.news-items .news .image {
   overflow: hidden;
   height: 150px;
 }
-/* line 22, ../sass/partials/styleguide/modules/_news.scss */
-.news .image img {
+/* line 25, ../sass/partials/styleguide/modules/_news.scss */
+.news-items .news .image img {
   margin-top: -90px;
 }
-/* line 28, ../sass/partials/styleguide/modules/_news.scss */
-.news .text h2 {
+/* line 31, ../sass/partials/styleguide/modules/_news.scss */
+.news-items .news .text h2 {
   margin: 0.5em 0 0.5em 0;
   line-height: 1.3em;
 }
-/* line 33, ../sass/partials/styleguide/modules/_news.scss */
-.news .text p {
+/* line 36, ../sass/partials/styleguide/modules/_news.scss */
+.news-items .news .text p {
   margin: 0;
   margin-bottom: 0.5em;
 }
 @media (min-width: 321px) {
-  /* line 40, ../sass/partials/styleguide/modules/_news.scss */
-  .news .image {
+  /* line 43, ../sass/partials/styleguide/modules/_news.scss */
+  .news-items .news .image {
     width: 35.89744%;
     float: left;
     margin-right: 2.5641%;
@@ -845,33 +846,33 @@ form .form-submit {
     overflow: visible;
     height: 100%;
   }
-  /* line 45, ../sass/partials/styleguide/modules/_news.scss */
-  .news .image img {
+  /* line 48, ../sass/partials/styleguide/modules/_news.scss */
+  .news-items .news .image img {
     margin: 0;
   }
-  /* line 50, ../sass/partials/styleguide/modules/_news.scss */
-  .news .text {
+  /* line 53, ../sass/partials/styleguide/modules/_news.scss */
+  .news-items .news .text {
     width: 61.53846%;
     float: right;
     margin-right: 0;
     #margin-left: -1em;
     display: inline;
   }
-  /* line 53, ../sass/partials/styleguide/modules/_news.scss */
-  .news .text h2 {
+  /* line 56, ../sass/partials/styleguide/modules/_news.scss */
+  .news-items .news .text h2 {
     margin-top: 0;
   }
 }
 @media (min-width: 800px) {
-  /* line 60, ../sass/partials/styleguide/modules/_news.scss */
-  .news .image {
+  /* line 63, ../sass/partials/styleguide/modules/_news.scss */
+  .news-items .news .image {
     width: 48.71795%;
     float: left;
     margin-right: 2.5641%;
     display: inline;
   }
-  /* line 64, ../sass/partials/styleguide/modules/_news.scss */
-  .news .text {
+  /* line 67, ../sass/partials/styleguide/modules/_news.scss */
+  .news-items .news .text {
     width: 48.71795%;
     float: right;
     margin-right: 0;
@@ -880,72 +881,82 @@ form .form-submit {
   }
 }
 
-/* line 72, ../sass/partials/styleguide/modules/_news.scss */
+/* News detail page */
+/* line 76, ../sass/partials/styleguide/modules/_news.scss */
+.node-type-news h2 {
+  margin-bottom: 0;
+}
+/* line 80, ../sass/partials/styleguide/modules/_news.scss */
+.node-type-news p {
+  margin-top: 0;
+}
+
+/* line 87, ../sass/partials/styleguide/modules/_news.scss */
 .sidebar h2 {
   color: #bd9b28;
   font-size: 1.2em;
   margin: 0;
   font-weight: normal;
 }
-/* line 79, ../sass/partials/styleguide/modules/_news.scss */
+/* line 94, ../sass/partials/styleguide/modules/_news.scss */
 .sidebar .links {
   margin-bottom: 20px;
   line-height: 1.3em;
 }
-/* line 83, ../sass/partials/styleguide/modules/_news.scss */
+/* line 98, ../sass/partials/styleguide/modules/_news.scss */
 .sidebar .links ul {
   margin: 0;
   padding-left: 17px;
 }
-/* line 87, ../sass/partials/styleguide/modules/_news.scss */
+/* line 102, ../sass/partials/styleguide/modules/_news.scss */
 .sidebar .links ul li {
   list-style-type: square;
   margin-bottom: 0.7em;
 }
-/* line 91, ../sass/partials/styleguide/modules/_news.scss */
+/* line 106, ../sass/partials/styleguide/modules/_news.scss */
 .sidebar .links ul li a {
   display: inline-block;
   width: 100%;
   color: #fff;
 }
-/* line 98, ../sass/partials/styleguide/modules/_news.scss */
+/* line 113, ../sass/partials/styleguide/modules/_news.scss */
 .sidebar .links ul li a:visited, .sidebar .links ul li a:active, .sidebar .links ul li a:link {
   color: #fff;
   text-decoration: none;
 }
-/* line 104, ../sass/partials/styleguide/modules/_news.scss */
+/* line 119, ../sass/partials/styleguide/modules/_news.scss */
 .sidebar .links ul li a:focus, .sidebar .links ul li a:hover {
   text-decoration: underline;
   color: #bd9b28;
 }
-/* line 111, ../sass/partials/styleguide/modules/_news.scss */
+/* line 126, ../sass/partials/styleguide/modules/_news.scss */
 .sidebar .links ul li span {
   color: #ccc;
   font-size: 0.85em;
   line-height: 1em;
 }
-/* line 116, ../sass/partials/styleguide/modules/_news.scss */
+/* line 131, ../sass/partials/styleguide/modules/_news.scss */
 .sidebar .links ul li span span {
   font-size: 1em;
 }
-/* line 120, ../sass/partials/styleguide/modules/_news.scss */
+/* line 135, ../sass/partials/styleguide/modules/_news.scss */
 .sidebar .links ul li span.stroke {
   margin-left: 5px;
   margin-right: 5px;
 }
-/* line 125, ../sass/partials/styleguide/modules/_news.scss */
+/* line 140, ../sass/partials/styleguide/modules/_news.scss */
 .sidebar .links ul li span.file {
   font-size: 1em;
 }
 @media (min-width: 321px) {
-  /* line 134, ../sass/partials/styleguide/modules/_news.scss */
+  /* line 149, ../sass/partials/styleguide/modules/_news.scss */
   .sidebar .block {
     width: 47.36842%;
     float: left;
     margin-right: 5.26316%;
     display: inline;
   }
-  /* line 137, ../sass/partials/styleguide/modules/_news.scss */
+  /* line 152, ../sass/partials/styleguide/modules/_news.scss */
   .sidebar .block:nth-child(2) {
     width: 47.36842%;
     float: right;
@@ -955,11 +966,11 @@ form .form-submit {
   }
 }
 @media (min-width: 800px) {
-  /* line 144, ../sass/partials/styleguide/modules/_news.scss */
+  /* line 159, ../sass/partials/styleguide/modules/_news.scss */
   .sidebar h2 {
     font-size: 0.95em;
   }
-  /* line 148, ../sass/partials/styleguide/modules/_news.scss */
+  /* line 163, ../sass/partials/styleguide/modules/_news.scss */
   .sidebar .block {
     width: 100%;
     float: right;
@@ -967,7 +978,7 @@ form .form-submit {
     #margin-left: -1em;
     display: inline;
   }
-  /* line 151, ../sass/partials/styleguide/modules/_news.scss */
+  /* line 166, ../sass/partials/styleguide/modules/_news.scss */
   .sidebar .block:nth-child(2) {
     width: 100%;
     float: right;
@@ -975,19 +986,19 @@ form .form-submit {
     #margin-left: -1em;
     display: inline;
   }
-  /* line 157, ../sass/partials/styleguide/modules/_news.scss */
+  /* line 172, ../sass/partials/styleguide/modules/_news.scss */
   .sidebar .block ul li a {
     font-size: 0.95em;
   }
-  /* line 161, ../sass/partials/styleguide/modules/_news.scss */
+  /* line 176, ../sass/partials/styleguide/modules/_news.scss */
   .sidebar .block ul li span {
     font-size: 0.75em;
   }
-  /* line 163, ../sass/partials/styleguide/modules/_news.scss */
+  /* line 178, ../sass/partials/styleguide/modules/_news.scss */
   .sidebar .block ul li span span {
     font-size: 1em;
   }
-  /* line 167, ../sass/partials/styleguide/modules/_news.scss */
+  /* line 182, ../sass/partials/styleguide/modules/_news.scss */
   .sidebar .block ul li span.file {
     font-size: 1em;
   }
