@@ -39,9 +39,13 @@ function james_form_alter(&$form, &$form_state, $form_id) {
     /* Translate 'Order total' */
     $form['cart_contents']['cart_contents_view']['#markup'] = str_replace('Order total', 'Totaal', $form['cart_contents']['cart_contents_view']['#markup']);
 
-    /* Remove address 2, change address 1 to just 'address' */
+    /* BILLING: Remove address 2, change address 1 to just 'address' */
     unset($form['customer_profile_billing']['commerce_customer_address']['und'][0]['street_block']['premise']);
     $form['customer_profile_billing']['commerce_customer_address']['und'][0]['street_block']['thoroughfare']['#title'] = 'Adres';
+
+    /* SHIPPING: Remove address 2, change address 1 to just 'address' */
+    unset($form['customer_profile_shipping']['commerce_customer_address']['und'][0]['street_block']['premise']);
+    $form['customer_profile_shipping']['commerce_customer_address']['und'][0]['street_block']['thoroughfare']['#title'] = 'Adres';
 
     // In dutch because it's not translatable
     $form['buttons']['continue']['#value'] = 'Verder naar verzending';
@@ -52,8 +56,6 @@ function james_form_alter(&$form, &$form_state, $form_id) {
 
     /* Remove 'or' between cancel & continue */
     unset($form['buttons']['cancel']['#prefix']);
-
-    // dpm();
   }
 
   // Step 3 of the checkout process: shipping information

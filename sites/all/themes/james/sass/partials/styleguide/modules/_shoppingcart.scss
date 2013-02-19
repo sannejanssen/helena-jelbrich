@@ -262,10 +262,17 @@
 
       input {
         @include span-columns(2,36);
-        margin-top: 0.5em;
+        margin-top: 0.3em;
       }
       label {
-        @include span-columns(34 omega,36);
+        @include span-columns(32,36);
+      }
+
+      .ajax-progress {
+        @include span-columns(2 omega,36);
+        > * {
+          float: right;
+        }
       }
     }
 
