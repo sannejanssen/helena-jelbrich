@@ -256,3 +256,11 @@ function james_file_link($variables) {
   // return '<span class="file">' . $icon . ' ' . l($link_text, $url, $options) . '</span>';
   return '<span class="file">' . l($link_text, $url, $options) . '</span>';
 }
+
+/**
+ * Alter EUR currency placement
+ */
+function james_commerce_currency_info_alter(&$currencies, $langcode) {
+  $currencies['EUR']['symbol_placement'] = 'before';
+  $currencies['EUR']['symbol'] = '€ ';
+}
