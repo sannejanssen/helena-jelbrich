@@ -4,10 +4,5 @@ sites/*/settings*.php
 # Ignore paths that contain user-generated content.
 sites/*/files
 
-# Ignore SASS cache files
-
-
-# mac paths
-.DS_Store
-*.scssc
+# Ignore phpinfo file
 phpinfo.php
