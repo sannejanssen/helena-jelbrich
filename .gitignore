@@ -6,3 +6,4 @@ sites/*/files
 
 # Ignore phpinfo file
 phpinfo.php
+cache
