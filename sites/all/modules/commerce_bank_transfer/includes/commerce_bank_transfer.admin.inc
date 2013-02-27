@@ -91,5 +91,6 @@ function commerce_bank_transfer_confirm_form_submit($form, &$form_state) {
   commerce_payment_transaction_save($transaction);
   drupal_set_message(t('Payment confirmed successfully.'));
 
-  $form_state['redirect'] = 'admin/commerce/orders/' . $form_state['order']->order_id . '/payment';
+  // $form_state['redirect'] = 'admin/commerce/orders/' . $form_state['order']->order_id . '/payment';
+  $form_state['redirect'] = 'admin/commerce/orders/';
 }

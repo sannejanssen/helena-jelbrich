@@ -435,6 +435,30 @@
       }
     }
   }
+
+  .cart-contents,
+  .checkout-review {
+    @include span-columns(12);
+    margin-bottom: 2em;
+  }
+
+  .profile,
+  .billing,
+  .shipping {
+    @include span-columns(12);
+
+    @include breakpoint($breakpoint_iphone_land) {
+      @include span-columns(4,12);
+
+      &.shipping {
+        @include span-columns(4 omega,12);
+      }
+    }
+  }
 }
+
+
+
+
 
 

@@ -264,3 +264,26 @@ function james_commerce_currency_info_alter(&$currencies, $langcode) {
   $currencies['EUR']['symbol_placement'] = 'before';
   $currencies['EUR']['symbol'] = '€ ';
 }
+
+/**
+ * Themes the optional checkout review page data.
+ */
+function james_commerce_checkout_review($variables) {
+  $output = '<div class="checkout-review">';
+
+  $cart = $variables['form']['#data']['cart_contents'];
+  $account = $variables['form']['#data']['account'];
+  $billing = $variables['form']['#data']['customer_profile_billing'];
+  $shipping = $variables['form']['#data']['customer_profile_shipping'];
+
+  $output .= '<div class="cart-contents">' . $cart['data'] . '</div>';
+  
+  $output .= '<div class="profile"><span>' . $account['title'] . '</span>' . $account['data'] . '</div>';
+  $output .= '<div class="billing"><span>' . $billing['title'] . '</span>' . $billing['data'] . '</div>';
+  $output .= '<div class="shipping"><span>' . $shipping['title'] . '</span>' . $shipping['data'] . '</div>';
+
+  $output .= '</div>';
+
+  // return theme('table', array('rows' => $rows, 'attributes' => array('class' => array('checkout-review'))));
+  return $output;
+}

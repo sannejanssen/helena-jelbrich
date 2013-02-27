@@ -2634,6 +2634,45 @@ form .form-submit {
     display: inline;
   }
 }
+/* line 440, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+.page-checkout-review .cart-contents,
+.page-checkout-review .checkout-review {
+  width: 100%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+  margin-bottom: 2em;
+}
+/* line 447, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+.page-checkout-review .profile,
+.page-checkout-review .billing,
+.page-checkout-review .shipping {
+  width: 100%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+@media (min-width: 321px) {
+  /* line 447, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  .page-checkout-review .profile,
+  .page-checkout-review .billing,
+  .page-checkout-review .shipping {
+    width: 32.20339%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+  }
+  /* line 453, ../sass/partials/styleguide/modules/_shoppingcart.scss */
+  .page-checkout-review .profile.shipping,
+  .page-checkout-review .billing.shipping,
+  .page-checkout-review .shipping.shipping {
+    width: 32.20339%;
+    float: right;
+    margin-right: 0;
+    #margin-left: -1em;
+    display: inline;
+  }
+}
 
 /* Import order module */
 /*
