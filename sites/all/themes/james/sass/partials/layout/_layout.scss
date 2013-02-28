@@ -69,12 +69,9 @@ header {
       @include span-columns(5, 12);
     }
 
-
-
     @include breakpoint($breakpoint_ipad_land) {
       display: none;
     }
-
 
   }
   nav {

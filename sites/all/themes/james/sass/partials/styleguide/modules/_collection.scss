@@ -122,24 +122,13 @@
     }
 
     .image {
-      float: left;
-      overflow: hidden;
-      position: relative;
-      height: auto;
-      width: 100%;
-
       a {
-        float: left;
         display: block;
         line-height: 0;
-        height: auto;
-
+        
         img {
-          float: left;
           width: 100%;
-          max-width: 100%;
-          height: 100%;
-          max-height: 100%;
+          height: auto;
         }        
       }
     }
@@ -158,27 +147,12 @@
       .image {
         a {
           background-color: $yellow;
-          // background-color: red;
-
+          
           img {
             zoom: 1;
             filter: alpha(opacity=50);
             opacity: 0.5;
           }
-
-          /*
-          &::after {
-            content: " ";
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: 0;
-            background-image: url(../img/album-hover5.png);
-            background-repeat: no-repeat;
-            background-position: center;
-          }
-          */
         }
       }
     }

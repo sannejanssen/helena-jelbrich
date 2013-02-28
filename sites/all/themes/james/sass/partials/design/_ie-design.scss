@@ -77,6 +77,8 @@ header {
       }
 
       &#navigationtoggle {
+        background: none;
+        background-color: transparent;
         display: none;
         a {
           display: none;
@@ -195,18 +197,15 @@ footer {
   }
 }
 
-
-
 .news {
   .image {
     @include span-columns(4,8);
+    height: auto !important;
   }
-
   .text {
     @include span-columns(4 omega,8);
   }
 }
-
 
 /* album covers styling */
 .collection {
@@ -231,18 +230,148 @@ footer {
   }
 }
 
+/* Webshop detail page */
+.webshop-detail {
+  .detail {
+    @include span-columns(8,12);
+  }
+  
+  .order {
+    @include span-columns(4 omega,12);
+  }
+}
 
+/* Shopping cart & checkout */
+.cart {
+  .cart-item {
+    margin-bottom: 0.5em;
+  }
+  .title {
+    @include span-columns(11,24);
+    padding: 9px 0;
+    a {
+      color: $text-color;
+    }
+  }
+  .price {
+    @include span-columns(3,24);
+  }
+  .quantity {
+    @include span-columns(2,24);
+  }
+  .remove {
+    @include span-columns(4,24);
+  }
+  .total {
+    @include span-columns(3 omega,24);
+  }
 
+  .view-header {
+    @include span-columns(12);
+    display: block;
+    font-weight: bold;
+    color: $yellow;
+    margin-bottom: 0.5em;
+  }
+}
 
+/* Page checkout */
+.page-checkout {
+  fieldset {
+    .cart {
+      .view-footer {
+        table {
+          tr {
+            td {
+              &.component-title {
+                @include span-columns(20,24);
+              }
+              &.component-total {
+                @include span-columns(4 omega,24);
+              }
+            }
+          }
+        }
+      }
+    }
+    .cart-item {
+      margin-bottom: 0;
+    }
+    
+    /* Postal code input field */
+    .form-item-customer-profile-billing-commerce-customer-address-und-0-postal-code,
+    .form-item-customer-profile-shipping-commerce-customer-address-und-0-postal-code {
+      @include span-columns(2,12);
+    }
 
+    /* City input field */
+    .form-item-customer-profile-billing-commerce-customer-address-und-0-locality,
+    .form-item-customer-profile-shipping-commerce-customer-address-und-0-locality {
+      @include span-columns(10 omega,12);
+    }
 
+    .commerce-customer-profile-copy {
+      input {
+        border: none;
+        padding: 0;
+        margin: 0;
+      }
+    }
 
+    &.commerce_shipping {
+      .form-item {
+        input {
+          @include span-columns(2,36);
+          margin-top: 0.1em;
+          border: none;
+          padding: 0;
+        }
+        label {
+          @include span-columns(34 omega,36);
+        }
+      }
+    }
+  }
+}
 
+.page-checkout-review {
+  .cart {
+    .title {
+      margin-bottom: 0;
+    }
+    .quantity {
+      @include span-columns(2,24);
+      text-align: center;
+    }
+    .view-footer {
+      table {
+        tr {
+          td {
+            &.component-title {
+              @include span-columns(20,24);
+            }
+            &.component-total {
+              @include span-columns(4 omega,24);
+            }
+          }
+        }
+      }
+    }
+  }
 
+  .cart-contents,
+  .checkout-review {
+    @include span-columns(12);
+    margin-bottom: 2em;
+  }
 
+  .profile,
+  .billing,
+  .shipping {
+    @include span-columns(4,12);
 
-
-
-
-
-
+    &.shipping {
+      @include span-columns(4 omega,12);
+    }
+  }
+}

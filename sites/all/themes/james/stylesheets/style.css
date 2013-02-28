@@ -1724,34 +1724,21 @@ form .form-submit {
     margin-top: 10px;
   }
 }
-/* line 124, ../sass/partials/styleguide/modules/_collection.scss */
-.collection .album .image, .page-webshop .webshop .album .image {
-  float: left;
-  overflow: hidden;
-  position: relative;
-  height: auto;
-  width: 100%;
-}
-/* line 131, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 125, ../sass/partials/styleguide/modules/_collection.scss */
 .collection .album .image a, .page-webshop .webshop .album .image a {
-  float: left;
   display: block;
   line-height: 0;
+}
+/* line 129, ../sass/partials/styleguide/modules/_collection.scss */
+.collection .album .image a img, .page-webshop .webshop .album .image a img {
+  width: 100%;
   height: auto;
 }
 /* line 137, ../sass/partials/styleguide/modules/_collection.scss */
-.collection .album .image a img, .page-webshop .webshop .album .image a img {
-  float: left;
-  width: 100%;
-  max-width: 100%;
-  height: 100%;
-  max-height: 100%;
-}
-/* line 148, ../sass/partials/styleguide/modules/_collection.scss */
 .collection .album:hover, .page-webshop .webshop .album:hover, .collection .album:focus, .page-webshop .webshop .album:focus {
   cursor: pointer;
 }
-/* line 154, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 143, ../sass/partials/styleguide/modules/_collection.scss */
 .collection .album:hover a, .page-webshop .webshop .album:hover a,
 .collection .album:hover a:link,
 .page-webshop .webshop .album:hover a:link,
@@ -1767,31 +1754,18 @@ form .form-submit {
 .page-webshop .webshop .album:focus a:active {
   color: #bd9b28;
 }
-/* line 159, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 148, ../sass/partials/styleguide/modules/_collection.scss */
 .collection .album:hover .image a, .page-webshop .webshop .album:hover .image a, .collection .album:focus .image a, .page-webshop .webshop .album:focus .image a {
   background-color: #bd9b28;
-  /*
-  &::after {
-    content: " ";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: url(../img/album-hover5.png);
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  */
 }
-/* line 163, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 151, ../sass/partials/styleguide/modules/_collection.scss */
 .collection .album:hover .image a img, .page-webshop .webshop .album:hover .image a img, .collection .album:focus .image a img, .page-webshop .webshop .album:focus .image a img {
   zoom: 1;
   filter: alpha(opacity=50);
   opacity: 0.5;
 }
 
-/* line 188, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 162, ../sass/partials/styleguide/modules/_collection.scss */
 #slider {
   position: relative;
   list-style: none;
@@ -1800,7 +1774,7 @@ form .form-submit {
   padding: 0;
   margin: 0;
 }
-/* line 196, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 170, ../sass/partials/styleguide/modules/_collection.scss */
 #slider li {
   position: absolute;
   display: none;
@@ -1809,19 +1783,19 @@ form .form-submit {
   top: 0;
   text-align: center;
 }
-/* line 204, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 178, ../sass/partials/styleguide/modules/_collection.scss */
 #slider li:first-child {
   position: relative;
   display: block;
   float: left;
 }
-/* line 210, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 184, ../sass/partials/styleguide/modules/_collection.scss */
 #slider li img {
   height: auto;
   max-width: 100%;
   border: 0;
 }
-/* line 217, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 191, ../sass/partials/styleguide/modules/_collection.scss */
 #slider .caption {
   width: 100%;
   float: left;
@@ -1839,18 +1813,18 @@ form .form-submit {
   background-color: #222;
   opacity: 0.7;
 }
-/* line 232, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 206, ../sass/partials/styleguide/modules/_collection.scss */
 #slider .caption .label-inline {
   display: inline;
 }
-/* line 236, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 210, ../sass/partials/styleguide/modules/_collection.scss */
 #slider .caption .left-caption {
   width: 66.10169%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
 }
-/* line 239, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 213, ../sass/partials/styleguide/modules/_collection.scss */
 #slider .caption .left-caption .juwels {
   width: 100%;
   float: left;
@@ -1858,7 +1832,7 @@ form .form-submit {
   display: inline;
   margin-bottom: 0.3em;
 }
-/* line 245, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 219, ../sass/partials/styleguide/modules/_collection.scss */
 #slider .caption .photographer {
   width: 32.20339%;
   float: right;
@@ -1868,12 +1842,12 @@ form .form-submit {
   text-align: right;
 }
 
-/* line 252, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 226, ../sass/partials/styleguide/modules/_collection.scss */
 .slideshow {
   position: relative;
   display: block;
 }
-/* line 257, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 231, ../sass/partials/styleguide/modules/_collection.scss */
 .slideshow .prev,
 .slideshow .next {
   position: absolute;
@@ -1886,12 +1860,12 @@ form .form-submit {
   text-indent: -99999px;
   overflow: hidden;
 }
-/* line 270, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 244, ../sass/partials/styleguide/modules/_collection.scss */
 .slideshow .prev {
   left: 10px;
   background-position: 10px 50%;
 }
-/* line 276, ../sass/partials/styleguide/modules/_collection.scss */
+/* line 250, ../sass/partials/styleguide/modules/_collection.scss */
 .slideshow .next {
   right: 10px;
   background-position: -37px 50%;
@@ -2846,7 +2820,7 @@ header .logo {
     display: none;
   }
 }
-/* line 80, ../sass/partials/layout/_layout.scss */
+/* line 77, ../sass/partials/layout/_layout.scss */
 header nav {
   width: 100%;
   float: right;
@@ -2854,7 +2828,7 @@ header nav {
   #margin-left: -1em;
   display: inline;
 }
-/* line 83, ../sass/partials/layout/_layout.scss */
+/* line 80, ../sass/partials/layout/_layout.scss */
 header nav ul {
   width: 100%;
   float: right;
@@ -2864,12 +2838,12 @@ header nav ul {
 }
 
 /* Footer layout */
-/* line 91, ../sass/partials/layout/_layout.scss */
+/* line 88, ../sass/partials/layout/_layout.scss */
 footer .footer-first {
   display: none;
 }
 @media (min-width: 800px) {
-  /* line 91, ../sass/partials/layout/_layout.scss */
+  /* line 88, ../sass/partials/layout/_layout.scss */
   footer .footer-first {
     width: 23.84615%;
     float: left;
@@ -2877,7 +2851,7 @@ footer .footer-first {
     display: inline;
   }
 }
-/* line 99, ../sass/partials/layout/_layout.scss */
+/* line 96, ../sass/partials/layout/_layout.scss */
 footer .footer-second {
   width: 100%;
   float: right;
@@ -2886,7 +2860,7 @@ footer .footer-second {
   display: inline;
 }
 @media (min-width: 321px) {
-  /* line 99, ../sass/partials/layout/_layout.scss */
+  /* line 96, ../sass/partials/layout/_layout.scss */
   footer .footer-second {
     width: 49.23077%;
     float: left;
@@ -2895,7 +2869,7 @@ footer .footer-second {
   }
 }
 @media (min-width: 481px) {
-  /* line 99, ../sass/partials/layout/_layout.scss */
+  /* line 96, ../sass/partials/layout/_layout.scss */
   footer .footer-second {
     width: 32.30769%;
     float: left;
@@ -2904,7 +2878,7 @@ footer .footer-second {
   }
 }
 @media (min-width: 800px) {
-  /* line 99, ../sass/partials/layout/_layout.scss */
+  /* line 96, ../sass/partials/layout/_layout.scss */
   footer .footer-second {
     width: 23.84615%;
     float: left;
@@ -2912,7 +2886,7 @@ footer .footer-second {
     display: inline;
   }
 }
-/* line 115, ../sass/partials/layout/_layout.scss */
+/* line 112, ../sass/partials/layout/_layout.scss */
 footer .footer-third {
   width: 100%;
   float: left;
@@ -2920,13 +2894,13 @@ footer .footer-third {
   display: inline;
 }
 @media (min-width: 321px) {
-  /* line 115, ../sass/partials/layout/_layout.scss */
+  /* line 112, ../sass/partials/layout/_layout.scss */
   footer .footer-third {
     display: none;
   }
 }
 @media (min-width: 481px) {
-  /* line 115, ../sass/partials/layout/_layout.scss */
+  /* line 112, ../sass/partials/layout/_layout.scss */
   footer .footer-third {
     width: 32.30769%;
     float: left;
@@ -2935,7 +2909,7 @@ footer .footer-third {
   }
 }
 @media (min-width: 800px) {
-  /* line 115, ../sass/partials/layout/_layout.scss */
+  /* line 112, ../sass/partials/layout/_layout.scss */
   footer .footer-third {
     width: 23.84615%;
     float: left;
@@ -2943,7 +2917,7 @@ footer .footer-third {
     display: inline;
   }
 }
-/* line 131, ../sass/partials/layout/_layout.scss */
+/* line 128, ../sass/partials/layout/_layout.scss */
 footer .footer-fourth {
   width: 100%;
   float: left;
@@ -2951,7 +2925,7 @@ footer .footer-fourth {
   display: inline;
 }
 @media (min-width: 321px) {
-  /* line 131, ../sass/partials/layout/_layout.scss */
+  /* line 128, ../sass/partials/layout/_layout.scss */
   footer .footer-fourth {
     width: 49.23077%;
     float: right;
@@ -2961,7 +2935,7 @@ footer .footer-fourth {
   }
 }
 @media (min-width: 481px) {
-  /* line 131, ../sass/partials/layout/_layout.scss */
+  /* line 128, ../sass/partials/layout/_layout.scss */
   footer .footer-fourth {
     width: 32.30769%;
     float: right;
@@ -2971,7 +2945,7 @@ footer .footer-fourth {
   }
 }
 @media (min-width: 800px) {
-  /* line 131, ../sass/partials/layout/_layout.scss */
+  /* line 128, ../sass/partials/layout/_layout.scss */
   footer .footer-fourth {
     width: 23.84615%;
     float: right;
@@ -2980,14 +2954,14 @@ footer .footer-fourth {
     display: inline;
   }
 }
-/* line 147, ../sass/partials/layout/_layout.scss */
+/* line 144, ../sass/partials/layout/_layout.scss */
 footer .footer-fifth {
   width: 100%;
   float: left;
   margin-right: 1.53846%;
   display: inline;
 }
-/* line 150, ../sass/partials/layout/_layout.scss */
+/* line 147, ../sass/partials/layout/_layout.scss */
 footer .footer-fifth .copyright {
   width: 100%;
   float: left;
@@ -2995,7 +2969,7 @@ footer .footer-fifth .copyright {
   display: inline;
 }
 @media (min-width: 800px) {
-  /* line 150, ../sass/partials/layout/_layout.scss */
+  /* line 147, ../sass/partials/layout/_layout.scss */
   footer .footer-fifth .copyright {
     width: 74.61538%;
     float: left;
@@ -3003,7 +2977,7 @@ footer .footer-fifth .copyright {
     display: inline;
   }
 }
-/* line 158, ../sass/partials/layout/_layout.scss */
+/* line 155, ../sass/partials/layout/_layout.scss */
 footer .footer-fifth .website {
   width: 100%;
   float: right;
@@ -3012,7 +2986,7 @@ footer .footer-fifth .website {
   display: inline;
 }
 @media (min-width: 800px) {
-  /* line 158, ../sass/partials/layout/_layout.scss */
+  /* line 155, ../sass/partials/layout/_layout.scss */
   footer .footer-fifth .website {
     width: 23.84615%;
     float: right;
@@ -3023,15 +2997,15 @@ footer .footer-fifth .website {
 }
 
 /* Admin wrapper */
-/* line 170, ../sass/partials/layout/_layout.scss */
+/* line 167, ../sass/partials/layout/_layout.scss */
 .admin-wrapper {
   width: 100%;
 }
-/* line 175, ../sass/partials/layout/_layout.scss */
+/* line 172, ../sass/partials/layout/_layout.scss */
 .admin-wrapper .admin-content .admin-first {
   display: none;
 }
-/* line 178, ../sass/partials/layout/_layout.scss */
+/* line 175, ../sass/partials/layout/_layout.scss */
 .admin-wrapper .admin-content .admin-second {
   width: 100%;
   float: left;
@@ -3039,7 +3013,7 @@ footer .footer-fifth .website {
   display: inline;
 }
 @media (min-width: 481px) {
-  /* line 183, ../sass/partials/layout/_layout.scss */
+  /* line 180, ../sass/partials/layout/_layout.scss */
   .admin-wrapper .admin-content .admin-first {
     width: 100%;
     float: left;
@@ -3048,14 +3022,14 @@ footer .footer-fifth .website {
   }
 }
 @media (min-width: 800px) {
-  /* line 189, ../sass/partials/layout/_layout.scss */
+  /* line 186, ../sass/partials/layout/_layout.scss */
   .admin-wrapper .admin-content .admin-first {
     width: 74.61538%;
     float: left;
     margin-right: 1.53846%;
     display: inline;
   }
-  /* line 192, ../sass/partials/layout/_layout.scss */
+  /* line 189, ../sass/partials/layout/_layout.scss */
   .admin-wrapper .admin-content .admin-second {
     width: 23.84615%;
     float: right;
@@ -3063,7 +3037,7 @@ footer .footer-fifth .website {
     #margin-left: -1em;
     display: inline;
   }
-  /* line 195, ../sass/partials/layout/_layout.scss */
+  /* line 192, ../sass/partials/layout/_layout.scss */
   .admin-wrapper .admin-content .admin-second .line-item-summary {
     width: 100%;
     float: left;
