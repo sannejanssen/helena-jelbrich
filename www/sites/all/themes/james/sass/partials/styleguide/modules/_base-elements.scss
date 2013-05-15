@@ -286,6 +286,11 @@ footer {
         }
       }
       &.sanne {
+        width: 100%;
+        li {
+          width: 100%;
+          text-align: right;
+        }
         a {
           &:hover,
           &:focus {
