@@ -53,6 +53,4 @@
     <?php print $links; ?>
   </div>
 
-<? endif; ?>
-
-
+<?php endif; ?>
